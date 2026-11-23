@@ -2567,6 +2567,10 @@
       "diagnosticThresholdsAr": [
         "FMI 0 عند أكثر من 127°C: تحذير أصفر",
         "FMI 0 عند أكثر من 130°C: تحذير أحمر وخفض قدرة محتمل"
+      ],
+      "safetyWarningsAr": [
+        "إذا ظهر إنذار أحمر أو خفضت وحدة التحكم قدرة المحرك، خفف الحمل وأوقف المعدة بأمان وفق دليل التشغيل.",
+        "لا تفتح نظام التزييت أو مبرد الزيت قبل إيقاف المحرك وتخفيف الضغط واتباع إجراءات السلامة."
       ]
     },
     {
@@ -2603,7 +2607,11 @@
       "repairStepsAr": [
         "استخدم Guided Diagnostics لتحديد الحساس أو الدائرة ذات القراءة غير المتوافقة؛ لا تستبدل حساساً قبل تأكيد القياسات"
       ],
-      "sourcePage": "مرجع EC210B، PID175"
+      "sourcePage": "مرجع EC210B، PID175",
+      "safetyWarningsAr": [
+        "إذا ظهر إنذار أحمر أو خفضت وحدة التحكم قدرة المحرك، خفف الحمل وأوقف المعدة بأمان وفق دليل التشغيل.",
+        "لا تفتح نظام التزييت أو مبرد الزيت قبل إيقاف المحرك وتخفيف الضغط واتباع إجراءات السلامة."
+      ]
     },
     {
       "mid": 128,
@@ -2635,7 +2643,11 @@
       "repairStepsAr": [
         "اتبع إجراء تشخيص MID 128 PID 175 لفحص الدائرة والحساس قبل استبدال أي جزء"
       ],
-      "sourcePage": "مرجع EC210B، PID175"
+      "sourcePage": "مرجع EC210B، PID175",
+      "safetyWarningsAr": [
+        "إذا ظهر إنذار أحمر أو خفضت وحدة التحكم قدرة المحرك، خفف الحمل وأوقف المعدة بأمان وفق دليل التشغيل.",
+        "لا تفتح نظام التزييت أو مبرد الزيت قبل إيقاف المحرك وتخفيف الضغط واتباع إجراءات السلامة."
+      ]
     },
     {
       "mid": 128,
@@ -2668,7 +2680,11 @@
       "repairStepsAr": [
         "اتبع إجراء تشخيص MID 128 PID 175 لفحص الدائرة والحساس قبل استبدال أي جزء"
       ],
-      "sourcePage": "مرجع EC210B، PID175"
+      "sourcePage": "مرجع EC210B، PID175",
+      "safetyWarningsAr": [
+        "إذا ظهر إنذار أحمر أو خفضت وحدة التحكم قدرة المحرك، خفف الحمل وأوقف المعدة بأمان وفق دليل التشغيل.",
+        "لا تفتح نظام التزييت أو مبرد الزيت قبل إيقاف المحرك وتخفيف الضغط واتباع إجراءات السلامة."
+      ]
     },
     {
       "titleEn": "Engine oil pressure",
@@ -2740,7 +2756,11 @@
       ],
       "sourceTitle": "Volvo EC160B–EC460B Service Manual Update — Oil pressure sensor (includes EC210B)",
       "sourceUrl": "https://www.scribd.com/document/657507683/Volvo-EC160B-180B-210B-240B-290B-360B-460B-Service-Manual-1",
-      "sourcePage": "UPDATE — EC160B~460B، صفحة 18"
+      "sourcePage": "UPDATE — EC160B~460B، صفحة 18",
+      "safetyWarningsAr": [
+        "إذا ظهر تحذير ضغط زيت أحمر أو سُمعت أصوات غير طبيعية، أوقف المحرك فوراً ولا تواصل التشغيل للاختبار.",
+        "لا تفك خطوط أو أجزاء نظام التزييت قبل إيقاف المحرك وتخفيف الضغط."
+      ]
     },
     {
       "titleEn": "Engine oil pressure",
@@ -2774,7 +2794,11 @@
       ],
       "sourceTitle": "Volvo EC160B–EC460B Service Manual Update — Oil pressure sensor (includes EC210B)",
       "sourceUrl": "https://www.scribd.com/document/657507683/Volvo-EC160B-180B-210B-240B-290B-360B-460B-Service-Manual-1",
-      "sourcePage": "UPDATE — EC160B~460B، صفحة 18"
+      "sourcePage": "UPDATE — EC160B~460B، صفحة 18",
+      "safetyWarningsAr": [
+        "إذا ظهر تحذير ضغط زيت أحمر أو سُمعت أصوات غير طبيعية، أوقف المحرك فوراً ولا تواصل التشغيل للاختبار.",
+        "لا تفك خطوط أو أجزاء نظام التزييت قبل إيقاف المحرك وتخفيف الضغط."
+      ]
     },
     {
       "titleEn": "Engine oil pressure",
@@ -2808,7 +2832,11 @@
       ],
       "sourceTitle": "Volvo EC160B–EC460B Service Manual Update — Oil pressure sensor (includes EC210B)",
       "sourceUrl": "https://www.scribd.com/document/657507683/Volvo-EC160B-180B-210B-240B-290B-360B-460B-Service-Manual-1",
-      "sourcePage": "UPDATE — EC160B~460B، صفحة 18"
+      "sourcePage": "UPDATE — EC160B~460B، صفحة 18",
+      "safetyWarningsAr": [
+        "إذا ظهر تحذير ضغط زيت أحمر أو سُمعت أصوات غير طبيعية، أوقف المحرك فوراً ولا تواصل التشغيل للاختبار.",
+        "لا تفك خطوط أو أجزاء نظام التزييت قبل إيقاف المحرك وتخفيف الضغط."
+      ]
     },
     {
       "mid": 128,
