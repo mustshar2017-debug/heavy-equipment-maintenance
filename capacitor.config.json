@@ -1,0 +1,9 @@
+{
+  "appId": "com.wadkenana.maintenance",
+  "appName": "المستشار ود كنانة",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": false
+  }
+}
