@@ -3084,7 +3084,6 @@
       "applicabilityNoticeEn": "The source explicitly identifies the EC210B LC Volvo profile, but does not establish applicability to every serial number or engine configuration. Verify serial number, engine variant and sensor wiring before applying thresholds or repairs.",
       "fmi": 5,
       "code": "MID 128 PID 102 FMI 5",
-      "volvoCode": "ER44-05",
       "titleAr": "جهد منخفض في دائرة حساس ضغط الشحن",
       "descriptionAr": "تسجل وحدة التحكم جهداً أقل من 0.12 فولت عند مدخل الحساس EA22.",
       "descriptionEn": "The ECU registers voltage below 0.12 V at sensor input EA22.",
