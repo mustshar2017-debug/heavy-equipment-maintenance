@@ -3111,6 +3111,172 @@
         "افصل التغذية واتبع تعليمات دليل الكهرباء قبل فحص الاستمرارية أو المقاومة.",
         "عند ظهور الإنذار الأحمر المستمر أو ضعف القدرة، أوقف المعدة بأمان."
       ]
+    },
+    {
+      "mid": 128,
+      "pid": 105,
+      "titleEn": "Intake manifold / boost air temperature",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID105",
+      "sourceUrl": "https://www.scribd.com/document/901335010/MID128-Engine-ECU-PID105-Intake-Manifold-Temperature-128-PID105",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2017-06-13",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "نسخة منشورة من Volvo Guided Diagnostics تحدد EC210B LC صراحةً. المرجع مستضاف على Scribd وليس نسخة رسمية مستخرجة من بوابة فولفو.",
+      "applicabilityNoticeAr": "هذا المرجع يحدد EC210B LC Volvo [GB]. طابق رقم الهيكل ورمز المحرك وتجهيز الحساس قبل تطبيق حدود القياس؛ لا تنقل هذه القيم إلى EC210D أو موديل آخر.",
+      "applicabilityNoticeEn": "This source explicitly identifies EC210B LC Volvo [GB]. Verify machine serial number, engine variant and sensor configuration before applying thresholds; do not transfer these values to EC210D or another model.",
+      "fmi": 0,
+      "code": "MID 128 PID 105 FMI 0",
+      "titleAr": "ارتفاع درجة حرارة هواء الشحن",
+      "descriptionAr": "يسجل كمبيوتر المحرك ارتفاع درجة حرارة هواء الشحن فوق 90°C، وتذكر الوثيقة مستوى أعلى من 92°C مع إنذار مركزي أحمر مستمر وصفارة مستمرة واحتمال خفض القدرة لحماية المحرك.",
+      "descriptionEn": "The E-ECU detects boost temperature above 90°C. The document also describes a level above 92°C with continuous red central warning, continuous buzzer and possible engine-protection power reduction.",
+      "diagnosticThresholdsAr": [
+        "أعلى من 90°C: حد كشف وارد في المرجع.",
+        "أعلى من 92°C: مستوى إنذار أشد موصوف في المرجع؛ طابق ظروف القياس وتجهيز المحرك."
+      ],
+      "possibleCausesAr": [
+        "ضعف التبريد",
+        "ظروف تشغيل قاسية أو حمل/حرارة محيطة مرتفعة",
+        "خلل في حساس درجة حرارة هواء الشحن"
+      ],
+      "initialChecksAr": [
+        "راقب قراءة حرارة هواء الشحن وقارنها بقراءات حرارة هواء الدخول وسائل التبريد.",
+        "افحص نظام التبريد وفق دليل المعدة: مستوى سائل التبريد، نظافة المبردات، وتدفق الهواء.",
+        "افحص الشاحن التوربيني بحثاً عن علامات خلل وفق إجراء الورشة.",
+        "افحص موصل الحساس وضفيرته قبل استبداله."
+      ],
+      "repairStepsAr": [
+        "نفّذ فحص نظام التبريد وفق دليل الخدمة.",
+        "افحص الشاحن التوربيني وفق إجراء الفحص المعتمد.",
+        "استخدم Guided Diagnostics الإجراء 3021 لـ MID 128 PID 105.",
+        "لا تستبدل الحساس قبل مقارنة قراءته والتحقق من الدائرة."
+      ],
+      "safetyWarningsAr": [
+        "إذا ظهر إنذار أحمر مستمر أو خُفضت القدرة لحماية المحرك، خفف الحمل وأوقف المعدة بأمان حسب دليل التشغيل.",
+        "لا تفتح غطاء نظام التبريد والمحرك ساخن أو تحت ضغط."
+      ]
+    },
+    {
+      "mid": 128,
+      "pid": 105,
+      "titleEn": "Intake manifold / boost air temperature",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID105",
+      "sourceUrl": "https://www.scribd.com/document/901335010/MID128-Engine-ECU-PID105-Intake-Manifold-Temperature-128-PID105",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2017-06-13",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "نسخة منشورة من Volvo Guided Diagnostics تحدد EC210B LC صراحةً. المرجع مستضاف على Scribd وليس نسخة رسمية مستخرجة من بوابة فولفو.",
+      "applicabilityNoticeAr": "هذا المرجع يحدد EC210B LC Volvo [GB]. طابق رقم الهيكل ورمز المحرك وتجهيز الحساس قبل تطبيق حدود القياس؛ لا تنقل هذه القيم إلى EC210D أو موديل آخر.",
+      "applicabilityNoticeEn": "This source explicitly identifies EC210B LC Volvo [GB]. Verify machine serial number, engine variant and sensor configuration before applying thresholds; do not transfer these values to EC210D or another model.",
+      "fmi": 2,
+      "code": "MID 128 PID 105 FMI 2",
+      "titleAr": "قراءة غير منطقية أو متعارضة لدرجة حرارة هواء الشحن",
+      "descriptionAr": "يسجل كمبيوتر المحرك فرقاً خارج النطاق بين حرارة هواء الشحن وحرارة هواء الدخول أو سائل التبريد.",
+      "descriptionEn": "The E-ECU detects an out-of-range difference between boost temperature and inlet-air or coolant temperature.",
+      "possibleCausesAr": [
+        "خلل في حساس حرارة هواء الشحن",
+        "خلل في حساس حرارة هواء الدخول",
+        "خلل في حساس حرارة سائل التبريد",
+        "مشكلة في موصل أو أطراف التوصيل",
+        "خلل أو قطع في ضفيرة الأسلاك"
+      ],
+      "initialChecksAr": [
+        "راقب وسجل قراءات PID 105 وPID 172 وPID 110 في ظروف تشغيل متقاربة.",
+        "قارن القراءات الثلاث وحدد القراءة الشاذة قبل تبديل أي حساس.",
+        "افحص موصلات الحساسات والأطراف والضفائر بحثاً عن ارتخاء أو تآكل أو قطع."
+      ],
+      "repairStepsAr": [
+        "استخدم Guided Diagnostics للإجراءات 3021 الخاصة بـ PID 105 وPID 172 وPID 110.",
+        "أصلح الموصل أو الضفيرة إذا أثبت الفحص وجود خلل.",
+        "استبدل الحساس الذي تثبت الاختبارات أنه يعطي قراءة غير صحيحة فقط."
+      ],
+      "safetyWarningsAr": [
+        "أوقف المعدة بأمان إذا صاحب العطل إنذار أحمر مستمر أو خفض قدرة واضح.",
+        "افصل التغذية واتبع دليل الكهرباء قبل فحص الاستمرارية أو المقاومة."
+      ]
+    },
+    {
+      "mid": 128,
+      "pid": 105,
+      "titleEn": "Intake manifold / boost air temperature",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID105",
+      "sourceUrl": "https://www.scribd.com/document/901335010/MID128-Engine-ECU-PID105-Intake-Manifold-Temperature-128-PID105",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2017-06-13",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "نسخة منشورة من Volvo Guided Diagnostics تحدد EC210B LC صراحةً. المرجع مستضاف على Scribd وليس نسخة رسمية مستخرجة من بوابة فولفو.",
+      "applicabilityNoticeAr": "هذا المرجع يحدد EC210B LC Volvo [GB]. طابق رقم الهيكل ورمز المحرك وتجهيز الحساس قبل تطبيق حدود القياس؛ لا تنقل هذه القيم إلى EC210D أو موديل آخر.",
+      "applicabilityNoticeEn": "This source explicitly identifies EC210B LC Volvo [GB]. Verify machine serial number, engine variant and sensor configuration before applying thresholds; do not transfer these values to EC210D or another model.",
+      "fmi": 4,
+      "code": "MID 128 PID 105 FMI 4",
+      "titleAr": "جهد منخفض جداً في دائرة حساس حرارة هواء الشحن",
+      "descriptionAr": "يسجل كمبيوتر المحرك جهداً أقل من 0.02 فولت عند مدخل EA47.",
+      "descriptionEn": "The E-ECU registers voltage below 0.02 V at input EA47.",
+      "diagnosticThresholdsAr": [
+        "حد الكشف في مرجع EC210B LC: أقل من 0.02 V عند EA47. طابق الموصل ورقم الطرف في مخطط المعدة قبل القياس."
+      ],
+      "possibleCausesAr": [
+        "قصر خط الإشارة إلى جهد منخفض",
+        "خلل في حساس حرارة هواء الشحن"
+      ],
+      "initialChecksAr": [
+        "افحص موصل الحساس EA47 والأطراف بحثاً عن رطوبة أو تآكل أو ارتخاء.",
+        "افحص خط الإشارة بحثاً عن قصر إلى الأرضي وفق مخطط الأسلاك المطابق.",
+        "اختبر الحساس والدائرة حسب إجراء 3021 قبل الاستبدال."
+      ],
+      "repairStepsAr": [
+        "نفّذ Guided Diagnostics الإجراء 3021 الخاص بـ MID 128 PID 105.",
+        "أصلح القصر أو خلل التوصيل الذي يثبته القياس.",
+        "استبدل الحساس فقط إذا ثبت خلله."
+      ],
+      "safetyWarningsAr": [
+        "افصل التغذية واتبع تعليمات دليل الكهرباء قبل اختبار المقاومة أو الاستمرارية.",
+        "لا تثقب عزل الأسلاك ولا تستخدم أطراف قياس غير مناسبة."
+      ]
+    },
+    {
+      "mid": 128,
+      "pid": 105,
+      "titleEn": "Intake manifold / boost air temperature",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID105",
+      "sourceUrl": "https://www.scribd.com/document/901335010/MID128-Engine-ECU-PID105-Intake-Manifold-Temperature-128-PID105",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2017-06-13",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "نسخة منشورة من Volvo Guided Diagnostics تحدد EC210B LC صراحةً. المرجع مستضاف على Scribd وليس نسخة رسمية مستخرجة من بوابة فولفو.",
+      "applicabilityNoticeAr": "هذا المرجع يحدد EC210B LC Volvo [GB]. طابق رقم الهيكل ورمز المحرك وتجهيز الحساس قبل تطبيق حدود القياس؛ لا تنقل هذه القيم إلى EC210D أو موديل آخر.",
+      "applicabilityNoticeEn": "This source explicitly identifies EC210B LC Volvo [GB]. Verify machine serial number, engine variant and sensor configuration before applying thresholds; do not transfer these values to EC210D or another model.",
+      "fmi": 5,
+      "code": "MID 128 PID 105 FMI 5",
+      "titleAr": "جهد مرتفع في دائرة حساس حرارة هواء الشحن",
+      "descriptionAr": "يسجل كمبيوتر المحرك جهداً أعلى من 4.5 فولت عند مدخل EA47.",
+      "descriptionEn": "The E-ECU registers voltage above 4.5 V at input EA47.",
+      "diagnosticThresholdsAr": [
+        "حد الكشف في مرجع EC210B LC: أعلى من 4.5 V عند EA47. طابق الموصل ورقم الطرف في مخطط المعدة قبل القياس."
+      ],
+      "possibleCausesAr": [
+        "قصر خط الإشارة إلى جهد أعلى",
+        "دائرة مفتوحة في التوصيلات",
+        "خلل في حساس حرارة هواء الشحن"
+      ],
+      "initialChecksAr": [
+        "افحص موصل الحساس EA47 والأطراف بحثاً عن ارتخاء أو تآكل.",
+        "افحص خط الإشارة لاحتمال القصر إلى جهد أعلى.",
+        "تحقق من استمرارية الأسلاك والتأريض وفق مخطط EC210B LC المطابق.",
+        "اختبر الحساس بعد التحقق من سلامة الدائرة."
+      ],
+      "repairStepsAr": [
+        "نفّذ Guided Diagnostics الإجراء 3021 الخاص بـ MID 128 PID 105.",
+        "أصلح القصر أو القطع الذي يثبته القياس.",
+        "استبدل الحساس فقط إذا ثبت خلله."
+      ],
+      "safetyWarningsAr": [
+        "افصل التغذية واتبع تعليمات دليل الكهرباء قبل اختبار المقاومة أو الاستمرارية.",
+        "لا تستبدل الحساس قبل فحص الضفيرة والموصل."
+      ]
     }
   ]
 }
