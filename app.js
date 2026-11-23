@@ -29,7 +29,7 @@ async function loadDatabase(){
   else{failed++;console.error('Database file failed:',files[index][1],result.reason);}
  });
  equipment=data.equipment?.equipment||[];
- faultCodes=[...(data.faults?.faultCodes||[]),...(data.sinocmp?.extendedVolvoCodes||[]),...(data.sinocmp?.faultCodes||[])];
+ faultCodes=[...(data.sinocmp?.extendedVolvoCodes||[]),...(data.faults?.faultCodes||[]),...(data.sinocmp?.faultCodes||[])];
  technicalReference=data.technical||null;
  plateCatalog=data.plates?.plates||[];
  volvoModels=data.models?.models||[];
