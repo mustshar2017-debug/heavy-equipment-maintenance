@@ -5,6 +5,10 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+
+concurrency:
+  group: android-apk
+  cancel-in-progress: true
 jobs:
   build:
     runs-on: ubuntu-24.04
@@ -39,7 +43,17 @@ jobs:
         run: npx cap sync android
       - name: Build debug APK
         working-directory: android
-        run: ./gradlew assembleDebug
+        run: |
+          for attempt in 1 2 3; do
+            if ./gradlew assembleDebug --max-workers=2; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              echo "Gradle build failed; retrying after a short wait (attempt $attempt/3)."
+              sleep $((attempt * 20))
+            fi
+          done
+          exit 1
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
