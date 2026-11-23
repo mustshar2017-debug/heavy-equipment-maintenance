@@ -4,8 +4,8 @@
   "referenceModel": "Volvo EC210B LC (B-series brochure, 2003)",
   "applicability": {
     "status": "series_reference_only",
-    "noticeAr": "هذه مواصفات مرجعية لفئة EC210B LC من كتيب فولفو لعام 2003، وليست تأكيداً نهائياً لتجهيز حفارتك. يلزم مطابقة الرقم التسلسلي ولوحة المحرك قبل استخدامها في الصيانة أو طلب القطع.",
-    "noticeEn": "These are reference specifications for the EC210B LC from Volvo's 2003 brochure, not final confirmation of your machine configuration. Verify the serial number and engine plate before maintenance or parts ordering."
+    "noticeAr": "هذه بيانات مرجعية منشورة لفئة EC210B LC في كتيب فولفو الرسمي لعام 2009. لا تؤكد وحدها مطابقة تجهيز حفارتك المسجلة موديل 2015؛ لا تستخدم ضغوط النظام أو السعات لضبط المعدة أو تعبئة الزيت قبل مطابقة PIN وإصدار دليل الخدمة.",
+    "noticeEn": "These are published EC210B LC family reference data from Volvo's official 2009 brochure. They do not by themselves confirm the configuration of your 2015 machine; do not use pressures or capacities for adjustment or filling until the PIN and applicable service manual are matched."
   },
   "specifications": {
     "engine": {
@@ -19,13 +19,35 @@
       "source": "EC210B LC parts catalogue listing engine options D6E EAE2/EAE3 and serial ranges; third-party hosted catalogue. Cross-check required against Volvo CE parts system."
     },
     "hydraulic": {
-      "mainPumps": "Two variable axial-displacement piston pumps",
-      "features": [
-        "Boom, arm and slew priority",
+      "mainPumps": "2 variable-displacement axial-piston pumps",
+      "mainPumpMaximumFlowLMin": "2 × 200",
+      "pilotPump": "Gear pump",
+      "pilotPumpMaximumFlowLMin": 19,
+      "hydraulicMotors": {
+        "travel": "Variable-displacement axial-piston motors",
+        "swing": "Fixed-displacement axial-piston motor with mechanical brake"
+      },
+      "reliefValveSettingsMpa": {
+        "implement": "32.4 / 34.3",
+        "travel": "34.3",
+        "swing": "26.5",
+        "pilot": "3.9"
+      },
+      "functions": [
+        "Pump-flow summation: combines flow from both main pumps",
+        "Boom priority",
+        "Arm priority",
+        "Swing priority",
         "Boom and arm flow regeneration",
-        "Hydraulic oil cooler"
+        "Power boost",
+        "Boom and arm holding valves",
+        "Power Max"
       ],
-      "source": "Volvo EC140B–EC460B family brochure, 2003, pages 8–9"
+      "serviceCapacities": {
+        "hydraulicSystemTotalL": 295,
+        "hydraulicTankL": 160
+      },
+      "source": "Official Volvo EC210B LC brochure (2009-04), Hydraulic System and Service Refill Capacities sections, lines/pages in source document. Series reference only; exact applicability to user's 2015 machine is not confirmed."
     },
     "electrical": {
       "system": "Contronics electronic control system",
@@ -61,14 +83,14 @@
       "pages": "Product archive; production years and 2009 summary"
     },
     {
-      "title": "Volvo Excavators EC140B–EC460B family brochure (2003)",
-      "url": "https://www.volvoce.com/-/media/volvoce/global-site/products-and-services/past-products/documents/07-crawler-excavators/04-volvo-b-prime-series/all-common/1187-family-brochure/v-ec140b-ec460b-21d4351187-2003-08.pdf",
-      "pages": "8–9, 11"
-    },
-    {
       "title": "EC210B LC parts catalogue (third-party hosted copy; engine options and serial ranges)",
       "url": "https://www.ebooklibonline.com/onlinepages/Volvo%20EC210B%20LC%2C%20EC210B%20LR%2C%20EC21-PM.pdf",
       "pages": "Catalogue 20460, Engine sections; use as a lead only, not final serial-specific confirmation"
+    },
+    {
+      "title": "Volvo EC210B LC official product brochure (2009-04)",
+      "url": "https://www.volvoce.com/-/media/volvoce/global-site/products-and-services/past-products/documents/07-crawler-excavators/04-volvo-b-prime-series/v-ec210b/v-ec210b-a8b4351641-2009-04.pdf",
+      "pages": "Hydraulic System and Service Refill Capacities"
     }
   ]
 }
