@@ -7,7 +7,7 @@ permissions:
   contents: read
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
@@ -22,6 +22,8 @@ jobs:
           java-version: 21
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
+        with:
+          packages: 'platform-tools,platforms;android-35,build-tools;35.0.0'
       - name: Install dependencies
         run: npm install
       - name: Prepare offline web assets
