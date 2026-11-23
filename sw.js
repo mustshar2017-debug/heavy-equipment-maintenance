@@ -1,9 +1,9 @@
-const CACHE='wad-kenana-maintenance-v26';
+const CACHE='wad-kenana-maintenance-v27';
 const ASSETS=[
  './','./index.html','./styles.css','./app.js','./manifest.json',
  './data/equipment.json','./data/fault-codes.json','./data/parts.json',
  './data/maintenance-plans.json','./data/volvo-ec210b-reference.json',
- './data/volvo-data-plates.json','./data/volvo-model-catalog.json',
+ './data/volvo-data-plates.json','./data/volvo-model-catalog.json','./data/hyundai-model-catalog.json',
  './data/hydraulic-diagnostics.json','./data/volvo-sinocmp-2022.json'
 ];
 self.addEventListener('install',event=>{
