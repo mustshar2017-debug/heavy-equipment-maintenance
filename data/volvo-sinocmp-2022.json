@@ -3277,6 +3277,46 @@
         "افصل التغذية واتبع تعليمات دليل الكهرباء قبل اختبار المقاومة أو الاستمرارية.",
         "لا تستبدل الحساس قبل فحص الضفيرة والموصل."
       ]
+    },
+    {
+      "mid": 128,
+      "pid": 107,
+      "fmi": 0,
+      "code": "MID 128 PID 107 FMI 0",
+      "volvoCode": "ER4A-00",
+      "titleAr": "ارتفاع فرق ضغط فلتر سحب الهواء — انسداد محتمل",
+      "titleEn": "Air filter pressure drop — restriction detected",
+      "descriptionAr": "يرصد كمبيوتر المحرك حالة انخفاض/فرق ضغط فلتر الهواء التي تظهر رسالة تحذير من انسداد فلتر الهواء. يذكر مرجع EC210B LC أن الأعراض قد تشمل التحذير المركزي الأحمر، صفارة واحدة، إضاءة المؤشر وانخفاض قدرة المحرك.",
+      "descriptionEn": "The engine ECU detects an air-filter pressure-drop condition and displays an air-filter restriction warning. The EC210B LC reference lists a red central warning, one buzzer sound, indicator illumination and reduced engine power.",
+      "possibleCausesAr": [
+        "انسداد أو اتساخ فلتر هواء المحرك",
+        "خلل في حساس فرق ضغط فلتر الهواء"
+      ],
+      "initialChecksAr": [
+        "أوقف المحرك واتبع تعليمات السلامة قبل فتح بيت فلتر الهواء.",
+        "افحص عنصر الفلتر بحثاً عن تراكم الغبار أو الانسداد أو التلف.",
+        "افحص مجرى سحب الهواء وبيت الفلتر بحثاً عن انسداد ظاهر أو تلف أو تسرب حول الغطاء.",
+        "إذا كان عنصر الفلتر سليماً واستمر التحذير، افحص الحساس وموصلاته وضفيرته وفق مخطط EC210B LC وإجراء التشخيص 3021."
+      ],
+      "repairStepsAr": [
+        "الإجراء المذكور في مرجع Volvo Guided Diagnostics هو استبدال الفلتر عند ثبوت انسداده.",
+        "إذا استمر التحذير بعد معالجة الفلتر، افحص حساس فرق الضغط ودائرته الكهربائية باستخدام Guided Diagnostics الإجراء 3021 لـ MID 128 PID 107.",
+        "لا تستبدل الحساس إلا بعد إثبات خلله بالفحص."
+      ],
+      "safetyWarningsAr": [
+        "لا تنظف عنصر الفلتر أو تعِد استخدامه إلا إذا سمح نوعه وإجراء الصيانة بذلك.",
+        "لا تشغّل المحرك من دون عنصر الفلتر أو مع بيت فلتر غير محكم.",
+        "إذا كان المحرك يفقد القدرة بوضوح، خفف الحمل وأوقف المعدة بأمان وفق دليل التشغيل."
+      ],
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID107 Air filter pressure drop",
+      "sourceUrl": "https://de.scribd.com/document/450209772/MID-128-PID107",
+      "sourcePage": "1",
+      "sourceDocumentDate": "2011-12-27",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "نسخة منشورة من تقرير Volvo Guided Diagnostics تحدد EC210B LC صراحةً؛ مستضافة على Scribd وليست نسخة رسمية مستخرجة من بوابة فولفو.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "هذا المرجع يخص EC210B LC Volvo [GB] ويغطي FMI 0 فقط. طابق رقم الهيكل وتجهيز المحرك والحساس قبل تطبيقه على حفارك؛ لا تُسقط هذه التفاصيل على EC210D أو موديل آخر. أكواد FMI 3 و4 و5 الموجودة في القائمة العامة لم تُثبت في هذا المرجع المحدد.",
+      "applicabilityNoticeEn": "This source explicitly identifies EC210B LC Volvo [GB] and documents FMI 0 only. Verify serial number, engine and sensor configuration before applying it. FMI 3, 4 and 5 remain general-list entries, not confirmed by this model-specific source."
     }
   ]
 }
