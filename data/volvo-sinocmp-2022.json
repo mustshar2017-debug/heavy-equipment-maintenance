@@ -3317,6 +3317,356 @@
       "referenceStatus": "conditional_reference",
       "applicabilityNoticeAr": "هذا المرجع يخص EC210B LC Volvo [GB] ويغطي FMI 0 فقط. طابق رقم الهيكل وتجهيز المحرك والحساس قبل تطبيقه على حفارك؛ لا تُسقط هذه التفاصيل على EC210D أو موديل آخر. أكواد FMI 3 و4 و5 الموجودة في القائمة العامة لم تُثبت في هذا المرجع المحدد.",
       "applicabilityNoticeEn": "This source explicitly identifies EC210B LC Volvo [GB] and documents FMI 0 only. Verify serial number, engine and sensor configuration before applying it. FMI 3, 4 and 5 remain general-list entries, not confirmed by this model-specific source."
+    },
+    {
+      "mid": 128,
+      "pid": 45,
+      "fmi": 3,
+      "code": "MID 128 PID 45 FMI 3",
+      "titleAr": "تيار مرتفع في دائرة سخان هواء السحب",
+      "titleEn": "Inlet air heater status — high current",
+      "descriptionAr": "يسجل كمبيوتر المحرك تياراً أعلى من 3.9 أمبير في دائرة مرحل التسخين المسبق عند EB25. قد يتعطل التسخين المسبق ويظهر دخان أبيض عند التشغيل البارد أو صعوبة بدء التشغيل في البرد الشديد.",
+      "descriptionEn": "The E-ECU registers current above 3.9 A at EB25. Preheating may fail, with white smoke during cold starts or difficult starting in extreme cold.",
+      "diagnosticThresholdsAr": [
+        "FMI 3: تيار أعلى من 3.9 A عند EB25."
+      ],
+      "possibleCausesAr": [
+        "قصر خط الإشارة بين المرحل ووحدة E-ECU إلى جهد البطارية",
+        "خلل في مرحل التسخين"
+      ],
+      "initialChecksAr": [
+        "افحص المرحل وموصله وضفيرة EB25 بحثاً عن قصر إلى جهد البطارية أو تلف ظاهر.",
+        "تحقق من حالة التسخين المسبق وأعراض بدء التشغيل البارد."
+      ],
+      "repairStepsAr": [
+        "نفّذ Guided Diagnostics الإجراء 3021 لـ MID 128 PID 45.",
+        "أصلح القصر أو استبدل المرحل فقط بعد إثبات الخلل."
+      ],
+      "safetyWarningsAr": [
+        "اترك أجزاء السحب والتسخين تبرد قبل لمسها.",
+        "افصل التغذية واتبع مخطط الكهرباء المطابق قبل فحص الدائرة."
+      ],
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID45 Inlet air heater status",
+      "sourceUrl": "https://fr.scribd.com/document/405430243/MID-128-PID45-pdf",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2011-12-27",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع منشور من Volvo Guided Diagnostics/Service Information يحدد EC210B LC صراحةً؛ النسخة متاحة عبر Scribd وليست نسخة مستخرجة من بوابة فولفو الرسمية.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "المصدر يحدد EC210B LC Volvo صراحةً. طابق رقم الهيكل وتجهيز المحرك والضفيرة/الحساس قبل تطبيق القياسات على حفارك؛ لا تنقل هذه التفاصيل إلى EC210D أو طراز آخر.",
+      "applicabilityNoticeEn": "The source explicitly identifies Volvo EC210B LC. Verify machine serial number, engine and wiring/sensor configuration before applying these measurements; do not transfer these details to EC210D or another model."
+    },
+    {
+      "mid": 128,
+      "pid": 45,
+      "fmi": 4,
+      "code": "MID 128 PID 45 FMI 4",
+      "titleAr": "جهد منخفض في دائرة سخان هواء السحب",
+      "titleEn": "Inlet air heater status — low voltage",
+      "descriptionAr": "يسجل كمبيوتر المحرك جهداً أقل من 0.33 من جهد البطارية عند EB25؛ وقد يبقى المرحل مفعلاً باستمرار فيسخن هواء السحب.",
+      "descriptionEn": "The E-ECU registers voltage below 0.33 × battery voltage at EB25; the relay may remain activated continuously and warm the intake air.",
+      "diagnosticThresholdsAr": [
+        "FMI 4: جهد أقل من 0.33 × Ubat عند EB25."
+      ],
+      "possibleCausesAr": [
+        "قصر الدائرة إلى جهد منخفض",
+        "خلل في مرحل التسخين"
+      ],
+      "initialChecksAr": [
+        "افحص موصل المرحل وخط الإشارة عند EB25 بحثاً عن قصر إلى جهد منخفض.",
+        "تحقق مما إذا كان المرحل عالقاً في وضع التشغيل."
+      ],
+      "repairStepsAr": [
+        "نفّذ Guided Diagnostics الإجراء 3021 لـ MID 128 PID 45.",
+        "أصلح القصر أو استبدل المرحل بعد تأكيد سبب العطل."
+      ],
+      "safetyWarningsAr": [
+        "قد تبقى أجزاء السحب ساخنة بسبب استمرار تشغيل المرحل.",
+        "افصل التغذية قبل فحص الأسلاك."
+      ],
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID45 Inlet air heater status",
+      "sourceUrl": "https://fr.scribd.com/document/405430243/MID-128-PID45-pdf",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2011-12-27",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع منشور من Volvo Guided Diagnostics/Service Information يحدد EC210B LC صراحةً؛ النسخة متاحة عبر Scribd وليست نسخة مستخرجة من بوابة فولفو الرسمية.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "المصدر يحدد EC210B LC Volvo صراحةً. طابق رقم الهيكل وتجهيز المحرك والضفيرة/الحساس قبل تطبيق القياسات على حفارك؛ لا تنقل هذه التفاصيل إلى EC210D أو طراز آخر.",
+      "applicabilityNoticeEn": "The source explicitly identifies Volvo EC210B LC. Verify machine serial number, engine and wiring/sensor configuration before applying these measurements; do not transfer these details to EC210D or another model."
+    },
+    {
+      "mid": 128,
+      "pid": 45,
+      "fmi": 5,
+      "code": "MID 128 PID 45 FMI 5",
+      "titleAr": "دائرة مفتوحة في سخان هواء السحب",
+      "titleEn": "Inlet air heater status — open circuit",
+      "descriptionAr": "يسجل كمبيوتر المحرك جهداً بين 0.33 و0.66 من جهد البطارية عند EB25، بما يتوافق مع دائرة مفتوحة أو تغذية غير سليمة للمرحل.",
+      "descriptionEn": "The E-ECU registers voltage between 0.33 and 0.66 × battery voltage at EB25, consistent with an open circuit or incorrect relay supply.",
+      "diagnosticThresholdsAr": [
+        "FMI 5: الجهد بين 0.33 و0.66 × Ubat عند EB25."
+      ],
+      "possibleCausesAr": [
+        "مصهر تغذية المرحل تالف",
+        "قطع في السلك بين E-ECU والمرحل",
+        "دائرة مفتوحة داخل المرحل أو في سلك تغذيته",
+        "خلل في المرحل"
+      ],
+      "initialChecksAr": [
+        "افحص مصهر تغذية المرحل.",
+        "افحص استمرارية الأسلاك بين وحدة E-ECU والمرحل وسلك التغذية وفق المخطط.",
+        "افحص موصلات المرحل بحثاً عن ارتخاء أو تآكل."
+      ],
+      "repairStepsAr": [
+        "نفّذ Guided Diagnostics الإجراء 3021 لـ MID 128 PID 45.",
+        "أصلح القطع أو استبدل المصهر/المرحل بعد تحديد الجزء التالف."
+      ],
+      "safetyWarningsAr": [
+        "افصل البطارية/التغذية وفق تعليمات الصيانة قبل اختبار الاستمرارية.",
+        "لا تستخدم جسراً لتجاوز المصهر."
+      ],
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID45 Inlet air heater status",
+      "sourceUrl": "https://fr.scribd.com/document/405430243/MID-128-PID45-pdf",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2011-12-27",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع منشور من Volvo Guided Diagnostics/Service Information يحدد EC210B LC صراحةً؛ النسخة متاحة عبر Scribd وليست نسخة مستخرجة من بوابة فولفو الرسمية.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "المصدر يحدد EC210B LC Volvo صراحةً. طابق رقم الهيكل وتجهيز المحرك والضفيرة/الحساس قبل تطبيق القياسات على حفارك؛ لا تنقل هذه التفاصيل إلى EC210D أو طراز آخر.",
+      "applicabilityNoticeEn": "The source explicitly identifies Volvo EC210B LC. Verify machine serial number, engine and wiring/sensor configuration before applying these measurements; do not transfer these details to EC210D or another model."
+    },
+    {
+      "mid": 128,
+      "pid": 110,
+      "fmi": 0,
+      "code": "MID 128 PID 110 FMI 0",
+      "titleAr": "ارتفاع درجة حرارة سائل تبريد المحرك",
+      "titleEn": "Engine coolant temperature — too high",
+      "descriptionAr": "يسجل كمبيوتر المحرك ارتفاع درجة حرارة سائل التبريد فوق 100°C في مرجع EC210B LC لعام 2017، وقد يظهر إنذار أحمر وصفارة مستمرة ورسالة على الشاشة مع خفض القدرة لحماية المحرك.",
+      "descriptionEn": "The E-ECU detects coolant temperature above 100°C in the 2017 EC210B LC guide. A red warning, continuous buzzer and display message may occur, with engine-protection power reduction.",
+      "diagnosticThresholdsAr": [
+        "FMI 0: درجة حرارة سائل التبريد أعلى من 100°C في مرجع 2017."
+      ],
+      "possibleCausesAr": [
+        "انخفاض مستوى سائل التبريد",
+        "انسداد المبرد",
+        "استخدام سائل تبريد غير مناسب",
+        "ظروف تشغيل قاسية أو حمل/حرارة مرتفعة"
+      ],
+      "initialChecksAr": [
+        "بعد أن يبرد المحرك تماماً، افحص مستوى سائل التبريد.",
+        "افحص نظافة المبرد وتدفق الهواء خلاله.",
+        "تحقق من نوع سائل التبريد المستخدم ومن وجود تسرب."
+      ],
+      "repairStepsAr": [
+        "نفّذ فحص نظام التبريد وفق دليل الخدمة والإجراء 3021 لـ MID 128 PID 110.",
+        "عالج سبب نقص السائل أو انسداد المبرد قبل إعادة التشغيل تحت الحمل."
+      ],
+      "safetyWarningsAr": [
+        "أوقف المعدة بأمان عند الإنذار الأحمر أو خفض القدرة.",
+        "لا تفتح غطاء نظام التبريد والمحرك ساخن أو مضغوط."
+      ],
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID110 Engine coolant temperature",
+      "sourceUrl": "https://www.scribd.com/document/901335007/MID128-Engine-ECU-PID110-Engine-Coolant-Temperature-128-PID110",
+      "sourcePage": "1",
+      "sourceDocumentDate": "2017-06-13",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع منشور من Volvo Guided Diagnostics/Service Information يحدد EC210B LC صراحةً؛ النسخة متاحة عبر Scribd وليست نسخة مستخرجة من بوابة فولفو الرسمية.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "المصدر يحدد EC210B LC Volvo صراحةً. طابق رقم الهيكل وتجهيز المحرك والضفيرة/الحساس قبل تطبيق القياسات على حفارك؛ لا تنقل هذه التفاصيل إلى EC210D أو طراز آخر.",
+      "applicabilityNoticeEn": "The source explicitly identifies Volvo EC210B LC. Verify machine serial number, engine and wiring/sensor configuration before applying these measurements; do not transfer these details to EC210D or another model."
+    },
+    {
+      "mid": 128,
+      "pid": 110,
+      "fmi": 4,
+      "code": "MID 128 PID 110 FMI 4",
+      "titleAr": "جهد منخفض في حساس حرارة سائل التبريد",
+      "titleEn": "Engine coolant temperature sensor — low voltage",
+      "descriptionAr": "يسجل كمبيوتر المحرك جهداً أقل من 0.12 فولت عند EB27 في دائرة حساس حرارة سائل التبريد.",
+      "descriptionEn": "The E-ECU registers voltage below 0.12 V at EB27 in the coolant-temperature sensor circuit.",
+      "diagnosticThresholdsAr": [
+        "FMI 4: جهد أقل من 0.12 V عند EB27."
+      ],
+      "possibleCausesAr": [
+        "قصر خط الإشارة إلى جهد منخفض",
+        "خلل في حساس حرارة سائل التبريد"
+      ],
+      "initialChecksAr": [
+        "افحص موصل الحساس EB27 والأطراف بحثاً عن رطوبة أو تآكل أو ارتخاء.",
+        "افحص خط الإشارة بحثاً عن قصر إلى الأرضي وفق مخطط EC210B LC."
+      ],
+      "repairStepsAr": [
+        "نفّذ Guided Diagnostics الإجراء 3021 لـ MID 128 PID 110.",
+        "أصلح القصر أو استبدل الحساس فقط بعد إثبات الخلل."
+      ],
+      "safetyWarningsAr": [
+        "افصل التغذية واتبع تعليمات دليل الكهرباء قبل اختبار المقاومة أو الاستمرارية.",
+        "لا تفصل الحساس والمحرك يعمل."
+      ],
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID110 Engine coolant temperature",
+      "sourceUrl": "https://www.scribd.com/document/901335007/MID128-Engine-ECU-PID110-Engine-Coolant-Temperature-128-PID110",
+      "sourcePage": "1",
+      "sourceDocumentDate": "2017-06-13",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع منشور من Volvo Guided Diagnostics/Service Information يحدد EC210B LC صراحةً؛ النسخة متاحة عبر Scribd وليست نسخة مستخرجة من بوابة فولفو الرسمية.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "المصدر يحدد EC210B LC Volvo صراحةً. طابق رقم الهيكل وتجهيز المحرك والضفيرة/الحساس قبل تطبيق القياسات على حفارك؛ لا تنقل هذه التفاصيل إلى EC210D أو طراز آخر.",
+      "applicabilityNoticeEn": "The source explicitly identifies Volvo EC210B LC. Verify machine serial number, engine and wiring/sensor configuration before applying these measurements; do not transfer these details to EC210D or another model."
+    },
+    {
+      "mid": 128,
+      "pid": 110,
+      "fmi": 5,
+      "code": "MID 128 PID 110 FMI 5",
+      "titleAr": "جهد مرتفع أو دائرة مفتوحة في حساس حرارة سائل التبريد",
+      "titleEn": "Engine coolant temperature sensor — high voltage/open circuit",
+      "descriptionAr": "يسجل كمبيوتر المحرك جهداً أعلى من 4.92 فولت عند EB27 في دائرة حساس حرارة سائل التبريد.",
+      "descriptionEn": "The E-ECU registers voltage above 4.92 V at EB27 in the coolant-temperature sensor circuit.",
+      "diagnosticThresholdsAr": [
+        "FMI 5: جهد أعلى من 4.92 V عند EB27."
+      ],
+      "possibleCausesAr": [
+        "قصر خط الإشارة إلى جهد أعلى",
+        "دائرة مفتوحة في الأسلاك",
+        "خلل في حساس حرارة سائل التبريد"
+      ],
+      "initialChecksAr": [
+        "افحص موصل الحساس EB27 والأطراف.",
+        "تحقق من استمرارية الأسلاك وافحص احتمال القصر إلى جهد أعلى وفق مخطط المعدة."
+      ],
+      "repairStepsAr": [
+        "نفّذ Guided Diagnostics الإجراء 3021 لـ MID 128 PID 110.",
+        "أصلح القطع أو القصر، ثم اختبر الحساس قبل استبداله."
+      ],
+      "safetyWarningsAr": [
+        "افصل التغذية قبل فحص الدائرة الكهربائية.",
+        "لا تستبدل الحساس قبل التحقق من الضفيرة والموصل."
+      ],
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID110 Engine coolant temperature",
+      "sourceUrl": "https://www.scribd.com/document/901335007/MID128-Engine-ECU-PID110-Engine-Coolant-Temperature-128-PID110",
+      "sourcePage": "1",
+      "sourceDocumentDate": "2017-06-13",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع منشور من Volvo Guided Diagnostics/Service Information يحدد EC210B LC صراحةً؛ النسخة متاحة عبر Scribd وليست نسخة مستخرجة من بوابة فولفو الرسمية.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "المصدر يحدد EC210B LC Volvo صراحةً. طابق رقم الهيكل وتجهيز المحرك والضفيرة/الحساس قبل تطبيق القياسات على حفارك؛ لا تنقل هذه التفاصيل إلى EC210D أو طراز آخر.",
+      "applicabilityNoticeEn": "The source explicitly identifies Volvo EC210B LC. Verify machine serial number, engine and wiring/sensor configuration before applying these measurements; do not transfer these details to EC210D or another model."
+    },
+    {
+      "mid": 128,
+      "pid": 111,
+      "fmi": 1,
+      "code": "MID 128 PID 111 FMI 1",
+      "titleAr": "انخفاض مستوى سائل تبريد المحرك",
+      "titleEn": "Engine coolant level — low",
+      "descriptionAr": "يسجل كمبيوتر المحرك انخفاض مستوى سائل التبريد، مع تحذير أحمر وصفارة واحدة وإضاءة مؤشر المستوى.",
+      "descriptionEn": "The E-ECU registers low coolant level, with a red warning, one buzzer sound and the level indicator illuminated.",
+      "possibleCausesAr": [
+        "انخفاض فعلي في مستوى سائل التبريد",
+        "قصر خط الإشارة إلى جهد منخفض"
+      ],
+      "initialChecksAr": [
+        "افحص مستوى سائل التبريد بعد برودة المحرك.",
+        "افحص وجود تسرب خارجي أو داخلي في نظام التبريد.",
+        "افحص خط الإشارة والموصل إذا كان المستوى طبيعياً واستمر التحذير."
+      ],
+      "repairStepsAr": [
+        "عالج التسرب وأعد مستوى سائل التبريد حسب دليل التشغيل.",
+        "نفّذ Guided Diagnostics الإجراء 3021 لـ MID 128 PID 111 إذا استمر التحذير."
+      ],
+      "safetyWarningsAr": [
+        "لا تفتح غطاء التبريد والمحرك ساخن أو مضغوط.",
+        "لا تواصل التشغيل مع نقص سائل التبريد."
+      ],
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID111 Coolant level",
+      "sourceUrl": "https://www.scribd.com/document/450209914/MID-128-PID111",
+      "sourcePage": "1",
+      "sourceDocumentDate": "2011-12-27",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع منشور من Volvo Guided Diagnostics/Service Information يحدد EC210B LC صراحةً؛ النسخة متاحة عبر Scribd وليست نسخة مستخرجة من بوابة فولفو الرسمية.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "المصدر يحدد EC210B LC Volvo صراحةً. طابق رقم الهيكل وتجهيز المحرك والضفيرة/الحساس قبل تطبيق القياسات على حفارك؛ لا تنقل هذه التفاصيل إلى EC210D أو طراز آخر.",
+      "applicabilityNoticeEn": "The source explicitly identifies Volvo EC210B LC. Verify machine serial number, engine and wiring/sensor configuration before applying these measurements; do not transfer these details to EC210D or another model."
+    },
+    {
+      "mid": 128,
+      "pid": 158,
+      "fmi": 3,
+      "code": "MID 128 PID 158 FMI 3",
+      "titleAr": "ارتفاع جهد تغذية وحدة التحكم الإلكترونية E-ECU",
+      "titleEn": "E-ECU input power voltage — high",
+      "descriptionAr": "يحدد مرجع EC210B LC العطل عندما يتجاوز جهد البطارية 36 فولت؛ ويطلب كمبيوتر المحرك إضاءة التحذير الأصفر.",
+      "descriptionEn": "The EC210B LC service information sets this fault when battery voltage exceeds 36 V; the ECU requests a yellow warning.",
+      "diagnosticThresholdsAr": [
+        "FMI 3: جهد البطارية أعلى من 36 V وفق مرجع الخدمة."
+      ],
+      "possibleCausesAr": [
+        "خلل منظم الجهد في المولد",
+        "قصر أو مقاومة غير طبيعية في كابل التغذية بين البطارية وE-ECU",
+        "خلل في قسم التغذية داخل E-ECU"
+      ],
+      "initialChecksAr": [
+        "افحص خرج المولد ومنظم الجهد بواسطة فني كهرباء.",
+        "افحص أقطاب البطارية والمصهر والمرحل وكابلات التغذية بحثاً عن تآكل أو تركيب غير صحيح."
+      ],
+      "repairStepsAr": [
+        "عالج خلل المولد أو الكابل/التوصيل المثبت بالفحص.",
+        "إذا بقي العطل بعد سلامة التغذية، يلزم فحص E-ECU وفق إجراء فولفو."
+      ],
+      "safetyWarningsAr": [
+        "الجهد غير الطبيعي قد يضر وحدات التحكم؛ لا تواصل التشغيل قبل فحص نظام الشحن.",
+        "استخدم أجهزة قياس مناسبة واتبع إجراءات عزل البطارية."
+      ],
+      "sourceTitle": "Volvo Service Information — EC160B/EC180B/EC210B LC, MID128 PID158",
+      "sourceUrl": "https://www.scribd.com/document/1077477849/PID158-1",
+      "sourcePage": "1",
+      "sourceDocumentDate": "2016-10-23",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع منشور من Volvo Guided Diagnostics/Service Information يحدد EC210B LC صراحةً؛ النسخة متاحة عبر Scribd وليست نسخة مستخرجة من بوابة فولفو الرسمية.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "المصدر يحدد EC210B LC Volvo صراحةً. طابق رقم الهيكل وتجهيز المحرك والضفيرة/الحساس قبل تطبيق القياسات على حفارك؛ لا تنقل هذه التفاصيل إلى EC210D أو طراز آخر.",
+      "applicabilityNoticeEn": "The source explicitly identifies Volvo EC210B LC. Verify machine serial number, engine and wiring/sensor configuration before applying these measurements; do not transfer these details to EC210D or another model."
+    },
+    {
+      "mid": 128,
+      "pid": 158,
+      "fmi": 4,
+      "code": "MID 128 PID 158 FMI 4",
+      "titleAr": "انخفاض جهد تغذية وحدة التحكم الإلكترونية E-ECU",
+      "titleEn": "E-ECU input power voltage — low",
+      "descriptionAr": "يحدد مرجع EC210B LC العطل عندما يقل جهد البطارية عن 12 فولت؛ ويطلب كمبيوتر المحرك إضاءة التحذير الأصفر.",
+      "descriptionEn": "The EC210B LC service information sets this fault when battery voltage is below 12 V; the ECU requests a yellow warning.",
+      "diagnosticThresholdsAr": [
+        "FMI 4: جهد البطارية أقل من 12 V وفق مرجع الخدمة."
+      ],
+      "possibleCausesAr": [
+        "خلل منظم الجهد في المولد",
+        "قطع في كابل التغذية",
+        "خلل في قسم التغذية داخل E-ECU"
+      ],
+      "initialChecksAr": [
+        "افحص جهد البطارية وحالة الشحن.",
+        "افحص المولد ومنظم الجهد وأقطاب البطارية والمصهر والمرحل.",
+        "افحص كابل التغذية بين البطارية ووحدة E-ECU بحثاً عن قطع أو تآكل."
+      ],
+      "repairStepsAr": [
+        "أصلح خلل الشحن أو القطع في كابل التغذية.",
+        "إذا بقي العطل بعد سلامة دائرة التغذية، افحص E-ECU وفق إجراء فولفو."
+      ],
+      "safetyWarningsAr": [
+        "لا تفصل البطارية والمحرك يعمل.",
+        "استخدم أجهزة قياس مناسبة واتبع إجراءات عزل البطارية."
+      ],
+      "sourceTitle": "Volvo Service Information — EC160B/EC180B/EC210B LC, MID128 PID158",
+      "sourceUrl": "https://www.scribd.com/document/1077477849/PID158-1",
+      "sourcePage": "1",
+      "sourceDocumentDate": "2016-10-23",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع منشور من Volvo Guided Diagnostics/Service Information يحدد EC210B LC صراحةً؛ النسخة متاحة عبر Scribd وليست نسخة مستخرجة من بوابة فولفو الرسمية.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "المصدر يحدد EC210B LC Volvo صراحةً. طابق رقم الهيكل وتجهيز المحرك والضفيرة/الحساس قبل تطبيق القياسات على حفارك؛ لا تنقل هذه التفاصيل إلى EC210D أو طراز آخر.",
+      "applicabilityNoticeEn": "The source explicitly identifies Volvo EC210B LC. Verify machine serial number, engine and wiring/sensor configuration before applying these measurements; do not transfer these details to EC210D or another model."
     }
   ]
 }
