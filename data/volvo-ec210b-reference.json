@@ -9,11 +9,14 @@
   },
   "specifications": {
     "engine": {
-      "model": "Volvo D6D EFE2",
-      "ratedNetPowerKw": 107,
-      "ratedNetPowerHp": 143,
-      "ratedSpeedRpm": 1900,
-      "source": "Volvo EC140B–EC460B family brochure, 2003, page 11; EC210B LC row"
+      "model": "Volvo D6E (candidate for EC210B LC serial ranges 35001–70000 and 70001–110000; exact engine variant not confirmed)",
+      "exactVariant": null,
+      "ratedNetPowerKw": null,
+      "ratedNetPowerHp": null,
+      "ratedSpeedRpm": null,
+      "status": "candidate_not_confirmed_for_user_machine",
+      "noteAr": "كتالوج قطع EC210B LC المتاح يربط خيارات المحرك D6E EAE2 وD6E EAE3 بنطاقات أرقام تسلسلية للموديل. رقم PIN الكامل للمعدة لم تتم مطابقته بعد مع جدول فولفو الرسمي؛ لذلك لا تعتمد هذه المعلومة لطلب القطع أو الضبط قبل التحقق من وكيل فولفو أو رقم المحرك.",
+      "source": "EC210B LC parts catalogue listing engine options D6E EAE2/EAE3 and serial ranges; third-party hosted catalogue. Cross-check required against Volvo CE parts system."
     },
     "hydraulic": {
       "mainPumps": "Two variable axial-displacement piston pumps",
@@ -61,6 +64,11 @@
       "title": "Volvo Excavators EC140B–EC460B family brochure (2003)",
       "url": "https://www.volvoce.com/-/media/volvoce/global-site/products-and-services/past-products/documents/07-crawler-excavators/04-volvo-b-prime-series/all-common/1187-family-brochure/v-ec140b-ec460b-21d4351187-2003-08.pdf",
       "pages": "8–9, 11"
+    },
+    {
+      "title": "EC210B LC parts catalogue (third-party hosted copy; engine options and serial ranges)",
+      "url": "https://www.ebooklibonline.com/onlinepages/Volvo%20EC210B%20LC%2C%20EC210B%20LR%2C%20EC21-PM.pdf",
+      "pages": "Catalogue 20460, Engine sections; use as a lead only, not final serial-specific confirmation"
     }
   ]
 }
