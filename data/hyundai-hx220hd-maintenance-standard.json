@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "titleAr": "معايير الصيانة والفحص — Hyundai HX210HD / HX220HD",
+  "titleEn": "Maintenance Standard — Hyundai HX210HD / HX220HD",
+  "applicability": {
+    "status": "shared_model_reference_year_2025_pending",
+    "noticeAr": "هذا الملف ينقل اختبارات الأداء الظاهرة في Section 7 من نسخة PDF المنشورة على ManualsHyundai. الدليل يسرد HX210HD وHX220HD معاً في الجداول المعروضة، لكنه لا يثبت سنة تصنيع 2025 أو نطاق PIN/الرقم التسلسلي أو السوق. استخدمه مرجعاً أولياً فقط، وطابق دليل الخدمة وإصدار المعدة قبل تنفيذ الاختبارات أو اعتماد حدود الخدمة. اختبارات رفع الجنزير، ضغط الهيدروليك، والدوران تتطلب فنيين مؤهلين وتجهيزات ومنطقة آمنة.",
+    "noticeEn": "This file transcribes performance tests shown in Section 7 of the PDF hosted by ManualsHyundai. The displayed tables list HX210HD and HX220HD together, but do not establish 2025 production applicability, PIN/serial range or market. Use as a preliminary reference only and verify the machine-specific service manual before testing or applying service limits. Track lifting, hydraulic pressure and swing tests require qualified personnel, proper equipment and a controlled safe area."
+  },
+  "source": {
+    "title": "Hyundai HX210HD/HX220HD Maintenance Standard manual",
+    "pageUrl": "https://manualshyundai.com/2023/06/08/hyundai-hx210hdhx220hd-maintenance-standard-manual.html",
+    "pdfUrl": "https://manualshyundai.com/uploads/posts/hx210hdhx220hd/hyundai-hx210hdhx220hd-maintenance-standard-manual.pdf",
+    "section": "Section 7 — Maintenance Standard",
+    "pdfPages": 36,
+    "printedPages": "7-1 onward"
+  },
+  "tests": [
+    {
+      "id": "engine_speed",
+      "nameAr": "اختبار سرعة المحرك",
+      "nameEn": "Engine speed",
+      "page": "7-4 to 7-5",
+      "unit": "rpm",
+      "conditionsAr": "قرص التسارع على 10 (أقصى وضع). تسخين المحرك حتى تصل حرارة سائل التبريد إلى 50°C أو أكثر، والزيت الهيدروليكي إلى 50±5°C. قياس السرعة في أوضاع التشغيل المذكورة.",
+      "conditionsEn": "Accel dial at 10 (maximum). Warm coolant to at least 50°C and hydraulic oil to 50±5°C. Measure speed in the listed operating modes.",
+      "values": [
+        {
+          "conditionAr": "الخمول عند البدء",
+          "conditionEn": "Start idle",
+          "standard": "850 ± 100",
+          "limit": null
+        },
+        {
+          "conditionAr": "وضع M",
+          "conditionEn": "M mode",
+          "standard": "2100 ± 100",
+          "limit": null
+        },
+        {
+          "conditionAr": "وضع H",
+          "conditionEn": "H mode",
+          "standard": "2000 ± 100",
+          "limit": null
+        },
+        {
+          "conditionAr": "وضع S",
+          "conditionEn": "S mode",
+          "standard": "1900 ± 100",
+          "limit": null
+        },
+        {
+          "conditionAr": "الخمول التلقائي",
+          "conditionEn": "Auto decel",
+          "standard": "1150 ± 100",
+          "limit": null
+        },
+        {
+          "conditionAr": "خفض السرعة بلمسة واحدة",
+          "conditionEn": "One-touch decel",
+          "standard": "1050 ± 100",
+          "limit": null
+        }
+      ],
+      "safetyAr": "نفّذ القياس في وضع ثابت وآمن وبواسطة فني مؤهل؛ لا تقترب من الأجزاء المتحركة.",
+      "safetyEn": "Perform in a stable, controlled area by a qualified technician; keep clear of moving parts."
+    },
+    {
+      "id": "travel_speed",
+      "nameAr": "اختبار سرعة السير لمسافة 20 متراً",
+      "nameEn": "Travel speed — 20 m test",
+      "page": "7-5 to 7-6",
+      "unit": "ثانية / 20 م | seconds / 20 m",
+      "conditionsAr": "مسار مستوٍ وصلب بطول 20 م مع 3–5 م إضافية بكل طرف للتسارع والتباطؤ. شد الجنزيرين متساوٍ، حرارة الزيت الهيدروليكي 50±5°C، وضع M. قياس الاتجاهين وتكرار الاختبار ثلاث مرات وأخذ المتوسط.",
+      "conditionsEn": "Use a flat, solid 20 m track with 3–5 m acceleration/deceleration zones at each end. Equalize track tension, hydraulic oil 50±5°C, M mode. Test both directions three times and average.",
+      "values": [
+        {
+          "conditionAr": "السرعة الأولى",
+          "conditionEn": "1st speed",
+          "standard": "20.0 ± 2.0",
+          "limit": "25.0"
+        },
+        {
+          "conditionAr": "السرعة الثانية",
+          "conditionEn": "2nd speed",
+          "standard": "12.7 ± 2.0",
+          "limit": "15.9"
+        }
+      ],
+      "safetyAr": "يُجرى في ساحة مغلقة وخالية من الأشخاص والعوائق، مع مساحة كافية للمناورة.",
+      "safetyEn": "Use a closed test area free of people and obstacles, with adequate maneuvering space."
+    },
+    {
+      "id": "track_revolution",
+      "nameAr": "اختبار زمن دورة الجنزير",
+      "nameEn": "Track revolution cycle time",
+      "page": "7-6 to 7-7",
+      "unit": "ثانية / 3 دورات | seconds / 3 revolutions",
+      "conditionsAr": "رفع الجنزير المراد اختباره عن الأرض وتثبيت الهيكل على قواعد مناسبة، ضبط حرارة الزيت 50±5°C، وضع M، إيقاف الخمول التلقائي. بعد دورة تمهيدية، قياس زمن ثلاث دورات وتكرار القياس ثلاث مرات.",
+      "conditionsEn": "Raise the track being tested and securely support the machine frame with suitable blocks. Hydraulic oil 50±5°C, M mode, auto idle OFF. After one initial revolution, time the next three revolutions and repeat three times.",
+      "values": [
+        {
+          "conditionAr": "السرعة الأولى",
+          "conditionEn": "1st speed",
+          "standard": "25.0 ± 2.0",
+          "limit": "31.3"
+        },
+        {
+          "conditionAr": "السرعة الثانية",
+          "conditionEn": "2nd speed",
+          "standard": "16.3 ± 2.0",
+          "limit": "20.4"
+        }
+      ],
+      "safetyAr": "اختبار رفع الجنزير خطر؛ يمنع تنفيذه دون قواعد تثبيت مصنفة وفنيين مؤهلين ومنطقة عزل.",
+      "safetyEn": "Track-lift testing is hazardous; do not perform without rated supports, qualified technicians and an isolated test area."
+    },
+    {
+      "id": "travel_deviation",
+      "nameAr": "اختبار انحراف السير",
+      "nameEn": "Travel deviation",
+      "page": "7-7 to 7-8",
+      "unit": "مم / 20 م | mm / 20 m",
+      "conditionsAr": "مسار مستوٍ وصلب بطول 20 م مع 3–5 م إضافية للتسارع والتباطؤ، حرارة الزيت 50±5°C، وضع M. قياس الانحراف في السرعتين والاتجاهين وتكرار الاختبار ثلاث مرات.",
+      "conditionsEn": "Flat solid 20 m track plus 3–5 m acceleration zones, hydraulic oil 50±5°C, M mode. Measure deviation at both travel speeds and directions; repeat three times.",
+      "values": [
+        {
+          "conditionAr": "الحد القياسي والحد الأقصى المسموح",
+          "conditionEn": "Standard / maximum allowable",
+          "standard": "≤ 200",
+          "limit": "240"
+        }
+      ],
+      "safetyAr": "تأكد من خلو المسار بالكامل ومن وجود مساحة توقف كافية.",
+      "safetyEn": "Ensure the full route is clear and sufficient stopping distance is available."
+    },
+    {
+      "id": "swing_speed",
+      "nameAr": "اختبار سرعة دوران الهيكل",
+      "nameEn": "Swing speed",
+      "page": "7-8 to 7-9",
+      "unit": "ثانية / 3 دورات | seconds / 3 revolutions",
+      "conditionsAr": "أرض مستوية وصلبة وليست منحدراً، الجرافة فارغة، فحص تشحيم ترس ومحمل الدوران، حرارة الزيت 50±5°C، وضع M. قياس زمن ثلاث دورات بعد دورة تمهيدية وتكرار القياس ثلاث مرات.",
+      "conditionsEn": "Flat solid ground, never a slope; empty bucket; check swing gear and bearing lubrication; hydraulic oil 50±5°C, M mode. Time three revolutions after an initial turn and repeat three times.",
+      "values": [
+        {
+          "conditionAr": "وضع M",
+          "conditionEn": "M mode",
+          "standard": "14.7 ± 1.5",
+          "limit": "18.4"
+        }
+      ],
+      "safetyAr": "اعزل منطقة الدوران ولا تسمح بوجود أشخاص ضمن مجال دوران المعدة.",
+      "safetyEn": "Barricade the swing radius and keep all personnel outside the machine's swing area."
+    },
+    {
+      "id": "swing_drift",
+      "nameAr": "فحص انحراف توقف الدوران",
+      "nameEn": "Swing function drift check",
+      "page": "7-9 to 7-10",
+      "unit": "درجة | degree",
+      "conditionsAr": "أرض مستوية وصلبة، الجرافة فارغة، فحص التشحيم، حرارة الزيت 50±5°C، وضع M. قياس انحراف التوقف بعد دوران 360° في الاتجاهين وتكرار الاختبار ثلاث مرات.",
+      "conditionsEn": "Flat solid ground, empty bucket, lubrication checked, hydraulic oil 50±5°C, M mode. Measure stopping drift after a 360° swing in both directions; repeat three times.",
+      "values": [
+        {
+          "conditionAr": "الحد القياسي / الأقصى",
+          "conditionEn": "Standard / maximum allowable",
+          "standard": "≤ 90",
+          "limit": "128.7"
+        }
+      ],
+      "safetyAr": "اختبار دوران كامل؛ أبعد الأشخاص والمركبات من نطاق الدوران.",
+      "safetyEn": "Full swing test; keep people and vehicles clear of the entire swing radius."
+    },
+    {
+      "id": "swing_bearing_play",
+      "nameAr": "قياس خلوص محمل الدوران",
+      "nameEn": "Swing bearing play",
+      "page": "7-10 to 7-11",
+      "unit": "مم | mm",
+      "conditionsAr": "استخدم ساعة قياس مثبتة مغناطيسياً على إطار الجنزير. قِس h1 ثم ارفع مقدمة المعدة بالطريقة المحددة في الدليل وسجل h2. الخلوص H = h2 − h1.",
+      "conditionsEn": "Use a dial gauge with magnetic base on the track frame. Record h1, raise the front idler as described in the manual, record h2. Bearing play H = h2 − h1.",
+      "values": [
+        {
+          "conditionAr": "الخلوص",
+          "conditionEn": "Bearing play",
+          "standard": "0.5–1.5",
+          "limit": "3.0"
+        }
+      ],
+      "safetyAr": "رفع مقدمة المعدة يتطلب إجراء تثبيت معتمداً؛ لا تعتمد على الأسطوانة أو الجرافة وحدهما كوسيلة دعم.",
+      "safetyEn": "Raising the machine requires an approved support procedure; never rely on the cylinder or bucket alone as support."
+    },
+    {
+      "id": "cylinder_cycle",
+      "nameAr": "زمن حركة الأسطوانات الهيدروليكية",
+      "nameEn": "Hydraulic cylinder cycle time",
+      "page": "7-11 to 7-13",
+      "unit": "ثانية | seconds",
+      "conditionsAr": "الجرافة فارغة، وضع M، حرارة الزيت الهيدروليكي 50±5°C. قياس زمن كل حركة من نهاية مشوار إلى النهاية المقابلة وتكرار كل قياس ثلاث مرات وأخذ المتوسط.",
+      "conditionsEn": "Empty bucket, M mode, hydraulic oil 50±5°C. Time each movement from one stroke end to the opposite end; repeat each measurement three times and average.",
+      "values": [
+        {
+          "conditionAr": "رفع البوم",
+          "conditionEn": "Boom raise",
+          "standard": "3.5 ± 0.4",
+          "limit": "4.4"
+        },
+        {
+          "conditionAr": "خفض البوم",
+          "conditionEn": "Boom lower",
+          "standard": "2.2 ± 0.3",
+          "limit": "2.8"
+        },
+        {
+          "conditionAr": "سحب الذراع",
+          "conditionEn": "Arm in",
+          "standard": "2.5 ± 0.3",
+          "limit": "3.1"
+        },
+        {
+          "conditionAr": "مد الذراع",
+          "conditionEn": "Arm out",
+          "standard": "2.7 ± 0.3",
+          "limit": "3.4"
+        },
+        {
+          "conditionAr": "سحب الجرافة",
+          "conditionEn": "Bucket in",
+          "standard": "2.2 ± 0.3",
+          "limit": "2.8"
+        },
+        {
+          "conditionAr": "فتح الجرافة",
+          "conditionEn": "Bucket out",
+          "standard": "2.1 ± 0.3",
+          "limit": "2.6"
+        }
+      ],
+      "safetyAr": "تأكد من خلو منطقة عمل الملحقات ومن عدم وجود أشخاص قرب نقاط السحق.",
+      "safetyEn": "Keep the attachment work zone clear and ensure nobody is near pinch/crush points."
+    },
+    {
+      "id": "dig_drift",
+      "nameAr": "فحص انجراف وظائف الحفر",
+      "nameEn": "Dig function drift check",
+      "page": "7-13 onward",
+      "unit": "مم / 5 دقائق | mm / 5 min",
+      "conditionsAr": "الدليل يحدد حمولة للجرافة، أو وزناً محسوباً W = سعة الجرافة بالمتر المكعب × 1.5. يضبط موضع الأسطوانات وحرارة الزيت 50±5°C، يوقف المحرك ثم تقاس تغيرات المواضع بعد خمس دقائق. لا يُجرى إلا وفق إجراء الخدمة الكامل.",
+      "conditionsEn": "The manual specifies a loaded bucket or calculated weight W = bucket heaped capacity (m³) × 1.5. Set cylinder positions and oil temperature 50±5°C, stop engine, then measure position changes after five minutes. Perform only under the complete service procedure.",
+      "values": [],
+      "safetyAr": "اختبار بحمولة وتعليق ملحقات؛ خطر سقوط الحمولة أو هبوط الذراع. يلزم فني مؤهل ومنطقة عزل وإجراء دعم آمن.",
+      "safetyEn": "Loaded attachment test; risk of load drop or boom lowering. Requires qualified personnel, exclusion zone and safe support procedure."
+    }
+  ]
+}
