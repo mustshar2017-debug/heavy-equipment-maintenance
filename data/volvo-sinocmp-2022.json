@@ -2527,6 +2527,148 @@
       "sourcePage": 11,
       "referenceStatus": "source_transcription",
       "applicabilityNoticeAr": "هذا الكود وارد في قسم EC210B أو الجداول العامة في المصدر. لا يثبت انطباقه على كل موديلات فولفو أو الأرقام التسلسلية؛ تحقق من دليل الخدمة المطابق."
+    },
+    {
+      "mid": 128,
+      "pid": 175,
+      "titleAr": "ارتفاع درجة حرارة زيت المحرك",
+      "titleEn": "Engine oil temperature",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B, MID128 PID175",
+      "sourceUrl": "https://www.scribd.com/document/614763842/128-PID-175",
+      "productionSite": "Changwon",
+      "serialNumberStart": 80001,
+      "serialNumberEnd": 90000,
+      "sourceDocumentDate": "2022-12-15",
+      "sourceQuality": "نسخة منشورة على Scribd من Volvo Guided Diagnostics؛ يجب مطابقة موقع الإنتاج والرقم التسلسلي مع بيانات فولفو قبل اعتماد التشخيص.",
+      "applicabilityNoticeAr": "المرجع يخص EC210B بموقع إنتاج Changwon وأرقام تسلسلية 80001–90000. الرقم 83847 يقع ضمن النطاق العددي، لكن موقع إنتاج المعدة لم يُؤكَّد؛ لذلك ينطبق المرجع بصورة مشروطة فقط. لا تعتمد عليه نهائياً قبل التحقق من سجل فولفو.",
+      "applicabilityNoticeEn": "This reference applies to EC210B machines produced at Changwon with serial numbers 80001–90000. Serial 83847 is numerically within range, but the machine's production site is unconfirmed; applicability remains conditional pending Volvo record verification.",
+      "fmi": 0,
+      "code": "MID 128 PID 175 FMI 0",
+      "volvoCode": "ER41-00",
+      "descriptionAr": "يسجل كمبيوتر المحرك ارتفاع حرارة زيت المحرك. عند تجاوز 127°C يظهر تحذير أصفر؛ وعند تجاوز 130°C يظهر تحذير أحمر وقد يخفض النظام قدرة المحرك للحماية.",
+      "descriptionEn": "The engine ECU detects high engine oil temperature. Above 127°C a yellow warning is reported; above 130°C a red warning is reported and engine protection may reduce power.",
+      "possibleCausesAr": [
+        "ظروف تشغيل قاسية أو حمل/تشغيل شديد",
+        "انسداد مبرد زيت المحرك",
+        "خلل في نظام التبريد",
+        "حساس درجة حرارة زيت المحرك معيب"
+      ],
+      "initialChecksAr": [
+        "تحقق من مستوى زيت المحرك",
+        "افحص فلاتر الزيت بحثاً عن تلف أو انسداد",
+        "افحص مبرد زيت المحرك"
+      ],
+      "repairStepsAr": [
+        "عالج سبب ضعف التبريد أو انسداد المبرد بعد الفحص",
+        "تحقق من سلامة الحساس ودائرته باستخدام إجراء Guided Diagnostics المطابق"
+      ],
+      "sourcePage": "مرجع EC210B، PID175",
+      "diagnosticThresholdsAr": [
+        "FMI 0 عند أكثر من 127°C: تحذير أصفر",
+        "FMI 0 عند أكثر من 130°C: تحذير أحمر وخفض قدرة محتمل"
+      ]
+    },
+    {
+      "mid": 128,
+      "pid": 175,
+      "titleAr": "قراءات غير منطقية لدرجة حرارة الزيت",
+      "titleEn": "Engine oil temperature",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B, MID128 PID175",
+      "sourceUrl": "https://www.scribd.com/document/614763842/128-PID-175",
+      "productionSite": "Changwon",
+      "serialNumberStart": 80001,
+      "serialNumberEnd": 90000,
+      "sourceDocumentDate": "2022-12-15",
+      "sourceQuality": "نسخة منشورة على Scribd من Volvo Guided Diagnostics؛ يجب مطابقة موقع الإنتاج والرقم التسلسلي مع بيانات فولفو قبل اعتماد التشخيص.",
+      "applicabilityNoticeAr": "المرجع يخص EC210B بموقع إنتاج Changwon وأرقام تسلسلية 80001–90000. الرقم 83847 يقع ضمن النطاق العددي، لكن موقع إنتاج المعدة لم يُؤكَّد؛ لذلك ينطبق المرجع بصورة مشروطة فقط. لا تعتمد عليه نهائياً قبل التحقق من سجل فولفو.",
+      "applicabilityNoticeEn": "This reference applies to EC210B machines produced at Changwon with serial numbers 80001–90000. Serial 83847 is numerically within range, but the machine's production site is unconfirmed; applicability remains conditional pending Volvo record verification.",
+      "fmi": 2,
+      "code": "MID 128 PID 175 FMI 2",
+      "descriptionAr": "توجد قيمة غير متوافقة بين حرارة ضغط الشحن/هواء الدخول أو سائل التبريد أو زيت المحرك.",
+      "descriptionEn": "The difference between boost temperature and intake-air, coolant, or engine-oil temperature is outside the expected range.",
+      "possibleCausesAr": [
+        "مشكلة في موصلات الحساسات",
+        "خلل في ضفيرة الأسلاك",
+        "خلل في حساس حرارة زيت المحرك",
+        "خلل في حساس حرارة سائل التبريد",
+        "خلل في حساس حرارة هواء الشحن",
+        "خلل في حساس حرارة هواء الدخول"
+      ],
+      "initialChecksAr": [
+        "قارن قراءات درجات الحرارة الأربع عبر أداة التشخيص",
+        "افحص الموصلات والضفيرة بحثاً عن ارتخاء أو تلف ظاهر"
+      ],
+      "repairStepsAr": [
+        "استخدم Guided Diagnostics لتحديد الحساس أو الدائرة ذات القراءة غير المتوافقة؛ لا تستبدل حساساً قبل تأكيد القياسات"
+      ],
+      "sourcePage": "مرجع EC210B، PID175"
+    },
+    {
+      "mid": 128,
+      "pid": 175,
+      "titleAr": "جهد منخفض في دائرة حساس حرارة زيت المحرك",
+      "titleEn": "Engine oil temperature",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B, MID128 PID175",
+      "sourceUrl": "https://www.scribd.com/document/614763842/128-PID-175",
+      "productionSite": "Changwon",
+      "serialNumberStart": 80001,
+      "serialNumberEnd": 90000,
+      "sourceDocumentDate": "2022-12-15",
+      "sourceQuality": "نسخة منشورة على Scribd من Volvo Guided Diagnostics؛ يجب مطابقة موقع الإنتاج والرقم التسلسلي مع بيانات فولفو قبل اعتماد التشخيص.",
+      "applicabilityNoticeAr": "المرجع يخص EC210B بموقع إنتاج Changwon وأرقام تسلسلية 80001–90000. الرقم 83847 يقع ضمن النطاق العددي، لكن موقع إنتاج المعدة لم يُؤكَّد؛ لذلك ينطبق المرجع بصورة مشروطة فقط. لا تعتمد عليه نهائياً قبل التحقق من سجل فولفو.",
+      "applicabilityNoticeEn": "This reference applies to EC210B machines produced at Changwon with serial numbers 80001–90000. Serial 83847 is numerically within range, but the machine's production site is unconfirmed; applicability remains conditional pending Volvo record verification.",
+      "fmi": 4,
+      "code": "MID 128 PID 175 FMI 4",
+      "descriptionAr": "يسجل كمبيوتر المحرك جهداً أقل من 0.12 فولت في دائرة الحساس.",
+      "descriptionEn": "The engine ECU registers sensor-circuit voltage below 0.12 V.",
+      "possibleCausesAr": [
+        "قصر في خط الإشارة إلى جهد منخفض أو الأرضي",
+        "حساس درجة حرارة الزيت معيب"
+      ],
+      "initialChecksAr": [
+        "افحص موصل الحساس وتأكد من عدم وجود تلف أو تآكل",
+        "افحص ضفيرة الإشارة بحثاً عن قصر إلى الأرضي وفق مخطط الدائرة المطابق"
+      ],
+      "repairStepsAr": [
+        "اتبع إجراء تشخيص MID 128 PID 175 لفحص الدائرة والحساس قبل استبدال أي جزء"
+      ],
+      "sourcePage": "مرجع EC210B، PID175"
+    },
+    {
+      "mid": 128,
+      "pid": 175,
+      "titleAr": "جهد مرتفع أو دائرة مفتوحة في حساس حرارة زيت المحرك",
+      "titleEn": "Engine oil temperature",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B, MID128 PID175",
+      "sourceUrl": "https://www.scribd.com/document/614763842/128-PID-175",
+      "productionSite": "Changwon",
+      "serialNumberStart": 80001,
+      "serialNumberEnd": 90000,
+      "sourceDocumentDate": "2022-12-15",
+      "sourceQuality": "نسخة منشورة على Scribd من Volvo Guided Diagnostics؛ يجب مطابقة موقع الإنتاج والرقم التسلسلي مع بيانات فولفو قبل اعتماد التشخيص.",
+      "applicabilityNoticeAr": "المرجع يخص EC210B بموقع إنتاج Changwon وأرقام تسلسلية 80001–90000. الرقم 83847 يقع ضمن النطاق العددي، لكن موقع إنتاج المعدة لم يُؤكَّد؛ لذلك ينطبق المرجع بصورة مشروطة فقط. لا تعتمد عليه نهائياً قبل التحقق من سجل فولفو.",
+      "applicabilityNoticeEn": "This reference applies to EC210B machines produced at Changwon with serial numbers 80001–90000. Serial 83847 is numerically within range, but the machine's production site is unconfirmed; applicability remains conditional pending Volvo record verification.",
+      "fmi": 5,
+      "code": "MID 128 PID 175 FMI 5",
+      "descriptionAr": "يسجل كمبيوتر المحرك جهداً أعلى من 4.96 فولت في دائرة الحساس.",
+      "descriptionEn": "The engine ECU registers sensor-circuit voltage above 4.96 V.",
+      "possibleCausesAr": [
+        "قصر في خط الإشارة إلى جهد أعلى",
+        "دائرة مفتوحة",
+        "حساس درجة حرارة الزيت معيب"
+      ],
+      "initialChecksAr": [
+        "افحص موصل الحساس",
+        "افحص ضفيرة الإشارة بحثاً عن قطع أو قصر إلى جهد أعلى وفق مخطط الدائرة المطابق"
+      ],
+      "repairStepsAr": [
+        "اتبع إجراء تشخيص MID 128 PID 175 لفحص الدائرة والحساس قبل استبدال أي جزء"
+      ],
+      "sourcePage": "مرجع EC210B، PID175"
     }
   ]
 }
