@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "equipmentId": "volvo-ec210blc-001",
+  "referenceModel": "Volvo EC210B LC (B-series brochure, 2003)",
+  "applicability": {
+    "status": "series_reference_only",
+    "noticeAr": "هذه مواصفات مرجعية لفئة EC210B LC من كتيب فولفو لعام 2003، وليست تأكيداً نهائياً لتجهيز حفارتك. يلزم مطابقة الرقم التسلسلي ولوحة المحرك قبل استخدامها في الصيانة أو طلب القطع.",
+    "noticeEn": "These are reference specifications for the EC210B LC from Volvo's 2003 brochure, not final confirmation of your machine configuration. Verify the serial number and engine plate before maintenance or parts ordering."
+  },
+  "specifications": {
+    "engine": {
+      "model": "Volvo D6D EFE2",
+      "ratedNetPowerKw": 107,
+      "ratedNetPowerHp": 143,
+      "ratedSpeedRpm": 1900,
+      "source": "Volvo EC140B–EC460B family brochure, 2003, page 11; EC210B LC row"
+    },
+    "hydraulic": {
+      "mainPumps": "Two variable axial-displacement piston pumps",
+      "features": [
+        "Boom, arm and slew priority",
+        "Boom and arm flow regeneration",
+        "Hydraulic oil cooler"
+      ],
+      "source": "Volvo EC140B–EC460B family brochure, 2003, pages 8–9"
+    },
+    "electrical": {
+      "system": "Contronics electronic control system",
+      "components": [
+        "V-ECU",
+        "Machine Display Unit (MDU)",
+        "Engine Electronic Control Unit (E-ECU)"
+      ],
+      "alternator": "80 A (family brochure description)",
+      "diagnostics": "Self-diagnostic system with error codes and status indicators",
+      "source": "Volvo EC140B–EC460B family brochure, 2003, pages 8–9"
+    },
+    "machine": {
+      "bucketCapacityM3": "0.90–1.55",
+      "operatingWeightTonnes": "21.3–22.3",
+      "maxDiggingReachM": 9.9,
+      "maxDiggingDepthM": 6.7,
+      "breakoutForceKNSae": 130.4,
+      "source": "Volvo EC140B–EC460B family brochure, 2003, page 11; EC210B LC row"
+    }
+  },
+  "maintenanceAndParts": {
+    "verifiedFaultCodes": [],
+    "verifiedPartNumbers": [],
+    "serviceIntervals": [],
+    "noticeAr": "لم تُضف أكواد أعطال أو أرقام قطع أو فترات صيانة دون دليل خدمة مطابق للرقم التسلسلي.",
+    "noticeEn": "No fault codes, part numbers, or service intervals have been added without a service manual matching the machine serial number."
+  },
+  "sources": [
+    {
+      "title": "Volvo EC210B official product archive",
+      "url": "https://www.volvoce.com/global/en/products-and-services/past-products/crawler-excavators/volvo-b-prime-series/ec210b/",
+      "pages": "Product archive; production years and 2009 summary"
+    },
+    {
+      "title": "Volvo Excavators EC140B–EC460B family brochure (2003)",
+      "url": "https://www.volvoce.com/-/media/volvoce/global-site/products-and-services/past-products/documents/07-crawler-excavators/04-volvo-b-prime-series/all-common/1187-family-brochure/v-ec140b-ec460b-21d4351187-2003-08.pdf",
+      "pages": "8–9, 11"
+    }
+  ]
+}
