@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "titleAr": "موسوعة لوحات بيانات فولفو",
+  "titleEn": "Volvo data plate encyclopedia",
+  "noticeAr": "مرجع تعليمي مبني على وثائق خدمة/تشغيل منشورة وأمثلة لوحات ظاهرة في إعلانات معدات. تختلف التفاصيل حسب الطراز وسنة الإنتاج والسوق؛ يجب الرجوع إلى دليل المعدة المطابق لرقم PIN.",
+  "noticeEn": "Educational reference based on published service/operator documentation and plate examples visible in equipment listings. Details vary by model, production year and market; always verify against the manual matching the machine PIN.",
+  "plates": [
+    {
+      "id": "volvo-main-ec220f",
+      "manufacturer": "Volvo",
+      "model": "EC220F L3",
+      "plateType": "لوحة تعريف المعدة الرئيسية (PIN)",
+      "plateTypeEn": "Main machine identification plate (PIN)",
+      "locationAr": "الجانب الأيمن من الهيكل العلوي وفق مرجع EC220F L3.",
+      "locationEn": "Right-hand side of the superstructure, according to the EC220F L3 reference.",
+      "fieldsAr": [
+        "طراز المعدة",
+        "رقم PIN/الرقم التسلسلي",
+        "وزن المعدة عند انطباقه",
+        "قدرة المحرك عند انطباقها",
+        "سنة التصنيع وموافقة CE عند انطباقها"
+      ],
+      "fieldsEn": [
+        "Machine model",
+        "PIN / serial number",
+        "Machine weight when applicable",
+        "Engine power when applicable",
+        "Manufacturing year and CE approval when applicable"
+      ],
+      "sourceUrl": "https://www.arepairmanual.com/pdf/s/tractor/volvo/Excavators/E093_EC220F_L3/EC220F_L3_Service_Manual.pdf",
+      "sourceTitle": "EC220F L3 Service Information — Product plates"
+    },
+    {
+      "id": "volvo-main-ec220e",
+      "manufacturer": "Volvo",
+      "model": "EC220E / EC220E LR",
+      "plateType": "لوحة تعريف المعدة الرئيسية (PIN)",
+      "plateTypeEn": "Main machine identification plate (PIN)",
+      "locationAr": "يمين الهيكل العلوي/الإطار العلوي وفق مرجع EC220E.",
+      "locationEn": "Right side of the upper frame, according to the EC220E reference.",
+      "fieldsAr": [
+        "طراز المعدة",
+        "PIN من 17 خانة في المثال المرجعي",
+        "رمز الشركة/وصف المعدة/حروف التحقق/الرقم التسلسلي"
+      ],
+      "fieldsEn": [
+        "Machine model",
+        "17-character PIN in the reference example",
+        "Manufacturer code / machine description / check letters / serial number"
+      ],
+      "sourceUrl": "https://www.arepairmanual.com/pdf/s/tractor/volvo/Excavators/E086_EC220E_LR_Volvo/EC220E_LR_Volvo_Service_Manual.pdf",
+      "sourceTitle": "EC220E LR Service Information — Product plates"
+    },
+    {
+      "id": "volvo-engine",
+      "manufacturer": "Volvo",
+      "model": "عدة موديلات حفارات — تحقق من دليل الموديل",
+      "plateType": "لوحة/وسم تعريف المحرك",
+      "plateTypeEn": "Engine identification plate",
+      "locationAr": "قد تكون بيانات النوع وأرقام القطعة والتسلسل مختومة أعلى غطاء الصمامات في المراجع المذكورة؛ يختلف الموضع حسب المحرك.",
+      "locationEn": "Type and part/serial details may be stamped on top of the valve cover in the cited references; location varies by engine.",
+      "fieldsAr": [
+        "نوع المحرك",
+        "رقم القطعة",
+        "الرقم التسلسلي للمحرك"
+      ],
+      "fieldsEn": [
+        "Engine type",
+        "Part number",
+        "Engine serial number"
+      ],
+      "sourceUrl": "https://orexmsw.com/public_files/102/Volvo%20EC%20200D%20O%26M%20Manual.pdf",
+      "sourceTitle": "Volvo EC200D O&M Manual — Product plates"
+    },
+    {
+      "id": "volvo-bucket",
+      "manufacturer": "Volvo",
+      "model": "لوحة الجرافة والملحقات",
+      "plateType": "لوحة تعريف الجرافة/الملحق",
+      "plateTypeEn": "Bucket / attachment identification plate",
+      "locationAr": "على الجرافة أو الملحق نفسه؛ ليست لوحة تعريف المعدة الرئيسية.",
+      "locationEn": "On the bucket or attachment itself; not the main machine identification plate.",
+      "fieldsAr": [
+        "رقم الموديل/الطلب",
+        "رقم تسلسلي للمكون",
+        "رمز المورد",
+        "السعة والوزن والعرض",
+        "أرقام الأسنان والمهايئات عند انطباقها"
+      ],
+      "fieldsEn": [
+        "Model/order number",
+        "Component serial number",
+        "Supplier code",
+        "Capacity, weight and width",
+        "Tooth and adapter numbers when applicable"
+      ],
+      "sourceUrl": "https://orexmsw.com/public_files/102/Volvo%20EC%20200D%20O%26M%20Manual.pdf",
+      "sourceTitle": "Volvo EC200D O&M Manual — Product plates"
+    },
+    {
+      "id": "volvo-cab",
+      "manufacturer": "Volvo",
+      "model": "لوحة تعريف الكابينة",
+      "plateType": "لوحة الكابينة",
+      "plateTypeEn": "Cab identification plate",
+      "locationAr": "داخل الكابينة وفق مرجع EC200D.",
+      "locationEn": "Inside the cab according to the EC200D reference.",
+      "fieldsAr": [
+        "نوع/موديل الكابينة",
+        "رقم المنتج",
+        "الرقم التسلسلي",
+        "الوزن عند انطباقه"
+      ],
+      "fieldsEn": [
+        "Cab model/type",
+        "Product number",
+        "Serial number",
+        "Weight when applicable"
+      ],
+      "sourceUrl": "https://orexmsw.com/public_files/102/Volvo%20EC%20200D%20O%26M%20Manual.pdf",
+      "sourceTitle": "Volvo EC200D O&M Manual — Product plates"
+    },
+    {
+      "id": "volvo-ecr235el-example",
+      "manufacturer": "Volvo",
+      "model": "ECR235EL — مثال لوحة منشور",
+      "plateType": "مثال بصري للوحة PIN",
+      "plateTypeEn": "Visual PIN plate example",
+      "locationAr": "موضع اللوحة لا يمكن تعميمه من صورة الإعلان؛ افحص دليل الموديل.",
+      "locationEn": "The plate location cannot be generalized from a listing photo; check the model manual.",
+      "fieldsAr": [
+        "اسم الشركة/جهة التصنيع",
+        "الموديل ECR235EL",
+        "PIN الظاهر في صورة الإعلان"
+      ],
+      "fieldsEn": [
+        "Manufacturer name",
+        "ECR235EL model",
+        "PIN visible in the listing photo"
+      ],
+      "pinExample": "VCECR235V00316297",
+      "sourceUrl": "https://www.tranSource.com/",
+      "sourceTitle": "TranSource equipment listing example — image reference"
+    },
+    {
+      "id": "volvo-ecr145el-example",
+      "manufacturer": "Volvo",
+      "model": "ECR145EL — مثال لوحة منشور",
+      "plateType": "مثال بصري للوحة PIN",
+      "plateTypeEn": "Visual PIN plate example",
+      "locationAr": "مثال من صورة إعلان؛ لا يثبت موضعاً قياسياً لكل الآلات.",
+      "locationEn": "Listing-photo example; does not establish a standard location for all machines.",
+      "fieldsAr": [
+        "الموديل ECR145EL",
+        "PIN الظاهر في الصورة"
+      ],
+      "fieldsEn": [
+        "ECR145EL model",
+        "PIN visible in the image"
+      ],
+      "pinExample": "VCECR145H00316281",
+      "sourceUrl": "https://www.pantrading.com/",
+      "sourceTitle": "PAN Trading listing example — image reference"
+    },
+    {
+      "id": "volvo-ec250el-example",
+      "manufacturer": "Volvo",
+      "model": "EC250EL — مثال لوحة منشور",
+      "plateType": "مثال بصري للوحة PIN",
+      "plateTypeEn": "Visual PIN plate example",
+      "locationAr": "مثال مرئي من إعلان معدات؛ تحقق من لوحة معدتك الفعلية.",
+      "locationEn": "Visible equipment-listing example; verify your actual machine plate.",
+      "fieldsAr": [
+        "الموديل EC250EL",
+        "بيانات PIN حسب الصورة"
+      ],
+      "fieldsEn": [
+        "EC250EL model",
+        "PIN details as shown in the image"
+      ],
+      "sourceUrl": "https://www.bossmachinery.com/",
+      "sourceTitle": "Boss Machinery listing example — image reference"
+    },
+    {
+      "id": "volvo-ec220el-example",
+      "manufacturer": "Volvo",
+      "model": "EC220EL — مثال لوحة منشور",
+      "plateType": "مثال بصري للوحة PIN",
+      "plateTypeEn": "Visual PIN plate example",
+      "locationAr": "مثال من إعلان معدات، وليس مرجعاً لموضع اللوحة.",
+      "locationEn": "Equipment-listing example, not a plate-location reference.",
+      "fieldsAr": [
+        "الموديل EC220EL",
+        "PIN الظاهر في الصورة"
+      ],
+      "fieldsEn": [
+        "EC220EL model",
+        "PIN visible in the image"
+      ],
+      "pinExample": "VCEC220EK00314635",
+      "sourceUrl": "https://www.vankeppel.com/",
+      "sourceTitle": "Van Keppel listing example — image reference"
+    }
+  ]
+}
