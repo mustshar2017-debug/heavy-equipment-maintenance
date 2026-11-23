@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "titleAr": "دليل الفرز الأولي لأعراض النظام الهيدروليكي",
+  "titleEn": "Hydraulic symptom preliminary guide",
+  "applicability": "general_symptom_triage_only",
+  "noticeAr": "هذا الدليل للفرز الأولي العام وليس تشخيصاً مؤكداً لموديل بعينه. الأعراض قد تتداخل، ولا تثبت أي سبب دون فحص فني ودليل خدمة مطابق لرقم PIN. لا تفك الخراطيم أو الوصلات، ولا تلمس تسرب الزيت باليد، ولا تقِس الضغط أو تضبط صمامات الأمان اعتماداً على هذه الصفحة.",
+  "noticeEn": "This is a general preliminary triage guide, not a confirmed diagnosis for a specific model. Symptoms can overlap; no cause is confirmed without qualified inspection and a service manual matching the machine PIN. Do not loosen hoses or fittings, touch suspected oil leaks, measure pressure, or adjust relief valves based on this page.",
+  "symptoms": [
+    {
+      "id": "slow_all",
+      "nameAr": "بطء جميع الحركات الهيدروليكية",
+      "nameEn": "All hydraulic functions are slow",
+      "causesAr": [
+        "انخفاض مستوى الزيت أو وجود رغوة/تهوية في الزيت.",
+        "انسداد مرشح أو تقييد في مسار السحب أو الرجوع.",
+        "ارتفاع حرارة الزيت أو ظروف تشغيل/حمل غير طبيعية.",
+        "خلل محتمل في التحكم أو المضخة؛ يحتاج إلى فحص مختص."
+      ],
+      "causesEn": [
+        "Low oil level or aeration/foaming.",
+        "Restricted suction or return path, or a clogged filter.",
+        "High oil temperature or abnormal operating/load conditions.",
+        "Possible control or pump fault requiring qualified inspection."
+      ],
+      "checksAr": [
+        "أوقف المعدة على أرض مستوية وأنزل الملحقات، ثم تحقق بصرياً من مستوى الزيت وفق طريقة دليل التشغيل فقط.",
+        "لاحظ وجود رغوة أو تغير لون الزيت أو تسرب ظاهر دون لمس الزيت.",
+        "سجّل هل البطء يحدث منذ بدء التشغيل أم بعد سخونة المعدة، وهل يشمل كل الوظائف."
+      ],
+      "checksEn": [
+        "Park level and lower attachments; check oil level visually only by the operator-manual procedure.",
+        "Look for foaming, discoloration, or visible leaks without touching oil.",
+        "Record whether slowness starts immediately or after warm-up, and whether all functions are affected."
+      ],
+      "stopAr": [
+        "أوقف التشغيل إذا ظهر تسرب قوي، أو دخان/رائحة احتراق، أو إنذار حرارة/ضغط، أو فقدان مفاجئ للتحكم."
+      ],
+      "stopEn": [
+        "Stop operation for a major leak, smoke/burning smell, temperature/pressure warning, or sudden loss of control."
+      ],
+      "severity": "caution"
+    },
+    {
+      "id": "weak_force",
+      "nameAr": "ضعف قوة الحفر أو الرفع",
+      "nameEn": "Weak digging or lifting force",
+      "causesAr": [
+        "حمل يتجاوز قدرة المعدة أو استخدام وضع تشغيل غير مناسب.",
+        "تقييد ميكانيكي في الملحق أو حركة الأسطوانات.",
+        "احتمال خلل في دائرة التحكم أو المضخة أو صمام؛ لا يمكن تحديده من العرض وحده."
+      ],
+      "causesEn": [
+        "Load beyond machine capability or an unsuitable operating mode.",
+        "Mechanical restriction in the attachment or cylinder movement.",
+        "Possible control, pump, or valve issue; the symptom alone cannot identify it."
+      ],
+      "checksAr": [
+        "تأكد من عدم تجاوز حدود الحمولة واستخدم وضع التشغيل الموصى به في دليل المشغل.",
+        "افحص بصرياً وجود اعوجاج أو عائق أو تلف خارجي في الملحق.",
+        "قارن العرض بين الحركات وسجّل أي إنذار ظاهر."
+      ],
+      "checksEn": [
+        "Stay within rated limits and use the operating mode specified in the operator manual.",
+        "Visually check the attachment for obstruction, bending, or external damage.",
+        "Compare which functions are affected and record any displayed warning."
+      ],
+      "stopAr": [
+        "أوقف المعدة إذا هبط الحمل دون تحكم، أو ظهر تشقق/اعوجاج، أو حدثت حركة غير متوقعة."
+      ],
+      "stopEn": [
+        "Stop if a load drops uncontrollably, structural damage is visible, or unexpected movement occurs."
+      ],
+      "severity": "caution"
+    },
+    {
+      "id": "travel_weak",
+      "nameAr": "ضعف السير أو اختلاف سرعة الجنزيرين",
+      "nameEn": "Weak travel or unequal track speed",
+      "causesAr": [
+        "اختلاف ظروف الأرض أو وجود عائق مادي حول الجنزير.",
+        "احتمال خلل في محرك السير أو مجموعة التخفيض أو دائرة التحكم.",
+        "احتمال تسرب أو تقييد في أحد المسارات؛ يحتاج فحصاً فنياً."
+      ],
+      "causesEn": [
+        "Different ground conditions or a physical obstruction around a track.",
+        "Possible travel motor, final-drive, or control-circuit fault.",
+        "Possible leakage or restriction in one circuit; requires technical inspection."
+      ],
+      "checksAr": [
+        "افحص من مكان آمن وجود طين متراكم أو عائق ظاهر حول الجنزيرين.",
+        "لاحظ هل الانحراف يحدث في الاتجاهين أم اتجاه واحد، وعلى أرض مستوية فقط.",
+        "لا ترفع المعدة ولا تقترب من الجنزير أثناء الحركة."
+      ],
+      "checksEn": [
+        "From a safe position, look for packed mud or visible obstruction around either track.",
+        "Note whether pulling occurs in both directions or only one, on level ground.",
+        "Do not raise the machine or approach a moving track."
+      ],
+      "stopAr": [
+        "أوقف التشغيل إذا كان الانحراف شديداً أو فقدت المعدة القدرة على التوقف/التوجيه بأمان."
+      ],
+      "stopEn": [
+        "Stop if pulling is severe or safe stopping/steering is compromised."
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "overheat",
+      "nameAr": "ارتفاع حرارة الزيت الهيدروليكي",
+      "nameEn": "Hydraulic oil overheating",
+      "causesAr": [
+        "انسداد خارجي أو اتساخ مبرد الزيت أو ضعف تدفق الهواء.",
+        "استمرار تشغيل تحت حمل مرتفع أو في جو شديد الحرارة.",
+        "احتمال وجود مقاومة/تسريب داخلي أو خلل تحكم؛ يتطلب تشخيصاً."
+      ],
+      "causesEn": [
+        "External blockage or contamination of the oil cooler, or poor airflow.",
+        "Sustained heavy loading or very high ambient temperature.",
+        "Possible restriction/internal leakage or control fault requiring diagnosis."
+      ],
+      "checksAr": [
+        "أوقف المعدة واتبع تعليمات دليل التشغيل عند ظهور تحذير الحرارة.",
+        "بعد إيقاف آمن وترك الأجزاء تبرد، افحص بصرياً من الخارج وجود أتربة تسد المبرد؛ لا تفتح أغطية ساخنة.",
+        "سجّل وقت ظهور التحذير والظروف والأحمال."
+      ],
+      "checksEn": [
+        "Stop and follow the operator manual if an over-temperature warning appears.",
+        "After safe shutdown and cooling, visually inspect the cooler exterior for debris; do not open hot covers.",
+        "Record when the warning occurs and the operating conditions/load."
+      ],
+      "stopAr": [
+        "لا تواصل العمل مع إنذار حرارة مستمر أو رائحة احتراق أو تغير غير طبيعي في أداء النظام."
+      ],
+      "stopEn": [
+        "Do not continue with a persistent temperature warning, burning smell, or abnormal system behavior."
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "noise",
+      "nameAr": "صوت صفير أو طنين غير معتاد من المضخة",
+      "nameEn": "Unusual pump whine or buzzing",
+      "causesAr": [
+        "احتمال دخول هواء إلى الزيت أو انخفاض مستواه.",
+        "احتمال تقييد في خط السحب أو مرشح متسخ.",
+        "احتمال تآكل أو تلف بالمضخة؛ لا يمكن تأكيده سمعياً."
+      ],
+      "causesEn": [
+        "Possible air entering the oil or low oil level.",
+        "Possible suction restriction or clogged filter.",
+        "Possible pump wear or damage; sound alone cannot confirm it."
+      ],
+      "checksAr": [
+        "أوقف العمل إذا كان الصوت جديداً أو شديداً أو مصحوباً بضعف مفاجئ.",
+        "تحقق بصرياً من مستوى الزيت وفق دليل المشغل ومن وجود رغوة أو تسرب.",
+        "سجّل متى يظهر الصوت وهل يتغير مع الحركة؛ لا تقترب من الأجزاء المتحركة."
+      ],
+      "checksEn": [
+        "Stop if the sound is new, severe, or accompanied by sudden loss of function.",
+        "Check oil level by the operator-manual procedure and look for foaming or leaks.",
+        "Record when the sound occurs and whether it changes with movement; keep clear of moving parts."
+      ],
+      "stopAr": [
+        "أوقف المعدة فوراً إذا صاحب الصوت اهتزاز شديد أو فقدان وظيفة أو تسرب."
+      ],
+      "stopEn": [
+        "Stop immediately if noise is accompanied by severe vibration, loss of function, or leakage."
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "drift",
+      "nameAr": "هبوط الذراع أو الملحق عند وضع الانتظار",
+      "nameEn": "Boom or attachment drifts while held",
+      "causesAr": [
+        "احتمال تسرب داخلي في أسطوانة أو صمام تثبيت.",
+        "قد يكون الهبوط مرتبطاً بحمل أو وضعية تشغيل أو ظروف طبيعية محددة؛ يلزم الرجوع للدليل.",
+        "لا يمكن استنتاج الجزء المعطوب دون اختبار معتمد."
+      ],
+      "causesEn": [
+        "Possible internal leakage in a cylinder or holding valve.",
+        "Drift may depend on load, position, or specified operating conditions; consult the manual.",
+        "The failed component cannot be inferred without an approved test."
+      ],
+      "checksAr": [
+        "أنزل الملحق إلى الأرض وأوقف المعدة إذا لم يكن تثبيته آمناً.",
+        "لا تقف تحت ذراع أو ملحق مرفوع، ولا تعتمد على النظام الهيدروليكي لحمل المعدة أثناء الفحص.",
+        "سجّل أي حركة هبوط غير طبيعية وأبلغ فني الصيانة."
+      ],
+      "checksEn": [
+        "Lower the attachment to the ground and stop if it cannot be held safely.",
+        "Never stand beneath a raised boom/attachment or rely on hydraulics to support the machine during inspection.",
+        "Record abnormal drift and report it to maintenance."
+      ],
+      "stopAr": [
+        "أوقف المعدة ولا تستخدمها إذا لم يمكن تثبيت الملحق بأمان."
+      ],
+      "stopEn": [
+        "Do not operate if the attachment cannot be held safely."
+      ],
+      "severity": "warning"
+    },
+    {
+      "id": "leak",
+      "nameAr": "تسرب زيت هيدروليكي ظاهر",
+      "nameEn": "Visible hydraulic oil leak",
+      "causesAr": [
+        "قد يكون التسرب من خرطوم أو وصلة أو أسطوانة أو مكوّن آخر.",
+        "قد يكون التسرب تحت ضغط عالٍ حتى إن لم يظهر بوضوح."
+      ],
+      "causesEn": [
+        "The leak may originate from a hose, fitting, cylinder, or another component.",
+        "A leak can be high-pressure even when it is difficult to see."
+      ],
+      "checksAr": [
+        "أوقف المعدة وأنزل الملحقات وأبعد الأشخاص عن المنطقة.",
+        "لا تبحث عن التسرب بيدك؛ قد يخترق الزيت الجلد. لا تشد الوصلات ولا تفك أي خط.",
+        "اطلب فني مؤهل لتحديد المصدر بعد عزل الضغط وفق دليل الخدمة."
+      ],
+      "checksEn": [
+        "Stop the machine, lower attachments, and keep people away.",
+        "Never search for a leak with your hand; oil can penetrate skin. Do not tighten fittings or disconnect lines.",
+        "Have a qualified technician identify the source after pressure isolation per the service manual."
+      ],
+      "stopAr": [
+        "أوقف التشغيل فوراً. إذا اخترق الزيت الجلد فهذه حالة طبية طارئة حتى لو كان الجرح صغيراً."
+      ],
+      "stopEn": [
+        "Stop immediately. If oil penetrates skin, seek emergency medical care even if the wound looks small."
+      ],
+      "severity": "critical"
+    }
+  ]
+}
