@@ -19,14 +19,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مرحل التسخين المسبق للسحب، جهد عالٍ",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -38,14 +34,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مرحل التسخين المسبق للسحب، جهد منخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -57,14 +49,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مرحل التسخين المسبق للسحب، دائرة مفتوحة",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -76,14 +64,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط إمداد الوقود، أقل من الضغط المحدد",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -95,14 +79,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط إمداد الوقود، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -114,14 +94,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط إمداد الوقود، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -133,14 +109,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط زيت المحرك، منخفض للغاية",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -152,14 +124,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط زيت المحرك، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -171,14 +139,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط زيت المحرك، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -190,14 +154,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط زيت المحرك، أعطال أخرى",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -209,14 +169,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط التعزيز، جهد عالٍ",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -228,14 +184,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط التعزيز، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -247,14 +199,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط التعزيز، أعطال أخرى",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -266,14 +214,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة هواء الشحن، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -285,14 +229,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة هواء الشحن، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -304,14 +244,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة هواء الشحن، أعطال أخرى",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -323,14 +259,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "انخفاض ضغط فلتر سحب الهواء كبير جداً",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -342,14 +274,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر انخفاض ضغط فلتر الهواء، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -361,14 +289,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر انخفاض ضغط فلتر الهواء، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -380,14 +304,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر انخفاض ضغط فلتر الهواء، دائرة مفتوحة",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -399,14 +319,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط الهواء المحيط، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -418,14 +334,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر ضغط الهواء المحيط، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -437,14 +349,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة سائل تبريد المحرك، مرتفع للغاية",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -456,14 +364,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة سائل التبريد، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -475,14 +379,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة سائل التبريد، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -494,14 +394,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة سائل التبريد، أعطال أخرى",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -513,14 +409,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستوى سائل تبريد المحرك منخفض للغاية",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -532,14 +424,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر مستوى سائل التبريد، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -551,14 +439,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر مستوى سائل التبريد، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -570,14 +454,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "جهد دخل وحدة التحكم الإلكترونية مرتفع",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -589,14 +469,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "جهد دخل وحدة التحكم الإلكترونية منخفض للغاية",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -608,14 +484,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة الهواء الداخل، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -627,14 +499,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة الهواء الداخل، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -646,14 +514,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة الهواء الداخل، أعطال أخرى",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -665,14 +529,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "درجة حرارة زيت المحرك مرتفعة للغاية",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -684,14 +544,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة زيت المحرك، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -703,14 +559,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة زيت المحرك، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -722,14 +574,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة زيت المحرك، أعطال أخرى",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -741,14 +589,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 1، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -760,14 +604,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 1، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -779,14 +619,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 1، عطل آخر",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -798,14 +634,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 2، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -817,14 +649,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 2، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -836,14 +664,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 2، عطل آخر",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -855,14 +679,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 3، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -874,14 +694,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 3، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -893,14 +709,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 3، عطل آخر",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -912,14 +724,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 4، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -931,14 +739,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 4، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -950,14 +754,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 4، عطل آخر",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -969,14 +769,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 5، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -988,14 +784,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 5، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1007,14 +799,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 5، عطل آخر",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1026,14 +814,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 6، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1045,14 +829,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 6، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1064,14 +844,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي للحاقن 6، عطل آخر",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1083,14 +859,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر موضع المحرك (عمود الكامات)، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1102,14 +874,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر موضع المحرك، تردد غير طبيعي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1121,14 +889,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر موضع المحرك، عطل آخر",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1140,14 +904,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر سرعة المحرك (عجلة الموازنة)، بيانات متقطعة أو خاطئة",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1159,14 +919,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر سرعة المحرك، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1178,14 +934,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر سرعة المحرك، تردد غير طبيعي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1197,14 +949,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "ملف التسخين المسبق للسحب، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1216,14 +964,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "ملف التسخين المسبق للسحب، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1235,14 +979,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "ملف التسخين المسبق للسحب، دائرة مفتوحة",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1254,14 +994,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "اتصال J1939، فشل الاتصال",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1273,14 +1009,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "اتصال J1939، أعطال أخرى",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1292,14 +1024,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "اتصال J1939، وحدة أو مكون معيب",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1311,14 +1039,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "وحدة تحكم E-ECU، بيانات متقطعة أو خاطئة",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1330,14 +1054,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "اتصال J1587، وحدة أو مكون معيب",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1349,14 +1069,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "وحدة تحكم E-ECU، بيانات متقطعة أو خاطئة",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 128,
@@ -1368,14 +1084,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "وحدة التحكم الإلكترونية، وحدة أو مكون معيب",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1387,14 +1099,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي لتعزيز الطاقة، وحدة أو مكون معيب",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1406,14 +1114,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي لإغلاق التقاء الذراع/الذراع، وحدة أو مكون معيب",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1425,14 +1129,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام الملف اللولبي لمروحة مبرد الزيت الهيدروليكي، وحدة أو مكون معيب",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1444,14 +1144,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مفتاح التحكم في سرعة المحرك، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1463,14 +1159,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مفتاح التحكم في سرعة المحرك، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1482,14 +1174,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مفتاح التحكم في التدفق، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1501,14 +1189,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مفتاح التحكم في التدفق، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1520,14 +1204,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة الزيت الهيدروليكي، مرتفع للغاية",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1539,14 +1219,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة الزيت الهيدروليكي، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1558,14 +1234,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "مستشعر درجة حرارة الزيت الهيدروليكي، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1577,14 +1249,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام التناسب لتحويل الطاقة، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1596,14 +1264,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام التناسب لتحويل الطاقة، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1615,14 +1279,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام التناسب لتحويل الطاقة، دائرة مفتوحة",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1634,14 +1294,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام التحكم النسبي في التدفق، الجهد العالي",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1653,14 +1309,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام التحكم النسبي في التدفق، الجهد المنخفض",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1672,14 +1324,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "صمام التحكم النسبي في التدفق، دائرة مفتوحة",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1691,14 +1339,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "اتصال J1939، فشل الاتصال",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1710,14 +1354,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "اتصال J1939، وحدة أو مكون معيب",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1729,14 +1369,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "وحدة تحكم V-ECU، بيانات متقطعة أو غير صحيحة",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1748,14 +1384,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "اتصال J1587، فشل الاتصال",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1767,14 +1399,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "اتصال J1587، وحدة أو مكون معيب",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1786,14 +1414,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "جهد دخل وحدة V-ECU مرتفع",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1805,14 +1429,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "جهد دخل وحدة V-ECU منخفض للغاية",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     },
     {
       "mid": 187,
@@ -1824,14 +1444,10 @@
       "titleEn": "Volvo fault code reference",
       "descriptionAr": "وحدة تحكم V-ECU، بيانات متقطعة أو غير صحيحة",
       "descriptionEn": "See the Arabic source description. This entry is transcribed from the supplied SINOCMP Volvo fault-code list (12 February 2022).",
-      "models": [
-        "Volvo EC210B",
-        "Volvo EC140CL (where explicitly applicable)"
-      ],
       "sourceTitle": "قائمة أكواد أعطال حفارات فولفو — SINOCMP، 12 فبراير 2022",
       "sourcePage": "1-5",
       "referenceStatus": "source_transcription",
-      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022، وليس تأكيداً لانطباقه على كل موديلات فولفو أو كل الأرقام التسلسلية. طابق الموديل والرقم التسلسلي ودليل الخدمة قبل الإصلاح."
+      "applicabilityNoticeAr": "مرجع من قائمة SINOCMP المنشورة عام 2022. الجداول العامة تذكر MID 128 وMID 187، بينما بعض الأقسام تخص EC210B أو EC140CL. لا يُثبت هذا السطر وحده انطباق الكود على كل موديل أو رقم تسلسلي؛ طابق دليل الخدمة قبل الإصلاح."
     }
   ],
   "extendedVolvoCodes": [
