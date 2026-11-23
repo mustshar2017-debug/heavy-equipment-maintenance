@@ -1,0 +1,17 @@
+{
+  "name": "wad-kenana-heavy-equipment-maintenance",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Offline-first heavy equipment maintenance app",
+  "scripts": {
+    "build:web": "bash scripts/build-web.sh",
+    "cap:sync": "npm run build:web && cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
