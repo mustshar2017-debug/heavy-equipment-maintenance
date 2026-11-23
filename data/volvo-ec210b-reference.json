@@ -47,7 +47,21 @@
         "hydraulicSystemTotalL": 295,
         "hydraulicTankL": 160
       },
-      "source": "Official Volvo EC210B LC brochure (2009-04), Hydraulic System and Service Refill Capacities sections, lines/pages in source document. Series reference only; exact applicability to user's 2015 machine is not confirmed."
+      "source": "Official Volvo EC210B LC brochure (2009-04), Hydraulic System and Service Refill Capacities sections, lines/pages in source document. Series reference only; exact applicability to user's 2015 machine is not confirmed.",
+      "features": [
+        "Main pump maximum flow: 2 × 200 L/min",
+        "Pilot gear pump maximum flow: 19 L/min",
+        "Implement relief setting: 32.4 / 34.3 MPa",
+        "Travel relief setting: 34.3 MPa",
+        "Swing relief setting: 26.5 MPa",
+        "Pilot relief setting: 3.9 MPa",
+        "Pump-flow summation combines both main pumps",
+        "Boom, arm and swing priority functions",
+        "Boom and arm regeneration",
+        "Power Boost and Power Max functions",
+        "Boom and arm holding valves",
+        "Hydraulic system total capacity: 295 L; hydraulic tank: 160 L"
+      ]
     },
     "electrical": {
       "system": "Contronics electronic control system",
