@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "titleAr": "دليل تحذيرات هيونداي HX220HD",
+  "titleEn": "Hyundai HX220HD warning guide",
+  "machine": {
+    "manufacturer": "Hyundai",
+    "model": "HX220HD",
+    "year": 2025,
+    "categoryAr": "حفار جنزيري",
+    "categoryEn": "Crawler excavator"
+  },
+  "applicability": {
+    "status": "model_reference_year_serial_pending",
+    "noticeAr": "هذه قاعدة أولية مستخرجة من دليل تشغيل يحمل اسم HX220HD. لم يتوفر في المرجع المفتوح رقم طبعة أو نطاق أرقام تسلسلية يثبت انطباقه على إصدار سنة 2025 في سوق معدتك. طابق رقم PIN ودليل التشغيل/الخدمة مع وكيل هيونداي قبل اعتماد القيم أو تنفيذ الإصلاح. أرقام 21073CD الواردة هي مراجع رسومات في الدليل وليست أكواد أعطال.",
+    "noticeEn": "This preliminary database is extracted from an operator manual titled HX220HD. The accessible source does not establish an edition or serial-number range proving applicability to your 2025 machine and market. Verify the PIN and matching operator/service manual with a Hyundai dealer before relying on thresholds or repair procedures. 21073CD references are illustration IDs in the manual, not fault codes."
+  },
+  "sources": [
+    {
+      "title": "Hyundai HX220HD Operator Manual (Scribd copy)",
+      "url": "https://www.scribd.com/document/844326651/Manual-de-operacion-HX220HD",
+      "kind": "operator_manual"
+    },
+    {
+      "title": "HX210HD/HX220HD Mechatronics System Manual",
+      "url": "https://manualshyundai.com/uploads/posts/hx210hdhx220hd/hyundai-hx210hdhx220hd-mechatronics-system-manual.pdf",
+      "kind": "mechatronics_reference"
+    }
+  ],
+  "searchHintAr": "ابحث باسم التحذير أو وصفه أو مرجع الرسم. هذا القسم لا يبحث بنظام MID/PID/FMI.",
+  "searchHintEn": "Search by warning name, description or manual illustration reference. This section does not use MID/PID/FMI.",
+  "warnings": [
+    {
+      "id": "engine_oil_pressure",
+      "nameAr": "انخفاض ضغط زيت المحرك",
+      "nameEn": "Engine oil pressure warning",
+      "typeAr": "لمبة تحذير",
+      "typeEn": "Warning lamp",
+      "figureRef": "21073CD07",
+      "triggerAr": "تومض اللمبة ويعمل الجرس عند انخفاض ضغط الزيت بعد بدء تشغيل المحرك.",
+      "triggerEn": "The lamp blinks and the buzzer sounds after engine start because of low oil pressure.",
+      "actionAr": "إذا استمرت اللمبة في الوميض أثناء عمل المحرك، أوقف المحرك فوراً. افحص مستوى الزيت وفق دليل التشغيل ولا تعاود التشغيل قبل تحديد السبب.",
+      "actionEn": "If the lamp blinks while the engine is running, shut the engine OFF immediately. Check oil level per the operator manual and do not restart until the cause is identified.",
+      "checksAr": [
+        "تحقق من مستوى زيت المحرك بالطريقة المحددة في دليل التشغيل.",
+        "إذا كان المستوى صحيحاً أو عاد التحذير، اطلب فحص نظام التزييت بواسطة فني مؤهل."
+      ],
+      "checksEn": [
+        "Check engine oil level using the operator-manual procedure.",
+        "If the level is correct or the warning returns, have the lubrication system inspected by a qualified technician."
+      ],
+      "stopAr": [
+        "أوقف المحرك فوراً عند ظهور التحذير أثناء التشغيل."
+      ],
+      "stopEn": [
+        "Stop the engine immediately if the warning appears while running."
+      ],
+      "severity": "critical",
+      "source": "operator_manual"
+    },
+    {
+      "id": "air_cleaner",
+      "nameAr": "انسداد فلتر منظف الهواء",
+      "nameEn": "Air cleaner filter clogged",
+      "typeAr": "لمبة تحذير",
+      "typeEn": "Warning lamp",
+      "figureRef": "21073CD08",
+      "triggerAr": "تومض اللمبة ويعمل الجرس عند انسداد فلتر منظف الهواء.",
+      "triggerEn": "The lamp blinks and the buzzer sounds when the air-cleaner filter is clogged.",
+      "actionAr": "افحص عنصر الفلتر ونظفه أو استبدله وفق تعليمات الصيانة المطابقة للمعدة.",
+      "actionEn": "Inspect the filter element and clean or replace it according to the machine-specific maintenance instructions.",
+      "checksAr": [
+        "افحص مؤشر/لمبة انسداد منظف الهواء.",
+        "لا تستخدم هواءً مضغوطاً أو طريقة تنظيف غير منصوص عليها في دليل المعدة."
+      ],
+      "checksEn": [
+        "Check the air-cleaner restriction indication.",
+        "Do not use compressed air or a cleaning method unless specified by the machine manual."
+      ],
+      "stopAr": [
+        "أوقف العمل إذا ظهر دخان كثيف أو فقدان شديد للقدرة أو تحذير آخر مصاحب."
+      ],
+      "stopEn": [
+        "Stop if heavy smoke, severe power loss or another accompanying critical warning occurs."
+      ],
+      "severity": "caution",
+      "source": "operator_manual"
+    },
+    {
+      "id": "battery_charge",
+      "nameAr": "تحذير شحن البطارية",
+      "nameEn": "Battery charging warning",
+      "typeAr": "لمبة تحذير",
+      "typeEn": "Warning lamp",
+      "figureRef": "21073CD13",
+      "triggerAr": "قد تضيء مع وضع مفتاح التشغيل ON وتنطفئ بعد بدء المحرك. استمرارها أثناء عمل المحرك يستدعي فحص دائرة الشحن.",
+      "triggerEn": "It may illuminate with the start switch ON and turn OFF after the engine starts. If it remains on during operation, the charging circuit requires inspection.",
+      "actionAr": "افحص دائرة شحن البطارية بواسطة فني مؤهل، بما في ذلك التوصيلات والمولد وفق دليل الخدمة.",
+      "actionEn": "Have the battery charging circuit inspected by a qualified technician, including connections and alternator, per the service manual.",
+      "checksAr": [
+        "ميّز بين إضاءة الفحص الطبيعية قبل التشغيل واستمرار التحذير بعد التشغيل.",
+        "افحص بصرياً أقطاب البطارية والتوصيلات بحثاً عن ارتخاء أو تآكل دون إجراء توصيلات عشوائية."
+      ],
+      "checksEn": [
+        "Distinguish the normal key-ON lamp check from a warning that remains after engine start.",
+        "Visually inspect battery terminals and connections for looseness or corrosion; do not improvise electrical connections."
+      ],
+      "stopAr": [
+        "أوقف المعدة إذا ظهرت معها روائح احتراق أو سخونة أسلاك أو تعطل كهربائي يؤثر في التحكم."
+      ],
+      "stopEn": [
+        "Stop if accompanied by burning smell, overheated wiring or an electrical failure affecting control."
+      ],
+      "severity": "warning",
+      "source": "operator_manual"
+    },
+    {
+      "id": "overload",
+      "nameAr": "تحذير الحمل الزائد",
+      "nameEn": "Overload warning",
+      "typeAr": "لمبة تحذير",
+      "typeEn": "Warning lamp",
+      "figureRef": "21073CD15",
+      "triggerAr": "تومض لمبة الحمل الزائد عندما تكون المعدة محملة فوق الحد، مع تشغيل مفتاح التحذير من الحمل الزائد.",
+      "triggerEn": "The overload lamp blinks when the machine is overloaded while the overload switch is ON.",
+      "actionAr": "أوقف الرفع أو الحركة المسببة للحمل الزائد وخفّض الحمل إلى حدود المعدة. راجع جدول الرفع وظروف التشغيل في دليل الموديل.",
+      "actionEn": "Stop the lift or movement causing overload and bring the load within machine limits. Consult the model-specific lifting chart and operating conditions.",
+      "checksAr": [
+        "تحقق من وزن الحمل ونصف قطر العمل ووضع المعدة بالرجوع إلى جدول الرفع المطابق.",
+        "لا تتجاوز حدود الرفع ولا تعتمد على اللمبة وحدها لتحديد الحمولة الآمنة."
+      ],
+      "checksEn": [
+        "Verify load weight, working radius and machine configuration against the matching lifting chart.",
+        "Never exceed rated lifting limits or rely on the warning lamp alone to determine a safe load."
+      ],
+      "stopAr": [
+        "أوقف الرفع فوراً إذا ظهر التحذير أو بدأت المعدة تفقد الثبات."
+      ],
+      "stopEn": [
+        "Stop lifting immediately if the warning appears or machine stability is compromised."
+      ],
+      "severity": "warning",
+      "source": "operator_manual"
+    },
+    {
+      "id": "engine_check",
+      "nameAr": "لمبة فحص المحرك",
+      "nameEn": "Engine check warning",
+      "typeAr": "لمبة تحذير",
+      "typeEn": "Warning lamp",
+      "figureRef": "29073CD10",
+      "triggerAr": "تومض اللمبة ويعمل الجرس عند اضطراب الاتصال بين وحدة تحكم المعدة ووحدة تحكم المحرك، أو عند ورود عطل من وحدة المحرك.",
+      "triggerEn": "The lamp blinks and the buzzer sounds if communication between the machine CPU controller and engine ECU is abnormal, or if an ECU fault code is received.",
+      "actionAr": "افحص الاتصال بين الوحدتين، وإذا كان الاتصال سليماً اقرأ رمز العطل المعروض على الشاشة وارجع إلى دليل المحرك المطابق.",
+      "actionEn": "Check communication between the two controllers. If communication is normal, read the fault code displayed on the cluster and consult the matching engine manual.",
+      "checksAr": [
+        "سجّل رمز العطل كما يظهر على شاشة هذه النسخة.",
+        "افحص الفيوزات والموصلات بصرياً بعد إيقاف آمن؛ لا تفصل الوحدات وهي تحت التغذية."
+      ],
+      "checksEn": [
+        "Record the fault code exactly as shown on this machine's display.",
+        "After safe shutdown, visually inspect fuses and connectors; do not disconnect powered controllers."
+      ],
+      "stopAr": [
+        "أوقف المعدة إذا ترافق التحذير مع توقف المحرك أو فقدان القدرة على التحكم أو إنذار أحمر آخر."
+      ],
+      "stopEn": [
+        "Stop if accompanied by engine shutdown, loss of control or another red critical warning."
+      ],
+      "severity": "warning",
+      "source": "operator_manual"
+    },
+    {
+      "id": "coolant_temperature",
+      "nameAr": "ارتفاع حرارة سائل تبريد المحرك",
+      "nameEn": "Engine coolant temperature high",
+      "typeAr": "تحذير شاشة ولمبة",
+      "typeEn": "Display warning and lamp",
+      "figureRef": "1607A3CD02F",
+      "triggerAr": "تومض اللمبة ويعمل الجرس عندما تتجاوز حرارة سائل التبريد 105°C حسب الدليل. وصول مؤشر الحرارة إلى المجالين 11–12 يستدعي إيقاف المحرك وفحص الرادياتير والمحرك.",
+      "triggerEn": "The lamp blinks and buzzer sounds above 105°C according to the manual. If the gauge reaches steps 11–12, stop the engine and check the radiator and engine.",
+      "actionAr": "أوقف المعدة بأمان واتبع تعليمات التبريد في دليل التشغيل. لا تفتح غطاء الرادياتير وهو ساخن.",
+      "actionEn": "Stop the machine safely and follow the cooling-system instructions in the operator manual. Never open a hot radiator cap.",
+      "checksAr": [
+        "بعد أن تبرد المعدة، افحص بصرياً وجود انسداد خارجي في الرادياتير أو المبردات.",
+        "تحقق من مستوى سائل التبريد بالطريقة المحددة في الدليل بعد التبريد."
+      ],
+      "checksEn": [
+        "After the machine cools, visually inspect the radiator/coolers for external blockage.",
+        "Check coolant level using the manual procedure after cooling."
+      ],
+      "stopAr": [
+        "أوقف المحرك عند استمرار التحذير أو وصول المؤشر إلى المجال 11–12."
+      ],
+      "stopEn": [
+        "Stop the engine if the warning persists or the gauge reaches steps 11–12."
+      ],
+      "severity": "critical",
+      "source": "operator_manual",
+      "threshold": "105°C"
+    },
+    {
+      "id": "hydraulic_oil_temperature",
+      "nameAr": "ارتفاع حرارة الزيت الهيدروليكي",
+      "nameEn": "Hydraulic oil temperature high",
+      "typeAr": "تحذير شاشة ولمبة",
+      "typeEn": "Display warning and lamp",
+      "figureRef": "1607A3CD02D",
+      "triggerAr": "يعمل التحذير والجرس عندما تتجاوز حرارة الزيت الهيدروليكي 105°C حسب الدليل. عند بقاء المؤشر في المجالين 11–12 يجب إيقاف المعدة وفحص السبب.",
+      "triggerEn": "The warning and buzzer operate when hydraulic oil temperature exceeds 105°C according to the manual. If the gauge remains at steps 11–12, stop and investigate.",
+      "actionAr": "خفّض الحمل على النظام. إذا بقي المؤشر في المجالين 11–12، أوقف المعدة وافحص السبب. يذكر الدليل فحص مستوى الزيت ووجود الأوساخ بين مبرد الزيت والرادياتير.",
+      "actionEn": "Reduce system load. If the gauge remains at steps 11–12, stop and investigate. The manual specifies checking oil level and debris between the oil cooler and radiator.",
+      "checksAr": [
+        "بعد التوقف والتبريد، افحص مستوى الزيت حسب الدليل.",
+        "افحص بصرياً وجود أتربة أو مخلفات بين مبرد الزيت والرادياتير."
+      ],
+      "checksEn": [
+        "After stopping and cooling, check oil level per the manual.",
+        "Visually inspect for debris between the oil cooler and radiator."
+      ],
+      "stopAr": [
+        "أوقف المعدة إذا استمر المؤشر في المجالين 11–12."
+      ],
+      "stopEn": [
+        "Stop the machine if the gauge remains at steps 11–12."
+      ],
+      "severity": "critical",
+      "source": "operator_manual",
+      "threshold": "105°C"
+    },
+    {
+      "id": "low_fuel",
+      "nameAr": "انخفاض مستوى الوقود",
+      "nameEn": "Low fuel level",
+      "typeAr": "تحذير شاشة",
+      "typeEn": "Display warning",
+      "figureRef": "1607A3CD02E",
+      "triggerAr": "تومض اللمبة ويعمل الجرس عندما ينخفض الوقود عن 31 لتراً وفق الدليل.",
+      "triggerEn": "The lamp blinks and the buzzer sounds when fuel level falls below 31 litres according to the manual.",
+      "actionAr": "أعد تعبئة الوقود فوراً. إذا استمر المؤشر منخفضاً رغم وجود وقود كافٍ، افحص الحساس والتوصيلات بواسطة فني.",
+      "actionEn": "Refuel immediately. If the gauge remains low despite sufficient fuel, have the sensor and wiring checked by a technician.",
+      "checksAr": [
+        "تحقق من مستوى الوقود الفعلي بأمان.",
+        "إذا كانت القراءة غير منطقية، لا تفترض أن الخزان فارغ أو ممتلئ؛ افحص دائرة القياس."
+      ],
+      "checksEn": [
+        "Safely verify the actual fuel level.",
+        "If the reading is implausible, do not assume the tank is empty or full; inspect the sensing circuit."
+      ],
+      "stopAr": [
+        "أوقف العمل إذا توقف المحرك أو تعذر ضمان تغذية الوقود."
+      ],
+      "stopEn": [
+        "Stop if the engine stalls or reliable fuel supply cannot be maintained."
+      ],
+      "severity": "caution",
+      "source": "operator_manual",
+      "threshold": "31 L"
+    },
+    {
+      "id": "cpu_controller",
+      "nameAr": "تحذير فحص وحدة تحكم المعدة CPU",
+      "nameEn": "CPU controller check warning",
+      "typeAr": "لمبة تحذير",
+      "typeEn": "Warning lamp",
+      "figureRef": "21073CD10",
+      "triggerAr": "تومض اللمبة ويعمل الجرس عند استقبال رمز عطل من وحدة تحكم المعدة.",
+      "triggerEn": "The lamp blinks and the buzzer sounds when a fault code is received from the CPU controller.",
+      "actionAr": "افحص خط الاتصال بين وحدة التحكم وشاشة العرض، ثم اقرأ رمز العطل من قائمة التشخيص. لا تستبدل الوحدة اعتماداً على اللمبة وحدها.",
+      "actionEn": "Check the communication line between the controller and cluster, then read the fault code from the diagnosis menu. Do not replace the controller based on the lamp alone.",
+      "checksAr": [
+        "سجّل رمز العطل الظاهر وأي رسالة مصاحبة.",
+        "افحص الفيوزات والموصلات بعد إيقاف آمن."
+      ],
+      "checksEn": [
+        "Record the displayed fault code and any accompanying message.",
+        "Inspect fuses and connectors after safe shutdown."
+      ],
+      "stopAr": [
+        "أوقف المعدة إذا تأثرت وظائف التحكم أو ظهرت حركة غير متوقعة."
+      ],
+      "stopEn": [
+        "Stop if control functions are affected or unexpected movement occurs."
+      ],
+      "severity": "warning",
+      "source": "operator_manual"
+    },
+    {
+      "id": "gauge_abnormal",
+      "nameAr": "خلل في قراءة أحد المؤشرات",
+      "nameEn": "Abnormal gauge indication",
+      "typeAr": "تحذير شاشة",
+      "typeEn": "Display warning",
+      "figureRef": "1607A3CD02",
+      "triggerAr": "تومض اللمبة ويعمل الجرس عندما تكون قراءة أحد المؤشرات غير طبيعية حسب الدليل.",
+      "triggerEn": "The lamp blinks and the buzzer sounds when a gauge reading is abnormal according to the manual.",
+      "actionAr": "حدد المؤشر غير الطبيعي وافحص النظام المرتبط به. قد يكون السبب في الدائرة الكهربائية أو الحساس؛ يلزم التحقق قبل استبدال أي جزء.",
+      "actionEn": "Identify the abnormal gauge and inspect its related system. The cause may be electrical or sensor-related; verify before replacing parts.",
+      "checksAr": [
+        "سجّل اسم المؤشر والقراءة والظروف وقت ظهور التحذير.",
+        "قارن القراءة بالفحص الفعلي الآمن وبإجراءات الدليل."
+      ],
+      "checksEn": [
+        "Record the gauge name, reading and conditions when the warning appears.",
+        "Compare with safe physical checks and the manual procedure."
+      ],
+      "stopAr": [
+        "أوقف المعدة إذا كان المؤشر متعلقاً بالحرارة أو الضغط أو الوقود وكانت القراءة تشير إلى حالة خطرة."
+      ],
+      "stopEn": [
+        "Stop if the gauge concerns temperature, pressure or fuel and indicates a dangerous condition."
+      ],
+      "severity": "warning",
+      "source": "operator_manual"
+    },
+    {
+      "id": "communication_error",
+      "nameAr": "خطأ اتصال بين وحدة التحكم والشاشة",
+      "nameEn": "Controller-to-cluster communication error",
+      "typeAr": "تحذير شاشة",
+      "typeEn": "Display warning",
+      "figureRef": "1607A3CD02",
+      "triggerAr": "تومض اللمبة ويعمل الجرس عند وجود مشكلة اتصال بين وحدة تحكم المعدة والشاشة.",
+      "triggerEn": "The lamp blinks and the buzzer sounds when communication between the CPU controller and cluster is faulty.",
+      "actionAr": "افحص فيوز وحدة التحكم أولاً، وإذا كان سليماً افحص خط الاتصال بين الوحدة والشاشة بواسطة فني مؤهل.",
+      "actionEn": "Check the CPU fuse first. If it is intact, have the communication line between controller and cluster inspected by a qualified technician.",
+      "checksAr": [
+        "افحص حالة الفيوز بصرياً بعد إيقاف آمن.",
+        "لا تجسر الفيوز ولا تستخدم قيمة أمبير مختلفة."
+      ],
+      "checksEn": [
+        "Visually inspect the fuse after safe shutdown.",
+        "Never bridge the fuse or substitute a different amperage."
+      ],
+      "stopAr": [
+        "أوقف المعدة إذا فقدت الشاشة معلومات أساسية أو تأثرت وظائف التحكم."
+      ],
+      "stopEn": [
+        "Stop if essential display information is lost or control functions are affected."
+      ],
+      "severity": "warning",
+      "source": "operator_manual"
+    }
+  ]
+}
