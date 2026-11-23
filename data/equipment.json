@@ -5,12 +5,14 @@
       "id": "volvo-ec210blc-001",
       "manufacturer": "Volvo",
       "model": "EC210BLC",
+      "modelSource": "User-confirmed from the equipment data plate",
       "category": "Crawler excavator",
       "serialNumber": "VCEC210BP00083847",
-      "serialNumberSource": "User-provided; manufacturer verification pending",
-      "year": null,
+      "serialNumberSource": "Read from the equipment data plate by the user; manufacturer database verification pending",
+      "year": 2015,
+      "yearSource": "User-confirmed from the equipment data plate",
       "engine": null,
-      "notes": "Initial equipment record. Technical specifications must be populated from the exact manufacturer documentation."
+      "notes": "Model, PIN, and year recorded from the user's reading of the equipment data plate. Engine and technical specifications remain unverified and must be matched to exact manufacturer documentation."
     }
   ]
 }
