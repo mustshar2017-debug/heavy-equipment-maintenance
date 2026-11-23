@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "titleAr": "كتالوج موديلات حفارات فولفو",
+  "titleEn": "Volvo excavator model catalog",
+  "noticeAr": "هذا فهرس للموديلات التي تظهر في صفحات فولفو الرسمية الحالية أو أرشيف المنتجات. توفر الموديل ومواصفاته يختلفان حسب الدولة وسنة التصنيع. لا تُستخدم بيانات موديل قريب بديلاً عن دليل PIN الخاص بالمعدة.",
+  "noticeEn": "This index lists models shown on Volvo's official current-range pages or product archive. Availability and specifications vary by market and production year. Never substitute a similar model's data for the machine's PIN-specific manual.",
+  "sources": [
+    {
+      "title": "Volvo CE Europe — excavator range",
+      "url": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/",
+      "scope": "Current and recent model names listed in Europe"
+    },
+    {
+      "title": "Volvo CE United States — crawler excavators",
+      "url": "https://www.volvoce.com/en-us/products/excavators/crawler-excavators/",
+      "scope": "Regional crawler excavator offers"
+    },
+    {
+      "title": "Volvo CE Africa — crawler excavators",
+      "url": "https://www.volvoce.com/africa/products/excavators/crawler-excavators/",
+      "scope": "Regional Africa model range"
+    },
+    {
+      "title": "Volvo CE product archive — EC210B",
+      "url": "https://www.volvoce.com/global/en/products-and-services/past-products/crawler-excavators/volvo-b-prime-series/ec210b/",
+      "scope": "EC210B archived model and production period"
+    }
+  ],
+  "models": [
+    {
+      "manufacturer": "Volvo",
+      "model": "EC140E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC160E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC180E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC200E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC210",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC220E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC230",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC250E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC260",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC300",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC300E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC350E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC360",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC380E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC400",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC480E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC500",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC530E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC550E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC650",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC750E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC950F",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "ECR145",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "ECR145E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "ECR235E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "ECR255",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "ECR355",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "ECR355E",
+      "category": "Crawler excavator",
+      "catalogStatus": "listed_in_official_range",
+      "statusAr": "مدرج في نطاق فولفو الرسمي (قد يختلف حسب السوق)",
+      "statusEn": "Listed in an official Volvo range (market dependent)",
+      "sourceUrl": "https://www.volvoce.com/europe/en/products/excavators/our-most-advanced-excavator-range/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC210B",
+      "category": "Crawler excavator",
+      "catalogStatus": "archived",
+      "statusAr": "موديل سابق — الأرشيف الرسمي",
+      "statusEn": "Discontinued model — official archive",
+      "productionYears": "2003–2009",
+      "sourceUrl": "https://www.volvoce.com/global/en/products-and-services/past-products/crawler-excavators/volvo-b-prime-series/ec210b/"
+    },
+    {
+      "manufacturer": "Volvo",
+      "model": "EC210",
+      "category": "Crawler excavator",
+      "catalogStatus": "archived_generation",
+      "statusAr": "جيل سابق — الأرشيف الرسمي",
+      "statusEn": "Earlier generation — official archive",
+      "productionYears": "2002–2009",
+      "sourceUrl": "https://www.volvoce.com/global/en/products-and-services/past-products/crawler-excavators/volvo-b-prime-series/ec210/"
+    }
+  ]
+}
