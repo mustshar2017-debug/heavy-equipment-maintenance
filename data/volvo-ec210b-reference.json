@@ -51,16 +51,24 @@
       "features": [
         "Main pump maximum flow: 2 × 200 L/min",
         "Pilot gear pump maximum flow: 19 L/min",
-        "Implement relief setting: 32.4 / 34.3 MPa",
-        "Travel relief setting: 34.3 MPa",
-        "Swing relief setting: 26.5 MPa",
-        "Pilot relief setting: 3.9 MPa",
+        "Implement relief setting: 32.4 / 34.3 MPa (reference only)",
+        "Travel relief setting: 34.3 MPa (reference only)",
+        "Swing relief setting: 26.5 MPa (reference only)",
+        "Pilot relief setting: 3.9 MPa (reference only)",
         "Pump-flow summation combines both main pumps",
         "Boom, arm and swing priority functions",
         "Boom and arm regeneration",
         "Power Boost and Power Max functions",
         "Boom and arm holding valves",
-        "Hydraulic system total capacity: 295 L; hydraulic tank: 160 L"
+        "Hydraulic system total capacity: 295 L; hydraulic tank: 160 L",
+        "Component map: main hydraulic pump assembly — supplies pressurized oil",
+        "Component map: main control valve — distributes flow to implement, travel and swing circuits",
+        "Component map: pilot/servo circuit — remote control valves, pilot filter, accumulator and selector/solenoid valves",
+        "Component map: boom, arm and bucket cylinders — convert hydraulic pressure into linear movement",
+        "Component map: left/right travel motors and gearboxes — drive the tracks",
+        "Component map: swing motor and gearbox — rotates the upper structure",
+        "Component map: center swivel joint (center passage) — transfers hydraulic lines between upper and lower frames",
+        "Component map: hydraulic tank, suction strainer, return filter, drain filter and oil cooler — store, filter and cool hydraulic oil"
       ]
     },
     "electrical": {
@@ -105,6 +113,133 @@
       "title": "Volvo EC210B LC official product brochure (2009-04)",
       "url": "https://www.volvoce.com/-/media/volvoce/global-site/products-and-services/past-products/documents/07-crawler-excavators/04-volvo-b-prime-series/v-ec210b/v-ec210b-a8b4351641-2009-04.pdf",
       "pages": "Hydraulic System and Service Refill Capacities"
+    },
+    {
+      "title": "Volvo EC210B LC Service Information — Component locations (2014-06-11) and hydraulic circuits reference",
+      "url": "https://www.aservicemanualpdf.com/Samplepages/SM-Volvo%20EC210B%20LC%20Excavator%20Service%20Repair%20Manual.pdf",
+      "pages": "Function Group 000 component locations; hydraulic circuit component listing. Third-party hosted service-information preview; serial applicability must be checked."
     }
-  ]
+  ],
+  "hydraulicDiagnosticGroups": [
+    {
+      "id": "pump",
+      "nameAr": "مجموعة المضخات الرئيسية",
+      "nameEn": "Main pump assembly",
+      "itemsAr": [
+        "مضختا الزيت الرئيسيتان",
+        "منظمات المضخات وإشارات التحكم",
+        "خطوط السحب والضغط والتصريف"
+      ],
+      "itemsEn": [
+        "Two main pumps",
+        "Pump regulators and control signals",
+        "Suction, pressure and drain lines"
+      ]
+    },
+    {
+      "id": "valve",
+      "nameAr": "صمام التحكم الرئيسي",
+      "nameEn": "Main control valve",
+      "itemsAr": [
+        "ممرات وصمامات توزيع التدفق",
+        "صمامات الأمان والتثبيت",
+        "صمامات الأولوية والاسترجاع"
+      ],
+      "itemsEn": [
+        "Spools and flow distribution passages",
+        "Relief and holding valves",
+        "Priority and regeneration valves"
+      ]
+    },
+    {
+      "id": "pilot",
+      "nameAr": "دائرة الطيار والتحكم",
+      "nameEn": "Pilot and control circuit",
+      "itemsAr": [
+        "أذرع التحكم ودواسات السير",
+        "فلتر الطيار والمراكم",
+        "الصمامات الكهربائية وصمام الاختيار"
+      ],
+      "itemsEn": [
+        "Control levers and travel pedals",
+        "Pilot filter and accumulator",
+        "Solenoid and selector valves"
+      ]
+    },
+    {
+      "id": "actuators",
+      "nameAr": "الأسطوانات الهيدروليكية",
+      "nameEn": "Hydraulic cylinders",
+      "itemsAr": [
+        "أسطوانة الرفع",
+        "أسطوانة الذراع",
+        "أسطوانة الجرافة"
+      ],
+      "itemsEn": [
+        "Boom cylinder",
+        "Arm cylinder",
+        "Bucket cylinder"
+      ]
+    },
+    {
+      "id": "travel",
+      "nameAr": "دائرة السير",
+      "nameEn": "Travel circuit",
+      "itemsAr": [
+        "محرك السير الأيسر وعلبة التخفيض",
+        "محرك السير الأيمن وعلبة التخفيض",
+        "صمامات الفرامل وموازنة الضغط"
+      ],
+      "itemsEn": [
+        "Left travel motor and gearbox",
+        "Right travel motor and gearbox",
+        "Brake and counterbalance valves"
+      ]
+    },
+    {
+      "id": "swing",
+      "nameAr": "دائرة الدوران",
+      "nameEn": "Swing circuit",
+      "itemsAr": [
+        "محرك الدوران وعلبة التخفيض",
+        "صمام تخفيف وامتصاص الصدمات",
+        "ترس ومحمل حلقة الدوران"
+      ],
+      "itemsEn": [
+        "Swing motor and gearbox",
+        "Relief and cushioning valves",
+        "Swing ring gear and bearing"
+      ]
+    },
+    {
+      "id": "cooling",
+      "nameAr": "الخزان والترشيح والتبريد",
+      "nameEn": "Tank, filtration and cooling",
+      "itemsAr": [
+        "خزان الزيت ومصفاة السحب",
+        "فلتر الرجوع وفلتر التصريف",
+        "مبرد الزيت وخطوط الرجوع"
+      ],
+      "itemsEn": [
+        "Hydraulic tank and suction strainer",
+        "Return and drain filters",
+        "Oil cooler and return lines"
+      ]
+    },
+    {
+      "id": "swivel",
+      "nameAr": "وصلة الدوران المركزية",
+      "nameEn": "Center swivel joint",
+      "itemsAr": [
+        "ممرات نقل الزيت بين الهيكل العلوي والسفلي",
+        "أختام الوصلة والتسريب الداخلي"
+      ],
+      "itemsEn": [
+        "Hydraulic passages between upper and lower frames",
+        "Swivel seals and internal leakage"
+      ]
+    }
+  ],
+  "diagnosticNoticeAr": "هذه خريطة تعريفية للمكونات وليست إجراء اختبار أو إصلاح. لا تفك خطوط الضغط ولا تقيس الضغوط دون دليل الخدمة المطابق، أدوات القياس المعتمدة وإجراءات تفريغ الضغط وتأمين المعدة.",
+  "diagnosticNoticeEn": "This is a component reference map, not a test or repair procedure. Do not disconnect pressurized lines or measure pressures without the matching service manual, approved gauges, pressure-release procedure and machine securing steps."
 }
