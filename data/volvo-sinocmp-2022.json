@@ -3667,6 +3667,155 @@
       "referenceStatus": "conditional_reference",
       "applicabilityNoticeAr": "المصدر يحدد EC210B LC Volvo صراحةً. طابق رقم الهيكل وتجهيز المحرك والضفيرة/الحساس قبل تطبيق القياسات على حفارك؛ لا تنقل هذه التفاصيل إلى EC210D أو طراز آخر.",
       "applicabilityNoticeEn": "The source explicitly identifies Volvo EC210B LC. Verify machine serial number, engine and wiring/sensor configuration before applying these measurements; do not transfer these details to EC210D or another model."
+    },
+    {
+      "mid": 128,
+      "pid": 108,
+      "fmi": 3,
+      "code": "MID 128 PID 108 FMI 3",
+      "volvoCode": "ER4C-03",
+      "titleAr": "مستشعر ضغط الهواء المحيط — إشارة مرتفعة",
+      "titleEn": "Ambient air pressure sensor — high signal",
+      "descriptionAr": "يشير المرجع إلى خلل في إشارة مستشعر الضغط الجوي المدمج داخل وحدة E-ECU؛ ويُذكر ER4C-03 لحالة الإشارة الداخلية المرتفعة. المستشعر ليس قطعة منفصلة قابلة للاستبدال وفق النص المتاح.",
+      "descriptionEn": "The reference describes a fault in the ambient-pressure signal integrated in the E-ECU and identifies ER4C-03 for an internally high signal. The sensor is not described as a separately replaceable component.",
+      "possibleCausesAr": [
+        "خلل داخلي في دائرة قياس الضغط الجوي داخل وحدة E-ECU",
+        "تعرض وحدة التحكم لظروف ضغط/بيئة خارج حدودها التشغيلية، وفق وصف المرجع"
+      ],
+      "initialChecksAr": [
+        "تحقق من صحة الكود وقراءة الضغط الجوي عبر أداة التشخيص المناسبة.",
+        "افحص تغذية وحدة E-ECU وأرضيها وموصلاتها وفق مخطط المعدة.",
+        "قارن القراءة بضغط جوي مرجعي مناسب وظروف الارتفاع عن سطح البحر؛ لا تستبدل حساساً منفصلاً قبل التأكد من أن التصميم يدمجه داخل الوحدة."
+      ],
+      "repairStepsAr": [
+        "إذا تأكد الخلل الداخلي، اتبع إجراء فحص/إصلاح أو استبدال وحدة E-ECU المعتمد للطراز ورقم الهيكل.",
+        "أعد فحص الكود وقراءة الضغط بعد الإصلاح."
+      ],
+      "safetyWarningsAr": [
+        "لا تفتح وحدة E-ECU ولا تحاول إصلاح مكوناتها الداخلية ميدانياً.",
+        "لا تعتمد قرار استبدال وحدة التحكم على الكود وحده؛ تحقق من التغذية والأرضي والموصلات أولاً."
+      ],
+      "sourceTitle": "دليل ورشة حفار Volvo EC210B — رموز ER4C-03/ER4C-04",
+      "sourceUrl": "https://www.scribd.com/doc/314410241/Manual-Taller-Excavadora-Hidraulica-Ec210b-Volvo-02",
+      "sourcePage": "قسم أكواد MID 128 PID 108",
+      "modelApplicability": "EC210B Volvo — يلزم مطابقة إصدار المعدة ورقمها التسلسلي وتجهيز المحرك",
+      "sourceQuality": "معلومات مستخرجة من نسخة منشورة لدليل ورشة EC210B؛ النص المتاح عبر الفهرسة/النسخة المنشورة، وليس نسخة رقمية موثقة من بوابة فولفو.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "هذا المرجع يخص دليل ورشة EC210B. طابق رقم الهيكل ومخطط الأسلاك وإصدار وحدة E-ECU قبل اعتماد التشخيص أو القياسات. لا تُعمّم القيم على EC210D أو موديل آخر.",
+      "applicabilityNoticeEn": "This source is an EC210B workshop-manual copy. Verify the machine serial number, wiring diagram and E-ECU version before applying diagnostics or measurements. Do not generalize to EC210D or other models."
+    },
+    {
+      "mid": 128,
+      "pid": 108,
+      "fmi": 4,
+      "code": "MID 128 PID 108 FMI 4",
+      "volvoCode": "ER4C-04",
+      "titleAr": "مستشعر ضغط الهواء المحيط — إشارة منخفضة",
+      "titleEn": "Ambient air pressure sensor — low signal",
+      "descriptionAr": "يشير المرجع إلى إشارة ضغط جوي داخلية منخفضة في وحدة E-ECU، ويربطها بالكود ER4C-04. يوضح النص أن مستشعر الضغط الجوي مدمج داخل وحدة التحكم ولا يُفحص أو يُستبدل كحساس مستقل.",
+      "descriptionEn": "The reference identifies a low internal ambient-pressure signal in the E-ECU as ER4C-04. It states that the ambient-pressure sensor is integrated into the control unit rather than serviced as a separate sensor.",
+      "possibleCausesAr": [
+        "خلل داخلي في دائرة قياس الضغط الجوي داخل وحدة E-ECU",
+        "خلل في وحدة التحكم أو ظروف تشغيل/ضغط غير طبيعية وفق وصف المرجع"
+      ],
+      "initialChecksAr": [
+        "تحقق من الكود وقراءة الضغط الجوي بأداة التشخيص.",
+        "افحص تغذية وحدة E-ECU والأرضي والموصلات والضفيرة حسب مخطط المعدة.",
+        "راجع ظروف التشغيل والارتفاع عن سطح البحر قبل الحكم على القراءة."
+      ],
+      "repairStepsAr": [
+        "عند تأكيد الخلل الداخلي، اتبع إجراء فولفو المعتمد لفحص أو استبدال وحدة E-ECU.",
+        "امسح الكود وأعد تشغيل الاختبار التشخيصي بعد الإصلاح."
+      ],
+      "safetyWarningsAr": [
+        "لا تحاول تغيير مستشعر ضغط منفصل إذا كان مدمجاً داخل E-ECU.",
+        "افصل التغذية واتبع تعليمات حماية الإلكترونيات قبل العمل على موصلات وحدة التحكم."
+      ],
+      "sourceTitle": "دليل ورشة حفار Volvo EC210B — رموز ER4C-03/ER4C-04",
+      "sourceUrl": "https://www.scribd.com/doc/314410241/Manual-Taller-Excavadora-Hidraulica-Ec210b-Volvo-02",
+      "sourcePage": "قسم أكواد MID 128 PID 108",
+      "modelApplicability": "EC210B Volvo — يلزم مطابقة إصدار المعدة ورقمها التسلسلي وتجهيز المحرك",
+      "sourceQuality": "معلومات مستخرجة من نسخة منشورة لدليل ورشة EC210B؛ النص المتاح عبر الفهرسة/النسخة المنشورة، وليس نسخة رقمية موثقة من بوابة فولفو.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "هذا المرجع يخص دليل ورشة EC210B. طابق رقم الهيكل ومخطط الأسلاك وإصدار وحدة E-ECU قبل اعتماد التشخيص أو القياسات. لا تُعمّم القيم على EC210D أو موديل آخر.",
+      "applicabilityNoticeEn": "This source is an EC210B workshop-manual copy. Verify the machine serial number, wiring diagram and E-ECU version before applying diagnostics or measurements. Do not generalize to EC210D or other models."
+    },
+    {
+      "mid": 128,
+      "pid": 172,
+      "fmi": 3,
+      "code": "MID 128 PID 172 FMI 3",
+      "volvoCode": "ER4B-03",
+      "titleAr": "مستشعر درجة حرارة هواء الدخول — جهد مرتفع",
+      "titleEn": "Air inlet temperature sensor — high voltage",
+      "descriptionAr": "يشير ER4B-03 إلى إشارة مرتفعة أو دائرة مفتوحة في دائرة مستشعر درجة حرارة هواء الدخول B39. يذكر دليل EC210B احتمالات القصر إلى جهد 5V أو أعلى، أو انقطاع خط الإشارة/الأرضي، أو تلف المستشعر.",
+      "descriptionEn": "ER4B-03 indicates a high signal or open circuit in the B39 air-inlet-temperature sensor circuit. The EC210B manual lists a short to 5 V or higher, an open signal/ground circuit, or a defective sensor.",
+      "possibleCausesAr": [
+        "قصر خط الإشارة إلى 5V أو جهد أعلى",
+        "قطع في خط الإشارة أو أرضي الهيكل",
+        "موصل غير مثبت أو تآكل في أطرافه",
+        "تلف مستشعر درجة حرارة هواء الدخول B39"
+      ],
+      "initialChecksAr": [
+        "افحص موصل المستشعر B39 وثبات الأطراف وخلوها من التآكل.",
+        "افحص الضفيرة بحثاً عن قطع أو احتكاك أو قصر، مع الرجوع إلى مخطط الأسلاك الخاص برقم الهيكل.",
+        "تحقق من تغذية المستشعر والأرضي والإشارة باستخدام إجراء القياس المعتمد للطراز."
+      ],
+      "repairStepsAr": [
+        "أصلح التوصيلات أو الضفيرة إذا ثبت وجود قطع أو قصر.",
+        "استبدل المستشعر فقط بعد التأكد من سلامة التغذية والأرضي والأسلاك.",
+        "أعد قراءة الأكواد وراقب قيمة درجة حرارة هواء الدخول بعد الإصلاح."
+      ],
+      "safetyWarningsAr": [
+        "أوقف المحرك وأمّن المعدة قبل فصل الموصلات أو فحص الضفيرة.",
+        "لا تستخدم قيمة جهد أو رقم طرف من مخطط موديل آخر."
+      ],
+      "sourceTitle": "دليل ورشة حفار Volvo EC210B — رموز مستشعرات المحرك",
+      "sourceUrl": "https://www.scribd.com/doc/314410241/Manual-Taller-Excavadora-Hidraulica-Ec210b-Volvo-02",
+      "sourcePage": "قسم ER4B-03 / MID 128 PID 172",
+      "modelApplicability": "EC210B Volvo — يلزم مطابقة إصدار المعدة ورقمها التسلسلي وتجهيز المحرك",
+      "sourceQuality": "معلومات مستخرجة من نسخة منشورة لدليل ورشة EC210B؛ النص المتاح عبر الفهرسة/النسخة المنشورة، وليس نسخة رقمية موثقة من بوابة فولفو.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "هذا المرجع يخص دليل ورشة EC210B. طابق رقم الهيكل ومخطط الأسلاك وإصدار وحدة E-ECU قبل اعتماد التشخيص أو القياسات. لا تُعمّم القيم على EC210D أو موديل آخر.",
+      "applicabilityNoticeEn": "This source is an EC210B workshop-manual copy. Verify the machine serial number, wiring diagram and E-ECU version before applying diagnostics or measurements. Do not generalize to EC210D or other models."
+    },
+    {
+      "mid": 128,
+      "pid": 172,
+      "fmi": 4,
+      "code": "MID 128 PID 172 FMI 4",
+      "volvoCode": "ER4B-04",
+      "titleAr": "مستشعر درجة حرارة هواء الدخول — جهد منخفض",
+      "titleEn": "Air inlet temperature sensor — low voltage",
+      "descriptionAr": "يشير ER4B-04 إلى إشارة منخفضة في دائرة مستشعر درجة حرارة هواء الدخول B39. يذكر دليل EC210B القصر إلى أرضي الهيكل أو تلف المستشعر كأسباب محتملة.",
+      "descriptionEn": "ER4B-04 indicates a low signal in the B39 air-inlet-temperature sensor circuit. The EC210B manual lists a short to chassis ground or a defective sensor as possible causes.",
+      "possibleCausesAr": [
+        "قصر خط الإشارة إلى أرضي الهيكل",
+        "تلف مستشعر درجة حرارة هواء الدخول B39",
+        "خلل أو تلوث في الموصلات أو الضفيرة"
+      ],
+      "initialChecksAr": [
+        "افحص موصل B39 والأطراف بحثاً عن رطوبة أو تآكل أو تلف.",
+        "افحص خط الإشارة بحثاً عن قصر إلى الأرضي وفق مخطط EC210B.",
+        "تحقق من سلامة المستشعر والتوصيلات قبل الاستبدال."
+      ],
+      "repairStepsAr": [
+        "أصلح القصر أو التلف في الضفيرة والموصلات إن ثبت.",
+        "استبدل المستشعر إذا أثبت الاختبار المعتمد تلفه.",
+        "امسح الكود وتحقق من عودة قراءة درجة الحرارة إلى قيمة منطقية."
+      ],
+      "safetyWarningsAr": [
+        "لا تفصل الموصلات والمحرك يعمل إلا إذا نص إجراء التشخيص المعتمد على ذلك.",
+        "لا تعتمد عتبة جهد غير موثقة في نسخة الدليل الخاصة بمعدتك."
+      ],
+      "sourceTitle": "دليل ورشة حفار Volvo EC210B — رموز مستشعرات المحرك",
+      "sourceUrl": "https://www.scribd.com/doc/314410241/Manual-Taller-Excavadora-Hidraulica-Ec210b-Volvo-02",
+      "sourcePage": "قسم ER4B-04 / MID 128 PID 172",
+      "modelApplicability": "EC210B Volvo — يلزم مطابقة إصدار المعدة ورقمها التسلسلي وتجهيز المحرك",
+      "sourceQuality": "معلومات مستخرجة من نسخة منشورة لدليل ورشة EC210B؛ النص المتاح عبر الفهرسة/النسخة المنشورة، وليس نسخة رقمية موثقة من بوابة فولفو.",
+      "referenceStatus": "conditional_reference",
+      "applicabilityNoticeAr": "هذا المرجع يخص دليل ورشة EC210B. طابق رقم الهيكل ومخطط الأسلاك وإصدار وحدة E-ECU قبل اعتماد التشخيص أو القياسات. لا تُعمّم القيم على EC210D أو موديل آخر.",
+      "applicabilityNoticeEn": "This source is an EC210B workshop-manual copy. Verify the machine serial number, wiring diagram and E-ECU version before applying diagnostics or measurements. Do not generalize to EC210D or other models."
     }
   ]
 }
