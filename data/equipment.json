@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "equipment": [
+    {
+      "id": "volvo-ec210blc-001",
+      "manufacturer": "Volvo",
+      "model": "EC210BLC",
+      "category": "Crawler excavator",
+      "serialNumber": "VCEC210BP00083847",
+      "serialNumberSource": "User-provided; manufacturer verification pending",
+      "year": null,
+      "engine": null,
+      "notes": "Initial equipment record. Technical specifications must be populated from the exact manufacturer documentation."
+    }
+  ]
+}
