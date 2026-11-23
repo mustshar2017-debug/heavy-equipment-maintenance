@@ -54,7 +54,65 @@ function normalizeFaultCode(value){return String(value||'').toUpperCase().replac
 function renderHydraulicDiagnostics(query){const root=$('hydraulicDiagnosticList');if(!root||!hydraulicDiagnostics)return;root.replaceChildren();const notice=$('hydraulicNotice');if(notice)notice.textContent=hydraulicDiagnostics[lang==='ar'?'noticeAr':'noticeEn'];const q=(query||'').trim().toLowerCase();const rows=(hydraulicDiagnostics.symptoms||[]).filter(s=>[s.nameAr,s.nameEn,...(s.causesAr||[]),...(s.causesEn||[])].join(' ').toLowerCase().includes(q));if(!rows.length){const p=document.createElement('p');p.className='hint';p.textContent=dict[lang].hydraulicSearchHint;root.append(p);return}rows.forEach(s=>{const card=document.createElement('article');card.className='record';const title=document.createElement('strong');title.textContent=lang==='ar'?s.nameAr:s.nameEn;const causes=document.createElement('p');causes.textContent=dict[lang].possibleCauses;const causesList=document.createElement('ul');(lang==='ar'?s.causesAr:s.causesEn).forEach(v=>{const li=document.createElement('li');li.textContent=v;causesList.append(li)});const checks=document.createElement('p');checks.textContent=dict[lang].initialChecks;const checkList=document.createElement('ul');(lang==='ar'?s.checksAr:s.checksEn).forEach(v=>{const li=document.createElement('li');li.textContent=v;checkList.append(li)});const stop=document.createElement('p');stop.className='hint';stop.textContent=dict[lang].stopConditions;const stopList=document.createElement('ul');(lang==='ar'?s.stopAr:s.stopEn).forEach(v=>{const li=document.createElement('li');li.textContent=v;stopList.append(li)});card.append(title,causes,causesList,checks,checkList,stop,stopList);root.append(card)})}
 $('hydraulicSearch').addEventListener('input',e=>renderHydraulicDiagnostics(e.target.value));
 $('searchHydraulic').addEventListener('click',()=>{renderHydraulicDiagnostics($('hydraulicSearch').value);$('hydraulicDiagnosticList').scrollIntoView({behavior:'smooth',block:'nearest'})});
-$('searchFault').addEventListener('click',()=>{const raw=$('faultCode').value.trim();const normalized=normalizeFaultCode(raw);const result=$('faultResult');result.replaceChildren();if(!normalized){result.textContent=dict[lang].empty;result.classList.add('empty');return}const found=faultCodes.find(x=>{const stored=normalizeFaultCode(x.code);const structured=[x.mid!=null?'MID'+x.mid:'',x.ppid!=null?'PPID'+x.ppid:'',x.pid!=null?'PID'+x.pid:'',x.sid!=null?'SID'+x.sid:'',x.fmi!=null?'FMI'+x.fmi:''].join('');return stored===normalized||normalizeFaultCode(structured)===normalized||normalizeFaultCode(x.volvoCode)===normalized});if(!found){result.textContent=dict[lang].missing;result.classList.add('empty');return}result.classList.remove('empty');const title=document.createElement('strong');title.textContent=found.code||('MID '+(found.mid??'')+(found.ppid!=null?' PPID '+found.ppid:found.pid!=null?' PID '+found.pid:found.sid!=null?' SID '+found.sid:'')+' FMI '+found.fmi);const desc=document.createElement('p');desc.textContent=lang==='ar'?found.descriptionAr:found.descriptionEn;result.append(title);const faultType=document.createElement('p');faultType.className='fault-type';faultType.textContent=(lang==='ar'?'نوع العطل: ':'Fault type: ')+(lang==='ar'?(found.faultTypeAr||found.titleAr||'غير محدد'):(found.faultTypeEn||found.titleEn||'Not specified'));result.append(faultType,desc);if(found.volvoCode){const vc=document.createElement('p');vc.textContent=(lang==='ar'?'رمز فولفو الداخلي: ':'Volvo internal code: ')+found.volvoCode;result.append(vc)}if(found.sourceTitle){const src=document.createElement('p');src.className='hint';src.textContent=(lang==='ar'?'المصدر: ':'Source: ')+found.sourceTitle;result.append(src)}if(found.applicabilityNoticeAr||found.applicabilityNoticeEn){const note=document.createElement('p');note.className='hint';note.textContent=lang==='ar'?(found.applicabilityNoticeAr||''):(found.applicabilityNoticeEn||'');if(note.textContent)result.append(note)}if(found.referenceStatus==='conditional_reference'){const notice=document.createElement('p');notice.className='hint';notice.textContent=lang==='ar'?(found.applicabilityNoticeAr||'مرجع مشروط؛ لم يتم تأكيد انطباقه على هذه المعدة.'):(found.applicabilityNoticeEn||'Conditional reference; applicability to this machine is not confirmed.');result.append(notice)}if(found.sourceUrl){const source=document.createElement('a');source.href=found.sourceUrl;source.target='_blank';source.rel='noopener noreferrer';source.textContent=lang==='ar'?'مصدر المرجع':'Reference source';result.append(source)}});
+function parseFaultInput(raw){
+ const text=String(raw||'').toUpperCase();
+ const read=(key)=>{const match=text.match(new RegExp('\\b'+key+'\\s*[:#=-]?\\s*(\\d+)\\b'));return match?Number(match[1]):null};
+ return {mid:read('MID'),pid:read('PID'),ppid:read('PPID'),sid:read('SID'),fmi:read('FMI'),normalized:normalizeFaultCode(text)};
+}
+function addFaultDetail(result,label,items){
+ if(!Array.isArray(items)||!items.length)return;
+ const heading=document.createElement('strong');heading.className='fault-detail-heading';heading.textContent=label;
+ const list=document.createElement('ul');list.className='fault-detail-list';
+ items.forEach(value=>{const li=document.createElement('li');li.textContent=value;list.append(li)});
+ result.append(heading,list);
+}
+function showFaultResult(found,result){
+ result.classList.remove('empty');
+ const title=document.createElement('strong');
+ title.textContent=found.code||('MID '+(found.mid??'')+(found.ppid!=null?' PPID '+found.ppid:found.pid!=null?' PID '+found.pid:found.sid!=null?' SID '+found.sid:'')+' FMI '+(found.fmi??''));
+ result.append(title);
+ const faultType=document.createElement('p');faultType.className='fault-type';
+ faultType.textContent=(lang==='ar'?'نوع العطل: ':'Fault type: ')+(lang==='ar'?(found.faultTypeAr||found.titleAr||'غير محدد'):(found.faultTypeEn||found.titleEn||'Not specified'));
+ const desc=document.createElement('p');desc.textContent=lang==='ar'?(found.descriptionAr||'الوصف غير متاح في المصدر.'):(found.descriptionEn||'Description is not available in the source.');
+ result.append(faultType,desc);
+ if(found.volvoCode){const vc=document.createElement('p');vc.textContent=(lang==='ar'?'رمز فولفو الداخلي: ':'Volvo internal code: ')+found.volvoCode;result.append(vc)}
+ const tuple=[found.mid!=null?'MID '+found.mid:'',found.pid!=null?'PID '+found.pid:found.ppid!=null?'PPID '+found.ppid:found.sid!=null?'SID '+found.sid:'',found.fmi!=null?'FMI '+found.fmi:''].filter(Boolean);
+ if(tuple.length){const line=document.createElement('p');line.className='hint';line.textContent=(lang==='ar'?'صيغة التشخيص: ':'Diagnostic format: ')+tuple.join(' / ');result.append(line)}
+ const causes=lang==='ar'?found.possibleCausesAr:found.possibleCausesEn;
+ const checks=lang==='ar'?found.initialChecksAr:found.initialChecksEn;
+ const repairs=lang==='ar'?found.repairStepsAr:found.repairStepsEn;
+ const safety=lang==='ar'?found.safetyWarningsAr:found.safetyWarningsEn;
+ addFaultDetail(result,lang==='ar'?'الأسباب المحتملة':'Possible causes',causes);
+ addFaultDetail(result,lang==='ar'?'الفحوصات الأولية':'Initial checks',checks);
+ addFaultDetail(result,lang==='ar'?'خطوات الإصلاح':'Repair steps',repairs);
+ addFaultDetail(result,lang==='ar'?'تحذيرات السلامة':'Safety warnings',safety);
+ if(found.sourceTitle){const src=document.createElement('p');src.className='hint';src.textContent=(lang==='ar'?'المصدر: ':'Source: ')+found.sourceTitle+(found.sourcePage?(lang==='ar'?' — الصفحة ':' — page ')+found.sourcePage:'');result.append(src)}
+ const noteText=lang==='ar'?(found.applicabilityNoticeAr||''):(found.applicabilityNoticeEn||'');
+ if(noteText){const note=document.createElement('p');note.className='hint';note.textContent=noteText;result.append(note)}
+ if(found.sourceQuality){const quality=document.createElement('p');quality.className='hint';quality.textContent=(lang==='ar'?'تقييم المصدر: ':'Source quality: ')+found.sourceQuality;result.append(quality)}
+ if(found.referenceStatus==='source_transcription'||found.referenceStatus==='conditional_reference'){
+  const status=document.createElement('p');status.className='hint';
+  status.textContent=lang==='ar'?'تنبيه: هذا نقل مرجعي وليس إجراء إصلاح معتمداً من فولفو. لم تُوثّق في هذا السجل أسباب تفصيلية أو خطوات إصلاح خاصة بهذا الكود؛ لا تستنتجها من الوصف وحده.':'Notice: this is a transcribed reference, not a Volvo-approved repair procedure. This record does not document code-specific causes or repair steps; do not infer them from the description alone.';
+  result.append(status);
+ }
+ if(found.sourceUrl){const source=document.createElement('a');source.href=found.sourceUrl;source.target='_blank';source.rel='noopener noreferrer';source.textContent=lang==='ar'?'فتح مصدر المرجع':'Open reference source';result.append(source)}
+}
+$('searchFault').addEventListener('click',()=>{
+ const raw=$('faultCode').value.trim(),parsed=parseFaultInput(raw),result=$('faultResult');result.replaceChildren();
+ if(!parsed.normalized){result.textContent=dict[lang].empty;result.classList.add('empty');return}
+ const candidates=faultCodes.filter(x=>{
+  const stored=normalizeFaultCode(x.code),volvo=normalizeFaultCode(x.volvoCode);
+  const structured=[x.mid!=null?'MID'+x.mid:'',x.ppid!=null?'PPID'+x.ppid:'',x.pid!=null?'PID'+x.pid:'',x.sid!=null?'SID'+x.sid:'',x.fmi!=null?'FMI'+x.fmi:''].join('');
+  const tupleMatch=parsed.mid!=null&&parsed.fmi!=null&&(parsed.pid!=null||parsed.ppid!=null||parsed.sid!=null)
+   &&Number(x.mid)===parsed.mid&&Number(x.fmi)===parsed.fmi
+   &&((parsed.pid!=null&&Number(x.pid)===parsed.pid)||(parsed.ppid!=null&&Number(x.ppid)===parsed.ppid)||(parsed.sid!=null&&Number(x.sid)===parsed.sid));
+  return tupleMatch||stored===parsed.normalized||normalizeFaultCode(structured)===parsed.normalized||volvo===parsed.normalized;
+ });
+ candidates.sort((a,b)=>Number(b.mid!=null&&b.fmi!=null&&(b.pid!=null||b.ppid!=null||b.sid!=null))-Number(a.mid!=null&&a.fmi!=null&&(a.pid!=null||a.ppid!=null||a.sid!=null)));
+ const found=candidates[0];
+ if(!found){result.textContent=dict[lang].missing;result.classList.add('empty');return}
+ showFaultResult(found,result);
+});
 $('faultCode').addEventListener('keydown',e=>{if(e.key==='Enter')$('searchFault').click()});
 const KEY='wadKenanaMaintenanceRecordsV1';
 function getRecords(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch{return []}}
