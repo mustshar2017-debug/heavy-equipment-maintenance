@@ -2809,6 +2809,179 @@
       "sourceTitle": "Volvo EC160B–EC460B Service Manual Update — Oil pressure sensor (includes EC210B)",
       "sourceUrl": "https://www.scribd.com/document/657507683/Volvo-EC160B-180B-210B-240B-290B-360B-460B-Service-Manual-1",
       "sourcePage": "UPDATE — EC160B~460B، صفحة 18"
+    },
+    {
+      "mid": 128,
+      "pid": 94,
+      "titleEn": "Fuel feed pressure",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID94",
+      "sourceUrl": "https://de.scribd.com/document/450406239/MID-128-PID94-pdf",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2011-12-27",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع تشخيصي منشور يحدد ملف EC210B LC صراحةً. ليس بديلاً عن نسخة دليل الخدمة الرسمية المطابقة للرقم التسلسلي وتجهيز نظام الوقود.",
+      "applicabilityNoticeAr": "المرجع يحدد EC210B LC Volvo [GB] بتاريخ 27-12-2011. طابق رقم الهيكل وتجهيز نظام الوقود قبل تطبيق القياسات؛ لا تنقل حدود الجهد إلى موديل أو حساس مختلف دون مخطط مطابق.",
+      "applicabilityNoticeEn": "The source explicitly identifies the EC210B LC Volvo [GB] profile dated 27-Dec-2011. Verify machine serial number and fuel-system configuration before applying measurements; do not transfer voltage limits to a different model or sensor without the matching wiring diagram.",
+      "fmi": 1,
+      "code": "MID 128 PID 94 FMI 1",
+      "volvoCode": "ER49-01",
+      "titleAr": "انخفاض ضغط تغذية الوقود عن الحد الأدنى الثابت",
+      "descriptionAr": "وحدة التحكم تسجل ضغط تغذية الوقود أقل من الحد الأدنى الثابت المحدد.",
+      "descriptionEn": "The engine ECU registers fuel feed pressure below the static minimum value.",
+      "possibleCausesAr": [
+        "انسداد فلتر الوقود",
+        "انسداد خطوط تغذية الوقود",
+        "تلوث خزان الوقود أو الوقود نفسه",
+        "ضعف أو عطل مضخة تغذية الوقود",
+        "وجود هواء أو تسرب في نظام الوقود",
+        "خلل في حساس ضغط تغذية الوقود"
+      ],
+      "initialChecksAr": [
+        "افحص مستوى الوقود وحالة العينة بحثاً عن ماء أو شوائب.",
+        "افحص فلتر الوقود واستبدله إذا ثبت انسداده وفق خطة الصيانة.",
+        "افحص خطوط التغذية والوصلات بحثاً عن انسداد أو تسرب أو دخول هواء.",
+        "افحص ضغط مضخة التغذية بالطريقة والمواصفة الواردتين في دليل الخدمة.",
+        "افحص الحساس وموصله بعد التحقق من ضغط التغذية الفعلي."
+      ],
+      "repairStepsAr": [
+        "استخدم Guided Diagnostics وإجراء 3021 الخاص بـ MID 128 PID 94.",
+        "نظف الخزان وخطوط التغذية أو استبدل الفلتر عند ثبوت التلوث أو الانسداد.",
+        "أصلح التسربات ونفّذ تنفيس نظام الوقود وفق دليل المعدة.",
+        "لا تستبدل المضخة أو الحساس إلا بعد إثبات العطل بالقياس."
+      ],
+      "safetyWarningsAr": [
+        "أوقف المحرك عند ظهور تحذير أحمر مستمر أو توقفه أو ضعف شديد؛ لا تواصل التشغيل تحت الحمل.",
+        "لا تفك خطوط الوقود عالية الضغط والمحرك يعمل؛ اتبع إجراء تفريغ الضغط الخاص بالمحرك."
+      ]
+    },
+    {
+      "mid": 128,
+      "pid": 94,
+      "titleEn": "Fuel feed pressure",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID94",
+      "sourceUrl": "https://de.scribd.com/document/450406239/MID-128-PID94-pdf",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2011-12-27",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع تشخيصي منشور يحدد ملف EC210B LC صراحةً. ليس بديلاً عن نسخة دليل الخدمة الرسمية المطابقة للرقم التسلسلي وتجهيز نظام الوقود.",
+      "applicabilityNoticeAr": "المرجع يحدد EC210B LC Volvo [GB] بتاريخ 27-12-2011. طابق رقم الهيكل وتجهيز نظام الوقود قبل تطبيق القياسات؛ لا تنقل حدود الجهد إلى موديل أو حساس مختلف دون مخطط مطابق.",
+      "applicabilityNoticeEn": "The source explicitly identifies the EC210B LC Volvo [GB] profile dated 27-Dec-2011. Verify machine serial number and fuel-system configuration before applying measurements; do not transfer voltage limits to a different model or sensor without the matching wiring diagram.",
+      "fmi": 3,
+      "code": "MID 128 PID 94 FMI 3",
+      "volvoCode": "ER49-03",
+      "titleAr": "جهد مرتفع في دائرة حساس ضغط تغذية الوقود",
+      "descriptionAr": "تسجل وحدة التحكم جهداً أعلى من 4.75 فولت عند مدخل الحساس EB16.",
+      "descriptionEn": "The ECU registers voltage above 4.75 V at sensor input EB16.",
+      "diagnosticThresholdsAr": [
+        "حد الكشف الوارد في مرجع EC210B LC: أعلى من 4.75 فولت (EB16). يجب مطابقة رقم الطرف ومخطط الأسلاك قبل القياس."
+      ],
+      "possibleCausesAr": [
+        "قصر سلك الإشارة إلى جهد أعلى",
+        "قطع في سلك التأريض/الأرضي الخاص بالدائرة",
+        "حساس ضغط الوقود معيب"
+      ],
+      "initialChecksAr": [
+        "افحص موصل الحساس والأطراف بحثاً عن تآكل أو ارتخاء.",
+        "افحص ضفيرة الإشارة بحثاً عن قصر إلى جهد أعلى.",
+        "افحص استمرارية سلك التأريض وفق مخطط EC210B LC المطابق.",
+        "تحقق من سلامة الحساس بعد التأكد من الأسلاك والتغذية."
+      ],
+      "repairStepsAr": [
+        "نفّذ إجراء 3021 الخاص بـ MID 128 PID 94 في Guided Diagnostics.",
+        "أصلح القصر أو قطع التأريض إذا أثبت القياس وجوده؛ لا تستبدل الحساس بالتخمين."
+      ],
+      "safetyWarningsAr": [
+        "لا تستخدم قياس مقاومة على دائرة موصولة بالطاقة؛ اتبع تعليمات جهاز القياس ودليل الكهرباء."
+      ]
+    },
+    {
+      "mid": 128,
+      "pid": 94,
+      "titleEn": "Fuel feed pressure",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID94",
+      "sourceUrl": "https://de.scribd.com/document/450406239/MID-128-PID94-pdf",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2011-12-27",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع تشخيصي منشور يحدد ملف EC210B LC صراحةً. ليس بديلاً عن نسخة دليل الخدمة الرسمية المطابقة للرقم التسلسلي وتجهيز نظام الوقود.",
+      "applicabilityNoticeAr": "المرجع يحدد EC210B LC Volvo [GB] بتاريخ 27-12-2011. طابق رقم الهيكل وتجهيز نظام الوقود قبل تطبيق القياسات؛ لا تنقل حدود الجهد إلى موديل أو حساس مختلف دون مخطط مطابق.",
+      "applicabilityNoticeEn": "The source explicitly identifies the EC210B LC Volvo [GB] profile dated 27-Dec-2011. Verify machine serial number and fuel-system configuration before applying measurements; do not transfer voltage limits to a different model or sensor without the matching wiring diagram.",
+      "fmi": 5,
+      "code": "MID 128 PID 94 FMI 5",
+      "volvoCode": "ER49-05",
+      "titleAr": "جهد منخفض في دائرة حساس ضغط تغذية الوقود",
+      "descriptionAr": "تسجل وحدة التحكم جهداً أقل من 0.25 فولت عند مدخل الحساس EB16.",
+      "descriptionEn": "The ECU registers voltage below 0.25 V at sensor input EB16.",
+      "diagnosticThresholdsAr": [
+        "حد الكشف الوارد في مرجع EC210B LC: أقل من 0.25 فولت (EB16). يجب مطابقة رقم الطرف ومخطط الأسلاك قبل القياس."
+      ],
+      "possibleCausesAr": [
+        "قصر سلك الإشارة إلى جهد منخفض",
+        "قطع في سلك التغذية",
+        "قطع في سلك الإشارة",
+        "حساس ضغط الوقود معيب"
+      ],
+      "initialChecksAr": [
+        "افحص موصل الحساس وثبات الأطراف.",
+        "افحص تغذية الحساس وسلك الإشارة بحثاً عن قطع.",
+        "افحص سلك الإشارة بحثاً عن قصر إلى الأرضي وفق المخطط المطابق.",
+        "اختبر الحساس بعد التأكد من سلامة التغذية والضفيرة."
+      ],
+      "repairStepsAr": [
+        "نفّذ إجراء 3021 الخاص بـ MID 128 PID 94 في Guided Diagnostics.",
+        "أصلح القطع أو القصر الذي يثبته القياس؛ لا تستبدل الحساس قبل فحص الدائرة."
+      ],
+      "safetyWarningsAr": [
+        "لا تفك خطوط الوقود عالية الضغط أثناء التشغيل."
+      ]
+    },
+    {
+      "mid": 128,
+      "pid": 94,
+      "titleEn": "Fuel feed pressure",
+      "referenceStatus": "conditional_reference",
+      "sourceTitle": "Volvo Guided Diagnostics — EC210B LC, MID128 PID94",
+      "sourceUrl": "https://de.scribd.com/document/450406239/MID-128-PID94-pdf",
+      "sourcePage": "1–2",
+      "sourceDocumentDate": "2011-12-27",
+      "modelApplicability": "EC210B LC Volvo [GB]",
+      "sourceQuality": "مرجع تشخيصي منشور يحدد ملف EC210B LC صراحةً. ليس بديلاً عن نسخة دليل الخدمة الرسمية المطابقة للرقم التسلسلي وتجهيز نظام الوقود.",
+      "applicabilityNoticeAr": "المرجع يحدد EC210B LC Volvo [GB] بتاريخ 27-12-2011. طابق رقم الهيكل وتجهيز نظام الوقود قبل تطبيق القياسات؛ لا تنقل حدود الجهد إلى موديل أو حساس مختلف دون مخطط مطابق.",
+      "applicabilityNoticeEn": "The source explicitly identifies the EC210B LC Volvo [GB] profile dated 27-Dec-2011. Verify machine serial number and fuel-system configuration before applying measurements; do not transfer voltage limits to a different model or sensor without the matching wiring diagram.",
+      "fmi": 7,
+      "code": "MID 128 PID 94 FMI 7",
+      "volvoCode": "ER49-07",
+      "titleAr": "ضغط تغذية الوقود أقل من الحد الأدنى المرتبط بسرعة المحرك",
+      "descriptionAr": "تسجل وحدة التحكم ضغط تغذية أقل من الحد الأدنى المتغير حسب سرعة المحرك.",
+      "descriptionEn": "The ECU registers fuel feed pressure below the minimum value dependent on engine speed.",
+      "possibleCausesAr": [
+        "انسداد فلتر الوقود",
+        "انسداد خطوط تغذية الوقود",
+        "تلوث خزان الوقود أو الوقود",
+        "ضعف مضخة تغذية الوقود",
+        "وجود هواء أو تسرب في نظام الوقود",
+        "خلل في حساس ضغط التغذية"
+      ],
+      "initialChecksAr": [
+        "افحص فلتر الوقود وخطوط التغذية بحثاً عن انسداد.",
+        "افحص الوقود والخزان بحثاً عن شوائب أو ماء.",
+        "افحص وجود تسرب أو دخول هواء في خطوط التغذية.",
+        "قِس ضغط مضخة التغذية عند ظروف وسرعات الاختبار المحددة في دليل الخدمة.",
+        "قارن قراءة الحساس بالقياس الفعلي."
+      ],
+      "repairStepsAr": [
+        "استخدم Guided Diagnostics وإجراء 3021 الخاص بـ MID 128 PID 94.",
+        "نفّذ تنفيس نظام الوقود إذا ثبت دخول الهواء.",
+        "أصلح الانسداد أو التسرب، ثم أعد اختبار ضغط التغذية.",
+        "لا تستخدم قيمة ضغط عامة؛ الحد الأدنى يتغير حسب سرعة المحرك."
+      ],
+      "safetyWarningsAr": [
+        "أوقف المعدة إذا ظهرت رسالة تحذير حمراء مستمرة أو توقف المحرك.",
+        "لا تفك خطوط الضغط العالي والمحرك يعمل."
+      ]
     }
   ]
 }
