@@ -2669,6 +2669,146 @@
         "اتبع إجراء تشخيص MID 128 PID 175 لفحص الدائرة والحساس قبل استبدال أي جزء"
       ],
       "sourcePage": "مرجع EC210B، PID175"
+    },
+    {
+      "titleEn": "Engine oil pressure",
+      "referenceStatus": "conditional_reference",
+      "sourceDocumentDate": "2014-07-02",
+      "sourceQuality": "معلومات خدمة فولفو المنشورة عبر Scribd؛ يجب مطابقة النسخة مع دليل الخدمة الرسمي للمعدة قبل تنفيذ القياسات أو الإصلاح.",
+      "applicabilityNoticeAr": "مرجع تشخيصي لحفارات فولفو؛ طابق رقم الموديل والمحرك والرقم التسلسلي ومخطط التوصيلات قبل اعتماد القياسات. لا تعتبر وصف FMI وحده دليلاً على تلف الحساس.",
+      "applicabilityNoticeEn": "Volvo excavator diagnostic reference. Confirm exact model, engine, serial number, and wiring diagram before applying measurements or repairs.",
+      "mid": 128,
+      "pid": 100,
+      "fmi": 1,
+      "code": "MID 128 PID 100 FMI 1",
+      "volvoCode": "ER45-01",
+      "titleAr": "انخفاض ضغط زيت المحرك",
+      "descriptionAr": "وحدة تحكم المحرك تسجل ضغط زيت أقل من الحد المسموح. هذا عطل ضغط فعلي محتمل، وليس مجرد إثبات لخلل كهربائي في الحساس.",
+      "descriptionEn": "The engine ECU registers engine oil pressure below the permitted limit. This may indicate genuinely low pressure, not merely an electrical sensor fault.",
+      "possibleCausesAr": [
+        "انخفاض مستوى زيت المحرك",
+        "تلوث الزيت أو استخدام زيت غير مطابق للمواصفة",
+        "خلل في صمام تنظيم/تنفيس ضغط الزيت",
+        "تآكل أو ضعف مضخة الزيت",
+        "خلل في حساس ضغط الزيت أو دائرته"
+      ],
+      "initialChecksAr": [
+        "أوقف المحرك إذا ظهر تحذير ضغط الزيت الأحمر أو صوت غير طبيعي؛ لا تواصل التشغيل للتجربة.",
+        "تحقق من مستوى الزيت وحالته والتسربات الظاهرة.",
+        "إذا كان المستوى صحيحاً، قِس ضغط الزيت بمقياس ميكانيكي وبحسب مواصفة المحرك قبل اتهام الحساس.",
+        "افحص الحساس والموصلات بعد التأكد من الضغط الفعلي."
+      ],
+      "repairStepsAr": [
+        "عالج سبب انخفاض الضغط الذي يثبته الفحص؛ لا تستبدل الحساس لمجرد ظهور FMI 1.",
+        "إذا أكد المقياس انخفاض الضغط، افحص منظومة التزييت وصمام تنظيم الضغط ومضخة الزيت وفق دليل المحرك."
+      ],
+      "safetyWarningsAr": [
+        "انخفاض ضغط الزيت الحقيقي قد يسبب تلفاً سريعاً للمحرك؛ أوقف التشغيل حتى تحديد السبب."
+      ],
+      "sourceTitle": "Volvo EC210B LC Service Information — 128 PID100 / SE2203 (2014)",
+      "sourceUrl": "https://es.scribd.com/document/465788183/Hasil-peneletian",
+      "sourcePage": "128 PID100 — SE2203"
+    },
+    {
+      "titleEn": "Engine oil pressure",
+      "referenceStatus": "conditional_reference",
+      "sourceDocumentDate": "2014-07-02",
+      "sourceQuality": "معلومات خدمة فولفو المنشورة عبر Scribd؛ يجب مطابقة النسخة مع دليل الخدمة الرسمي للمعدة قبل تنفيذ القياسات أو الإصلاح.",
+      "applicabilityNoticeAr": "مرجع تشخيصي لحفارات فولفو؛ طابق رقم الموديل والمحرك والرقم التسلسلي ومخطط التوصيلات قبل اعتماد القياسات. لا تعتبر وصف FMI وحده دليلاً على تلف الحساس.",
+      "applicabilityNoticeEn": "Volvo excavator diagnostic reference. Confirm exact model, engine, serial number, and wiring diagram before applying measurements or repairs.",
+      "mid": 128,
+      "pid": 100,
+      "fmi": 2,
+      "code": "MID 128 PID 100 FMI 2",
+      "titleAr": "إشارة ضغط زيت المحرك متقطعة أو غير صحيحة",
+      "descriptionAr": "قراءة ضغط الزيت متقطعة أو غير منطقية. قد يكون السبب في الحساس أو الموصل أو ضفيرة الأسلاك؛ يلزم فحص الإشارة قبل استبدال أي جزء.",
+      "descriptionEn": "The engine oil pressure signal is intermittent or erratic. The sensor, connector, or wiring harness may be involved; verify the signal before replacing parts.",
+      "possibleCausesAr": [
+        "ارتخاء أو تآكل في موصل الحساس",
+        "قطع داخلي أو تماس متقطع في ضفيرة الأسلاك",
+        "خلل في حساس ضغط الزيت",
+        "تذبذب في التغذية أو التأريض"
+      ],
+      "initialChecksAr": [
+        "راقب قراءة ضغط الزيت عبر أداة التشخيص وتحقق هل تتغير بصورة غير منطقية.",
+        "افحص الموصل والضفيرة والتأريض بحثاً عن ارتخاء أو تآكل أو تلف ظاهر.",
+        "قارن القراءة بقياس ضغط ميكانيكي قبل اعتبار العطل ميكانيكياً أو كهربائياً."
+      ],
+      "repairStepsAr": [
+        "أصلح التوصيل أو الضفيرة إذا ثبت وجود خلل فيها.",
+        "استخدم اختبار مراقبة قيم الحساس VCADS Pro 28407-3 إذا كان متاحاً ومتوافقاً مع المعدة."
+      ],
+      "sourceTitle": "Volvo EC160B–EC460B Service Manual Update — Oil pressure sensor (includes EC210B)",
+      "sourceUrl": "https://www.scribd.com/document/657507683/Volvo-EC160B-180B-210B-240B-290B-360B-460B-Service-Manual-1",
+      "sourcePage": "UPDATE — EC160B~460B، صفحة 18"
+    },
+    {
+      "titleEn": "Engine oil pressure",
+      "referenceStatus": "conditional_reference",
+      "sourceDocumentDate": "2014-07-02",
+      "sourceQuality": "معلومات خدمة فولفو المنشورة عبر Scribd؛ يجب مطابقة النسخة مع دليل الخدمة الرسمي للمعدة قبل تنفيذ القياسات أو الإصلاح.",
+      "applicabilityNoticeAr": "مرجع تشخيصي لحفارات فولفو؛ طابق رقم الموديل والمحرك والرقم التسلسلي ومخطط التوصيلات قبل اعتماد القياسات. لا تعتبر وصف FMI وحده دليلاً على تلف الحساس.",
+      "applicabilityNoticeEn": "Volvo excavator diagnostic reference. Confirm exact model, engine, serial number, and wiring diagram before applying measurements or repairs.",
+      "mid": 128,
+      "pid": 100,
+      "fmi": 3,
+      "code": "MID 128 PID 100 FMI 3",
+      "volvoCode": "ER45-03",
+      "titleAr": "جهد مرتفع في دائرة حساس ضغط زيت المحرك",
+      "descriptionAr": "إشارة حساس ضغط الزيت أعلى من النطاق الطبيعي؛ يُشتبه في قطع بسلك الإشارة أو قصر إلى جهد أعلى أو خلل في التأريض أو الحساس.",
+      "descriptionEn": "The oil-pressure sensor signal is above its normal range; suspect an open signal circuit, short to a higher voltage, a ground fault, or a defective sensor.",
+      "possibleCausesAr": [
+        "قطع في سلك الإشارة أو قصره إلى جهد أعلى",
+        "مقاومة أو تلامس ضعيف في الموصلات",
+        "قطع في سلك التأريض",
+        "حساس ضغط الزيت معيب"
+      ],
+      "initialChecksAr": [
+        "افحص فيشة الحساس وأطرافها بحثاً عن تآكل أو ارتخاء.",
+        "افحص سلك الإشارة والتأريض بحثاً عن قطع أو قصر، وفق مخطط المعدة.",
+        "تحقق من تغذية الحساس 5 فولت باستخدام إجراء القياس المعتمد."
+      ],
+      "repairStepsAr": [
+        "أصلح القطع أو القصر أو ضعف التوصيل بعد تحديده بالقياس.",
+        "لا تستبدل الحساس إلا بعد التأكد من سلامة التغذية والأسلاك والتأريض."
+      ],
+      "sourceTitle": "Volvo EC160B–EC460B Service Manual Update — Oil pressure sensor (includes EC210B)",
+      "sourceUrl": "https://www.scribd.com/document/657507683/Volvo-EC160B-180B-210B-240B-290B-360B-460B-Service-Manual-1",
+      "sourcePage": "UPDATE — EC160B~460B، صفحة 18"
+    },
+    {
+      "titleEn": "Engine oil pressure",
+      "referenceStatus": "conditional_reference",
+      "sourceDocumentDate": "2014-07-02",
+      "sourceQuality": "معلومات خدمة فولفو المنشورة عبر Scribd؛ يجب مطابقة النسخة مع دليل الخدمة الرسمي للمعدة قبل تنفيذ القياسات أو الإصلاح.",
+      "applicabilityNoticeAr": "مرجع تشخيصي لحفارات فولفو؛ طابق رقم الموديل والمحرك والرقم التسلسلي ومخطط التوصيلات قبل اعتماد القياسات. لا تعتبر وصف FMI وحده دليلاً على تلف الحساس.",
+      "applicabilityNoticeEn": "Volvo excavator diagnostic reference. Confirm exact model, engine, serial number, and wiring diagram before applying measurements or repairs.",
+      "mid": 128,
+      "pid": 100,
+      "fmi": 4,
+      "code": "MID 128 PID 100 FMI 4",
+      "volvoCode": "ER45-04",
+      "titleAr": "جهد منخفض أو قصر إلى الأرضي في دائرة حساس ضغط زيت المحرك",
+      "descriptionAr": "إشارة الحساس منخفضة جداً؛ الاحتمالات تشمل فصل الحساس أو قطع تغذية 5 فولت أو قصر سلك الإشارة إلى الأرضي أو تلف الحساس.",
+      "descriptionEn": "The sensor signal is too low; possible causes include a disconnected sensor, an open 5 V supply, a signal short to ground, or a defective sensor.",
+      "possibleCausesAr": [
+        "الحساس غير موصل أو يوجد قطع في الدائرة",
+        "قطع في سلك تغذية 5 فولت",
+        "قصر سلك التغذية أو الإشارة إلى الأرضي",
+        "حساس ضغط الزيت معيب"
+      ],
+      "initialChecksAr": [
+        "تأكد من تثبيت فيشة الحساس وعدم وجود تآكل أو تلف في الأطراف.",
+        "افحص وجود تغذية 5 فولت والتأريض وفق مخطط التوصيلات الصحيح.",
+        "افحص سلك الإشارة بحثاً عن قصر إلى الأرضي أو قطع."
+      ],
+      "repairStepsAr": [
+        "أصلح الدائرة المفتوحة أو القصر أو الموصل التالف بعد تحديد موضعه.",
+        "أعد فحص قراءة الحساس بعد الإصلاح قبل استبدال الحساس."
+      ],
+      "sourceTitle": "Volvo EC160B–EC460B Service Manual Update — Oil pressure sensor (includes EC210B)",
+      "sourceUrl": "https://www.scribd.com/document/657507683/Volvo-EC160B-180B-210B-240B-290B-360B-460B-Service-Manual-1",
+      "sourcePage": "UPDATE — EC160B~460B، صفحة 18"
     }
   ]
 }
