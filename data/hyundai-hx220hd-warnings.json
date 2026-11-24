@@ -55,7 +55,9 @@
         "Stop the engine immediately if the warning appears while running."
       ],
       "severity": "critical",
-      "source": "operator_manual"
+      "source": "operator_manual",
+      "visualDescriptionAr": "رمز قطرة زيت داخل دائرة مع سهمين جانبيين؛ مرجع الرسم 21073CD07.",
+      "visualMatchStatus": "symbol_description_from_manual"
     },
     {
       "id": "air_cleaner",
@@ -83,7 +85,9 @@
         "Stop if heavy smoke, severe power loss or another accompanying critical warning occurs."
       ],
       "severity": "caution",
-      "source": "operator_manual"
+      "source": "operator_manual",
+      "visualDescriptionAr": "رمز مرشح/منظف هواء دائري مع خطوط تدفق وسهم؛ مرجع الرسم 21073CD08.",
+      "visualMatchStatus": "symbol_description_from_manual"
     },
     {
       "id": "battery_charge",
@@ -111,7 +115,9 @@
         "Stop if accompanied by burning smell, overheated wiring or an electrical failure affecting control."
       ],
       "severity": "warning",
-      "source": "operator_manual"
+      "source": "operator_manual",
+      "visualDescriptionAr": "رمز بطارية مستطيلة مع قطبي السالب والموجب؛ مرجع الرسم 21073CD13.",
+      "visualMatchStatus": "symbol_description_from_manual"
     },
     {
       "id": "overload",
@@ -139,7 +145,9 @@
         "Stop lifting immediately if the warning appears or machine stability is compromised."
       ],
       "severity": "warning",
-      "source": "operator_manual"
+      "source": "operator_manual",
+      "visualDescriptionAr": "رمز حمل/رفع يتضمن سهماً للأعلى وخطافاً؛ مرجع الرسم 21073CD15.",
+      "visualMatchStatus": "symbol_description_from_manual"
     },
     {
       "id": "engine_check",
@@ -167,7 +175,9 @@
         "Stop if accompanied by engine shutdown, loss of control or another red critical warning."
       ],
       "severity": "warning",
-      "source": "operator_manual"
+      "source": "operator_manual",
+      "visualDescriptionAr": "رمز فحص المحرك؛ يرتبط باتصال وحدة تحكم المعدة بوحدة تحكم المحرك، ومرجع الرسم 29073CD10.",
+      "visualMatchStatus": "symbol_description_from_manual"
     },
     {
       "id": "coolant_temperature",
@@ -196,7 +206,9 @@
       ],
       "severity": "critical",
       "source": "operator_manual",
-      "threshold": "105°C"
+      "threshold": "105°C",
+      "visualDescriptionAr": "تحذير ارتفاع حرارة سائل تبريد المحرك؛ يجب مطابقة رمز النسخة الفعلية قبل اعتماد شكل اللمبة.",
+      "visualMatchStatus": "needs_machine_photo_verification"
     },
     {
       "id": "hydraulic_oil_temperature",
@@ -225,7 +237,9 @@
       ],
       "severity": "critical",
       "source": "operator_manual",
-      "threshold": "105°C"
+      "threshold": "105°C",
+      "visualDescriptionAr": "تحذير ارتفاع حرارة الزيت الهيدروليكي؛ يجب مطابقة رمز النسخة الفعلية قبل اعتماد شكل اللمبة.",
+      "visualMatchStatus": "needs_machine_photo_verification"
     },
     {
       "id": "low_fuel",
@@ -254,7 +268,9 @@
       ],
       "severity": "caution",
       "source": "operator_manual",
-      "threshold": "31 L"
+      "threshold": "31 L",
+      "visualDescriptionAr": "تحذير انخفاض الوقود؛ يجب مطابقة رمز النسخة الفعلية قبل اعتماد شكل اللمبة.",
+      "visualMatchStatus": "needs_machine_photo_verification"
     },
     {
       "id": "cpu_controller",
@@ -282,7 +298,9 @@
         "Stop if control functions are affected or unexpected movement occurs."
       ],
       "severity": "warning",
-      "source": "operator_manual"
+      "source": "operator_manual",
+      "visualDescriptionAr": "مربع يحمل النص CPU CHECK؛ مرجع الرسم 21073CD10.",
+      "visualMatchStatus": "symbol_description_from_manual"
     },
     {
       "id": "gauge_abnormal",
@@ -310,7 +328,9 @@
         "Stop if the gauge concerns temperature, pressure or fuel and indicates a dangerous condition."
       ],
       "severity": "warning",
-      "source": "operator_manual"
+      "source": "operator_manual",
+      "visualDescriptionAr": "تحذير قراءة مؤشر غير طبيعية؛ شكل الرمز غير مثبت في الصورة المرجعية الحالية.",
+      "visualMatchStatus": "needs_machine_photo_verification"
     },
     {
       "id": "communication_error",
@@ -338,7 +358,14 @@
         "Stop if essential display information is lost or control functions are affected."
       ],
       "severity": "warning",
-      "source": "operator_manual"
+      "source": "operator_manual",
+      "visualDescriptionAr": "تحذير اتصال وحدة التحكم بالشاشة؛ شكل الرمز غير مثبت في الصورة المرجعية الحالية.",
+      "visualMatchStatus": "needs_machine_photo_verification"
     }
-  ]
+  ],
+  "visualRecognition": {
+    "status": "reference_catalog_prepared_template_images_pending",
+    "noteAr": "أوصاف الرموز مستخرجة من دليل التشغيل/النظام، لكنها ليست صور قوالب تدريب. لا يُصدر التطبيق تشخيصاً تلقائياً قبل توفير صور واضحة للرموز المضيئة من شاشة المعدة الفعلية والتحقق من مطابقتها لإصدار PIN.",
+    "noteEn": "Symbol descriptions are transcribed from the manuals, not trained image templates. No automatic diagnosis should be issued until clear illuminated-symbol photos from the actual machine display are collected and matched to the PIN-specific edition."
+  }
 }
