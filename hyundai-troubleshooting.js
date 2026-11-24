@@ -15,7 +15,7 @@ function render(){
  rows.forEach(p=>{
   const card=document.createElement('article');card.className='record';
   const title=document.createElement('strong');title.textContent=ar?p.nameAr:p.nameEn;
-  const meta=document.createElement('p');meta.className='hint';meta.textContent=(ar?'المجموعة: ':'Group: ')+(p.group==='electrical'?(ar?'النظام الكهربائي':'Electrical system'):(ar?'الميكاترونكس':'Mechatronics'))+' · '+(ar?'صفحة الدليل: ':'Manual page: ')+p.page;
+  const meta=document.createElement('p');meta.className='hint';meta.textContent=(ar?'المجموعة: ':'Group: ')+(({electrical:ar?'النظام الكهربائي':'Electrical system',mechatronics:ar?'الميكاترونكس':'Mechatronics',drive:ar?'نظام الدفع':'Drive system',hydraulic:ar?'النظام الهيدروليكي':'Hydraulic system',swing:ar?'نظام الدوران':'Swing system',travel:ar?'نظام السير':'Travel system',attachment:ar?'نظام الملحقات':'Attachment system'})[p.group]||p.group)+' · '+(ar?'صفحة الدليل: ':'Manual page: ')+p.page;
   const symptom=document.createElement('p');symptom.textContent=(ar?'العرض: ':'Symptom: ')+(ar?p.symptomAr:p.symptomEn);
   card.append(title,meta,symptom);
   const addList=(label,items)=>{if(!items?.length)return;const h=document.createElement('strong');h.textContent=label;const ul=document.createElement('ul');items.forEach(v=>{const li=document.createElement('li');li.textContent=v;ul.append(li)});card.append(h,ul)};
