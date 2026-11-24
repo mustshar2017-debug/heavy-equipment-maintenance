@@ -1,4 +1,4 @@
-const CACHE='wad-kenana-maintenance-v57';
+const CACHE='wad-kenana-maintenance-v58';
 const ASSETS=[
  './','./index.html','./assets/brand-logo.jpg','./styles.css','./app.js','./manifest.json',
  './data/equipment.json','./data/fault-codes.json','./data/parts.json',
