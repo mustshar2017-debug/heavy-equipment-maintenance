@@ -51,6 +51,47 @@ async function syncRecords(user){
  (data||[]).forEach(row=>{if(row.record&&!merged.has(String(row.local_id)))merged.set(String(row.local_id),row.record)});
  try{localStorage.setItem(RECORDS_KEY,JSON.stringify([...merged.values()]));window.dispatchEvent(new CustomEvent('wadkenana:records-synced'))}catch(e){console.warn('Could not update local maintenance records',e)}
 }
+
+async function syncProfile(user){
+ if(!user||!navigator.onLine)return;
+ const {data:existing,error:readError}=await client.from('profiles').select('id,full_name,phone,avatar_url').eq('id',user.id).maybeSingle();
+ if(readError){console.warn('Profile read failed',readError);return;}
+ const meta=user.user_metadata||{};
+ const profile={id:user.id,full_name:meta.full_name||meta.name||existing?.full_name||user.email?.split('@')[0]||'',phone:meta.phone||existing?.phone||null,avatar_url:meta.avatar_url||meta.picture||existing?.avatar_url||null,updated_at:new Date().toISOString()};
+ const {error}=await client.from('profiles').upsert(profile,{onConflict:'id'});
+ if(error)console.warn('Profile sync failed',error);
+}
+async function getMyEquipment(){
+ const {data,error}=await client.from('equipment').select('*').order('created_at',{ascending:false});
+ if(error)throw error;return data||[];
+}
+async function saveMyEquipment(item){
+ const {data:{user},error:authError}=await client.auth.getUser();
+ if(authError)throw authError;if(!user)throw Error('يجب تسجيل الدخول أولاً');
+ const row={user_id:user.id,manufacturer:String(item.manufacturer||''),model:String(item.model||''),serial_number:item.serial_number||null,pin_number:item.pin_number||null,equipment_name:item.equipment_name||null,year_of_manufacture:item.year_of_manufacture?Number(item.year_of_manufacture):null,notes:item.notes||null};
+ if(!row.manufacturer||!row.model)throw Error('الشركة المصنعة والموديل مطلوبان');
+ const {data,error}=await client.from('equipment').insert(row).select().single();if(error)throw error;return data;
+}
+async function deleteMyEquipment(id){
+ const {error}=await client.from('equipment').delete().eq('id',id);if(error)throw error;return true;
+}
+async function fetchCloudFaultCodes(){
+ const {data,error}=await client.from('fault_codes').select('manufacturer,model,fault_code,title,description,possible_causes,repair_steps,reference_image_url').limit(2000);
+ if(error)throw error;
+ return (data||[]).map(row=>({manufacturer:row.manufacturer,model:row.model,code:row.fault_code,titleAr:row.title,titleEn:row.title,descriptionAr:row.description,descriptionEn:row.description,possibleCausesAr:row.possible_causes,possibleCausesEn:row.possible_causes,repairStepsAr:row.repair_steps,repairStepsEn:row.repair_steps,referenceImageUrl:row.reference_image_url,sourceTitle:'Supabase fault_codes'}));
+}
+async function uploadEquipmentImage(file){
+ const {data:{user},error:authError}=await client.auth.getUser();
+ if(authError)throw authError;if(!user)throw Error('يجب تسجيل الدخول أولاً');
+ if(!file||!file.type?.startsWith('image/'))throw Error('الملف يجب أن يكون صورة');
+ const ext=(file.name.split('.').pop()||'jpg').toLowerCase().replace(/[^a-z0-9]/g,'')||'jpg';
+ const path=user.id+'/'+crypto.randomUUID()+'.'+ext;
+ const {error}=await client.storage.from('equipment-images').upload(path,file,{upsert:false,contentType:file.type});
+ if(error)throw error;
+ const {data}=client.storage.from('equipment-images').getPublicUrl(path);
+ return {path,url:data.publicUrl};
+}
+
 function addLogout(){
  if(document.getElementById('authLogout'))return;
  const header=document.querySelector('.topbar');if(!header)return;
@@ -59,7 +100,7 @@ function addLogout(){
  header.append(button);
 }
 async function applySession(session){
- if(session?.user){hide();addLogout();syncRecords(session.user);return;}
+ if(session?.user){hide();addLogout();syncProfile(session.user);syncRecords(session.user);return;}
  const old=document.getElementById('authLogout');if(old)old.remove();show();
 }
 gate.querySelector('#authLogin').addEventListener('click',async()=>{
@@ -87,5 +128,5 @@ client.auth.onAuthStateChange((_event,session)=>{applySession(session)});
 (async()=>{show();const {data,error}=await client.auth.getSession();if(error){msg('تعذر التحقق من الجلسة. تحقق من الاتصال ثم أعد المحاولة.');return;}await applySession(data.session)})();
 const originalSetItem=Storage.prototype.setItem;
 Storage.prototype.setItem=function(key,value){originalSetItem.call(this,key,value);if(key===RECORDS_KEY){client.auth.getSession().then(({data})=>{if(data.session)syncRecords(data.session.user)}).catch(()=>{})}};
-window.WadKenanaAuth={client,syncRecords};
+window.WadKenanaAuth={client,syncRecords,syncProfile,getMyEquipment,saveMyEquipment,deleteMyEquipment,fetchCloudFaultCodes,uploadEquipmentImage};
 })();
