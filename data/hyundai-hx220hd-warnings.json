@@ -364,9 +364,26 @@
     }
   ],
   "visualRecognition": {
-    "status": "panel-layout-confirmed_lit-symbol-samples-required",
-    "noteAr": "تم تأكيد تطابق شكل لوحة العدادات مع معدة المستخدم HX220HD موديل 2025. يلزم الآن جمع صور/فيديو للرموز وهي مضاءة فعلياً أثناء الفحص الذاتي عند فتح المفتاح، ثم قص كل رمز والتحقق منه قبل بناء قوالب التعرف الآلي. لا تُصدر تشخيصاً آلياً من صورة لوحة غير مضاءة.",
-    "noteEn": "Symbol descriptions are transcribed from the manuals, not trained image templates. No automatic diagnosis should be issued until clear illuminated-symbol photos from the actual machine display are collected and matched to the PIN-specific edition."
+    "status": "real_panel_photo_received_symbol_mapping_pending",
+    "noteAr": "وصلت صورة حقيقية للوحة HX220HD موديل 2025 وهي مضاءة. تصلح مرجعاً لتوزيع النوافذ والألوان، لكن دقة الصورة لا تكفي لتسمية كل رمز بأمان أو تدريب تصنيف بصري. يلزم تصوير قريب واضح للرموز ثم صورة بعد تشغيل المحرك للمقارنة.",
+    "noteEn": "Symbol descriptions are transcribed from the manuals, not trained image templates. No automatic diagnosis should be issued until clear illuminated-symbol photos from the actual machine display are collected and matched to the PIN-specific edition.",
+    "referenceSamples": [
+      {
+        "sampleId": "hx220hd-2025-dashboard-lamp-test-01",
+        "source": "user_uploaded_dashboard_photo",
+        "machine": "Hyundai HX220HD",
+        "year": 2025,
+        "panelMatch": "confirmed_by_user",
+        "captureState": "dashboard_on_multiple_indicator_lamps_illuminated",
+        "observed": "12 indicator windows are visible in two rows; several appear red and several amber; exact symbol-to-position mapping remains pending because the photo is not sharp enough for safe identification.",
+        "use": "visual layout reference only; not a fault training label and not evidence that all illuminated indicators represent active faults.",
+        "verificationNeeded": [
+          "sharp close-up of each indicator symbol",
+          "photo after engine start to distinguish normal start-up lamps from persistent warnings",
+          "PIN-specific operator manual confirmation"
+        ]
+      }
+    ]
   },
   "machineReference": {
     "displayPanelConfirmedByUser": true,
