@@ -1,4 +1,4 @@
-const CACHE='wad-kenana-maintenance-v49';
+const CACHE='wad-kenana-maintenance-v50';
 const ASSETS=[
  './','./index.html','./styles.css','./app.js','./manifest.json',
  './data/equipment.json','./data/fault-codes.json','./data/parts.json',
@@ -35,7 +35,7 @@ self.addEventListener('fetch',event=>{
    if(response&&response.ok)await cache.put(request,response.clone());
    return response;
   }catch(error){
-   const cached=await cache.match(request);
+   const cached=await cache.match(request,{ignoreSearch:true});
    if(cached)return cached;
    if(request.mode==='navigate'){
     const shell=await cache.match('./index.html');
