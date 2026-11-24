@@ -13,6 +13,24 @@
       "yearSource": "User-confirmed from the equipment data plate",
       "engine": null,
       "notes": "Model, PIN, and year recorded from the user's reading of the equipment data plate. Engine and technical specifications remain unverified and must be matched to exact manufacturer documentation."
+    },
+    {
+      "id": "hyundai-hx220s-plus-001",
+      "manufacturer": "Hyundai",
+      "model": "HX220S+",
+      "modelSource": "Read from the user's equipment data plate",
+      "category": "Crawler excavator",
+      "serialNumber": "HYNDE6M3TE0061782",
+      "serialNumberSource": "Product Identification Number (PIN) read from the equipment data plate; manufacturer database verification pending",
+      "year": null,
+      "yearSource": null,
+      "engine": null,
+      "enginePowerHP": 149,
+      "enginePowerKW": 104,
+      "ratedEngineRPM": 2000,
+      "operatingMassKg": 21700,
+      "manufacturingLocation": "Pune, India (as printed on the plate)",
+      "notes": "Recorded from the equipment data plate supplied by the user. Do not apply HX220HD troubleshooting procedures, service limits or specifications to this machine. Engine model, production year, and model-specific service documentation remain unverified; obtain the exact HX220S+ manual matched to PIN before adding diagnostic procedures or service values."
     }
   ]
 }
