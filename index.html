@@ -29,11 +29,19 @@
 <div class="panel warning-scanner">
  <h3 data-ar="التعرّف على لمبة التحذير بالكاميرا" data-en="Identify a warning lamp with the camera">التعرّف على لمبة التحذير بالكاميرا</h3>
  <p class="hint" data-ar="وجّه الكاميرا نحو لوحة التحذيرات. ستراقب الكاميرا الصورة مباشرة وتكشف الضوء الأحمر تلقائياً دون التقاط صورة." data-en="Point the camera at the warning panel. It continuously scans the live view and detects red warning lights without taking a photo.">وجّه الكاميرا نحو لوحة التحذيرات. ستراقب الكاميرا الصورة مباشرة وتكشف الضوء الأحمر تلقائياً دون التقاط صورة.</p>
- <button id="startWarningCamera" class="gold-btn full" type="button" data-ar="فتح الكاميرا ومسح اللمبة" data-en="Open camera and scan lamp">فتح الكاميرا ومسح اللمبة</button>
+ <button id="startWarningCamera" class="gold-btn full" type="button" data-ar="فتح خيارات الفحص" data-en="Open scan options">فتح خيارات الفحص</button>
+ <div id="warningScanMethodPanel" class="panel" hidden>
+  <p class="hint" data-ar="اختر طريقة فحص لمبة التحذير:" data-en="Choose how to inspect the warning lamp:">اختر طريقة فحص لمبة التحذير:</p>
+  <div class="search-row">
+   <button id="chooseLiveWarningScan" class="gold-btn" type="button"><span data-ar="مسح اللمبة" data-en="Scan lamp">مسح اللمبة</span></button>
+   <button id="chooseWarningGallery" class="outline" type="button"><span data-ar="فتح الصور" data-en="Open gallery">فتح الصور</span></button>
+  </div>
+  <input id="warningGalleryInput" type="file" accept="image/*" hidden>
+ </div>
  <div id="warningCameraPanel" hidden>
   <video id="warningCameraVideo" autoplay playsinline muted></video>
   <canvas id="warningCameraCanvas" hidden></canvas>
-  <div class="search-row"><button id="closeWarningCamera" class="outline" type="button" data-ar="إغلاق الكاميرا" data-en="Close camera">إغلاق الكاميرا</button></div>
+  <div class="search-row"><button id="closeWarningCamera" class="outline" type="button" data-ar="رجوع وإغلاق" data-en="Back and close">رجوع وإغلاق</button></div>
   <p id="warningScanStatus" class="hint" aria-live="polite"></p>
   <div id="warningScanChoices" class="warning-scan-choices"></div>
  </div>
