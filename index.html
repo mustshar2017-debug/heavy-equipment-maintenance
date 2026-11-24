@@ -28,12 +28,12 @@
 <section id="hyundaiWarnings" class="view"><div class="section-head"><div><p class="eyebrow" data-ar="التشخيص بالرموز واللمبات" data-en="SYMBOL & WARNING DIAGNOSTICS">التشخيص بالرموز واللمبات</p><h2 data-ar="تحذيرات Hyundai HX220HD" data-en="Hyundai HX220HD warnings">تحذيرات Hyundai HX220HD</h2></div></div><div class="panel"><div id="hyundaiWarningNotice" class="hint">تحميل مرجع التحذيرات...</div>
 <div class="panel warning-scanner">
  <h3 data-ar="التعرّف على لمبة التحذير بالكاميرا" data-en="Identify a warning lamp with the camera">التعرّف على لمبة التحذير بالكاميرا</h3>
- <p class="hint" data-ar="وجّه كاميرا الهاتف نحو اللمبة الحمراء ثم التقط صورة. يعمل المساعد دون إنترنت بعد تحميل قاعدة التحذيرات. إذا تعذرت مطابقة شكل الرمز تلقائياً، اختر الرمز الصحيح من القائمة للتأكد من التشخيص." data-en="Point the phone camera at the red warning lamp and capture it. The assistant works offline after the warning database is loaded. If the symbol cannot be matched automatically, choose the correct symbol from the list to confirm the diagnosis.">وجّه كاميرا الهاتف نحو اللمبة الحمراء ثم التقط صورة. يعمل المساعد دون إنترنت بعد تحميل قاعدة التحذيرات. إذا تعذرت مطابقة شكل الرمز تلقائياً، اختر الرمز الصحيح من القائمة للتأكد من التشخيص.</p>
+ <p class="hint" data-ar="وجّه الكاميرا نحو لوحة التحذيرات. ستراقب الكاميرا الصورة مباشرة وتكشف الضوء الأحمر تلقائياً دون التقاط صورة." data-en="Point the camera at the warning panel. It continuously scans the live view and detects red warning lights without taking a photo.">وجّه الكاميرا نحو لوحة التحذيرات. ستراقب الكاميرا الصورة مباشرة وتكشف الضوء الأحمر تلقائياً دون التقاط صورة.</p>
  <button id="startWarningCamera" class="gold-btn full" type="button" data-ar="فتح الكاميرا ومسح اللمبة" data-en="Open camera and scan lamp">فتح الكاميرا ومسح اللمبة</button>
  <div id="warningCameraPanel" hidden>
   <video id="warningCameraVideo" autoplay playsinline muted></video>
   <canvas id="warningCameraCanvas" hidden></canvas>
-  <div class="search-row"><button id="captureWarningFrame" class="gold-btn" type="button" data-ar="التقاط صورة اللمبة" data-en="Capture warning lamp">التقاط صورة اللمبة</button><button id="closeWarningCamera" class="outline" type="button" data-ar="إغلاق الكاميرا" data-en="Close camera">إغلاق الكاميرا</button></div>
+  <div class="search-row"><button id="closeWarningCamera" class="outline" type="button" data-ar="إغلاق الكاميرا" data-en="Close camera">إغلاق الكاميرا</button></div>
   <p id="warningScanStatus" class="hint" aria-live="polite"></p>
   <div id="warningScanChoices" class="warning-scan-choices"></div>
  </div>
