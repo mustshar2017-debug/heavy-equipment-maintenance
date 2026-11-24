@@ -9,37 +9,39 @@
 <header class="topbar"><div class="brand"><div class="mark">WK</div><div><strong data-ar="المستشار ود كنانة" data-en="Wad Kenana Consultant">المستشار ود كنانة</strong><small data-ar="صيانة المعدات الثقيلة" data-en="Heavy Equipment Maintenance">صيانة المعدات الثقيلة</small></div></div><button id="languageBtn" class="outline">EN</button></header>
 <main>
 <section class="hero"><p class="eyebrow" data-ar="منصة فنية متخصصة" data-en="SPECIALIZED TECHNICAL PLATFORM">منصة فنية متخصصة</p><h1 data-ar="صيانة أذكى، ومعدة أكثر جاهزية" data-en="Smarter maintenance. More uptime.">صيانة أذكى، ومعدة أكثر جاهزية</h1><p data-ar="ابحث عن المعدات وأكواد الأعطال، وسجّل أعمال الصيانة حتى دون اتصال بالإنترنت." data-en="Find equipment and fault codes, and record maintenance—even offline.">ابحث عن المعدات وأكواد الأعطال، وسجّل أعمال الصيانة حتى دون اتصال بالإنترنت.</p><div class="status"><span id="connectionDot"></span><span id="connectionText">جارٍ فحص الاتصال...</span><span class="divider">|</span><span id="databaseStatus" data-ar="تحميل قاعدة البيانات..." data-en="Loading database...">تحميل قاعدة البيانات...</span></div></section>
-<nav class="tabs"><button class="tab active" data-view="equipment" data-ar="الرئيسية" data-en="Home">الرئيسية</button><button class="tab" data-view="plates" data-ar="لوحات البيانات" data-en="Data plates">لوحات البيانات</button><button class="tab" data-view="faults" data-ar="بحث الأعطال" data-en="Fault lookup">بحث الأعطال</button><button class="tab" data-view="records" data-ar="سجل الصيانة" data-en="Maintenance log">سجل الصيانة</button><button class="tab" data-view="hydraulic" data-ar="تشخيص هيدروليكي" data-en="Hydraulic guide">تشخيص هيدروليكي</button><button class="tab" data-view="volvoCatalog" data-ar="كتالوج فولفو" data-en="Volvo catalog">كتالوج فولفو</button><button class="tab" data-view="hyundaiCatalog" data-ar="كتالوج هيونداي" data-en="Hyundai catalog">كتالوج هيونداي</button><button class="tab" data-view="hyundaiWarnings" data-ar="تحذيرات هيونداي" data-en="Hyundai warnings">تحذيرات هيونداي</button><button class="tab" data-view="hyundaiMaintenance" data-ar="معايير صيانة هيونداي" data-en="Hyundai maintenance standard">معايير صيانة هيونداي</button><button class="tab" data-view="warningCamera" data-ar="فحص بالكاميرا" data-en="Camera scan">فحص بالكاميرا</button></nav>
+<nav class="tabs" aria-label="التنقل الرئيسي"><button class="tab active" data-view="equipment" data-ar="الرئيسية" data-en="Home">الرئيسية</button></nav>
 <section id="equipment" class="view active">
 <div class="section-head"><div><p class="eyebrow" data-ar="بوابة الصيانة" data-en="MAINTENANCE HUB">بوابة الصيانة</p><h2 data-ar="اختر الشركة المصنّعة" data-en="Choose a manufacturer">اختر الشركة المصنّعة</h2></div></div>
-<div class="manufacturer-hub">
- <article class="manufacturer-card volvo-card">
-  <div class="manufacturer-brand"><span class="manufacturer-emblem">V</span><div><p class="eyebrow">VOLVO</p><h3 data-ar="قسم فولفو" data-en="Volvo section">قسم فولفو</h3></div></div>
-  <p class="manufacturer-description" data-ar="كتالوج الموديلات، لوحات البيانات، أكواد الأعطال، والتشخيص الهيدروليكي وسجل الصيانة." data-en="Model catalog, data plates, fault codes, hydraulic diagnostics and maintenance records.">كتالوج الموديلات، لوحات البيانات، أكواد الأعطال، والتشخيص الهيدروليكي وسجل الصيانة.</p>
-  <div class="manufacturer-actions">
-   <button class="hub-link primary" data-open-view="volvoCatalog" data-ar="كتالوج موديلات فولفو" data-en="Volvo model catalog">كتالوج موديلات فولفو</button>
-   <button class="hub-link" data-open-view="plates" data-ar="لوحات البيانات" data-en="Data plates">لوحات البيانات</button>
-   <button class="hub-link" data-open-view="faults" data-ar="بحث أكواد الأعطال" data-en="Fault code lookup">بحث أكواد الأعطال</button>
-   <button class="hub-link" data-open-view="hydraulic" data-ar="التشخيص الهيدروليكي" data-en="Hydraulic diagnostics">التشخيص الهيدروليكي</button>
-   <button class="hub-link" data-open-view="records" data-ar="سجل الصيانة" data-en="Maintenance log">سجل الصيانة</button>
-  </div>
- </article>
- <article class="manufacturer-card hyundai-card">
-  <div class="manufacturer-brand"><span class="manufacturer-emblem">H</span><div><p class="eyebrow">HYUNDAI</p><h3 data-ar="قسم هيونداي" data-en="Hyundai section">قسم هيونداي</h3></div></div>
-  <p class="manufacturer-description" data-ar="كتالوج الموديلات، تشخيص لمبات التحذير، دليل الأعطال، ومعايير الصيانة والفحص بالكاميرا." data-en="Model catalog, warning-lamp diagnostics, troubleshooting guide, maintenance standards and camera inspection.">كتالوج الموديلات، تشخيص لمبات التحذير، دليل الأعطال، ومعايير الصيانة والفحص بالكاميرا.</p>
-  <div class="manufacturer-actions">
-   <button class="hub-link primary" data-open-view="hyundaiCatalog" data-ar="كتالوج موديلات هيونداي" data-en="Hyundai model catalog">كتالوج موديلات هيونداي</button>
-   <button class="hub-link" data-open-view="hyundaiWarnings" data-ar="تشخيص التحذيرات" data-en="Warning diagnostics">تشخيص التحذيرات</button>
-   <button class="hub-link" data-open-view="hyundaiMaintenance" data-ar="معايير الصيانة" data-en="Maintenance standards">معايير الصيانة</button>
-   <button class="hub-link" data-open-view="warningCamera" data-ar="الفحص بالكاميرا" data-en="Camera inspection">الفحص بالكاميرا</button>
-  </div>
- </article>
+<div class="manufacturer-hub manufacturer-entry">
+ <button type="button" class="manufacturer-card volvo-card manufacturer-entry-button" data-open-view="volvoSection">
+  <span class="manufacturer-brand"><span class="manufacturer-emblem">V</span><span><span class="eyebrow">VOLVO</span><strong data-ar="قسم فولفو" data-en="Volvo section">قسم فولفو</strong></span></span>
+  <span class="manufacturer-description" data-ar="الدخول إلى أدوات وكتالوجات صيانة فولفو" data-en="Open Volvo maintenance tools and catalogs">الدخول إلى أدوات وكتالوجات صيانة فولفو</span>
+  <span class="manufacturer-enter" data-ar="فتح القسم ←" data-en="Open section →">فتح القسم ←</span>
+ </button>
+ <button type="button" class="manufacturer-card hyundai-card manufacturer-entry-button" data-open-view="hyundaiSection">
+  <span class="manufacturer-brand"><span class="manufacturer-emblem">H</span><span><span class="eyebrow">HYUNDAI</span><strong data-ar="قسم هيونداي" data-en="Hyundai section">قسم هيونداي</strong></span></span>
+  <span class="manufacturer-description" data-ar="الدخول إلى أدوات وكتالوجات صيانة هيونداي" data-en="Open Hyundai maintenance tools and catalogs">الدخول إلى أدوات وكتالوجات صيانة هيونداي</span>
+  <span class="manufacturer-enter" data-ar="فتح القسم ←" data-en="Open section →">فتح القسم ←</span>
+ </button>
 </div>
-<div class="section-head"><div><p class="eyebrow" data-ar="قاعدة المعدات" data-en="EQUIPMENT DATABASE">قاعدة المعدات</p><h2 data-ar="ابحث عن المعدة" data-en="Find equipment">ابحث عن المعدة</h2></div></div>
-<div class="panel"><label for="equipmentSearch" data-ar="الموديل أو الرقم التسلسلي" data-en="Model or serial number">الموديل أو الرقم التسلسلي</label><div class="search-row"><input id="equipmentSearch" placeholder="Volvo EC210BLC أو الرقم التسلسلي" autocomplete="off"><button id="searchEquipment" class="gold-btn" data-ar="بحث" data-en="Search">بحث</button></div><div id="equipmentList" class="equipment-list"><p class="hint">تحميل بيانات المعدات...</p></div></div>
-<div class="panel"><h3 data-ar="البيانات الفنية المرجعية" data-en="Technical reference data">البيانات الفنية المرجعية</h3><div id="technicalReference"><p class="hint">تحميل المواصفات المرجعية...</p></div></div>
-<div class="panel"><h3 data-ar="معلومات قاعدة البيانات" data-en="Database information">معلومات قاعدة البيانات</h3><p class="hint" data-ar="المعلومات الأولية للمعدة أُدخلت بناءً على بياناتك. لم تتم بعد مطابقة الرقم التسلسلي مع سجل الشركة المصنّعة." data-en="The initial machine details were entered from your information. The serial number has not yet been verified against the manufacturer's records.">المعلومات الأولية للمعدة أُدخلت بناءً على بياناتك. لم تتم بعد مطابقة الرقم التسلسلي مع سجل الشركة المصنّعة.</p></div>
 </section>
+<section id="volvoSection" class="view manufacturer-menu">
+<div class="section-head"><div><p class="eyebrow">VOLVO</p><h2 data-ar="قسم فولفو" data-en="Volvo section">قسم فولفو</h2></div><button class="outline" type="button" data-open-view="equipment" data-ar="رجوع للرئيسية" data-en="Back to home">رجوع للرئيسية</button></div>
+<div class="panel"><p class="hint" data-ar="اختر الخدمة المطلوبة من خدمات فولفو." data-en="Choose a Volvo service.">اختر الخدمة المطلوبة من خدمات فولفو.</p><div class="manufacturer-actions">
+<button class="hub-link" data-open-view="plates" data-ar="لوحات البيانات" data-en="Data plates">لوحات البيانات</button>
+<button class="hub-link" data-open-view="faults" data-ar="بحث الأعطال" data-en="Fault lookup">بحث الأعطال</button>
+<button class="hub-link" data-open-view="records" data-ar="سجل الصيانة" data-en="Maintenance log">سجل الصيانة</button>
+<button class="hub-link" data-open-view="hydraulic" data-ar="تشخيص هيدروليكي" data-en="Hydraulic diagnostics">تشخيص هيدروليكي</button>
+<button class="hub-link primary" data-open-view="volvoCatalog" data-ar="كتالوج فولفو" data-en="Volvo catalog">كتالوج فولفو</button>
+</div></div></section>
+<section id="hyundaiSection" class="view manufacturer-menu">
+<div class="section-head"><div><p class="eyebrow">HYUNDAI</p><h2 data-ar="قسم هيونداي" data-en="Hyundai section">قسم هيونداي</h2></div><button class="outline" type="button" data-open-view="equipment" data-ar="رجوع للرئيسية" data-en="Back to home">رجوع للرئيسية</button></div>
+<div class="panel"><p class="hint" data-ar="اختر الخدمة المطلوبة من خدمات هيونداي." data-en="Choose a Hyundai service.">اختر الخدمة المطلوبة من خدمات هيونداي.</p><div class="manufacturer-actions">
+<button class="hub-link primary" data-open-view="hyundaiCatalog" data-ar="كتالوج هيونداي" data-en="Hyundai catalog">كتالوج هيونداي</button>
+<button class="hub-link" data-open-view="hyundaiWarnings" data-ar="تحذيرات هيونداي" data-en="Hyundai warnings">تحذيرات هيونداي</button>
+<button class="hub-link" data-open-view="hyundaiMaintenance" data-ar="معايير صيانة هيونداي" data-en="Hyundai maintenance standards">معايير صيانة هيونداي</button>
+<button class="hub-link" data-open-view="warningCamera" data-ar="فحص بالكاميرا" data-en="Camera inspection">فحص بالكاميرا</button>
+</div></div></section>
 <section id="volvoCatalog" class="view">
 <div class="section-head"><div><p class="eyebrow" data-ar="فهرس الشركة المصنّعة" data-en="MANUFACTURER MODEL INDEX">فهرس الشركة المصنّعة</p><h2 data-ar="كتالوج موديلات فولفو" data-en="Volvo model catalog">كتالوج موديلات فولفو</h2></div></div>
 <div class="panel"><h3 data-ar="كتالوج موديلات فولفو" data-en="Volvo model catalog">كتالوج موديلات فولفو</h3><p class="hint" data-ar="فهرس موديلات من صفحات فولفو الرسمية، مع تمييز الموديلات المؤرشفة. التوفر والمواصفات يختلفان حسب السوق." data-en="Model index from official Volvo pages, including archived models. Availability and specifications vary by market.">فهرس موديلات من صفحات فولفو الرسمية، مع تمييز الموديلات المؤرشفة. التوفر والمواصفات يختلفان حسب السوق.</p><label for="volvoModelSearch" data-ar="ابحث عن موديل فولفو" data-en="Search Volvo models">ابحث عن موديل فولفو</label><div class="search-row"><input id="volvoModelSearch" placeholder="مثال: EC210B أو EC300" autocomplete="off"><button id="searchVolvoModel" class="gold-btn" data-ar="بحث" data-en="Search">بحث</button></div><div id="volvoModelList" class="equipment-list"><p class="hint">تحميل كتالوج الموديلات...</p></div></div>
