@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "titleAr": "دليل تشخيص Hyundai HX210HD / HX220HD",
+  "titleEn": "Hyundai HX210HD / HX220HD Troubleshooting Guide",
+  "machine": {
+    "manufacturer": "Hyundai",
+    "models": [
+      "HX210HD",
+      "HX220HD"
+    ],
+    "yearApplicability": "غير مثبت لسنة 2025 حتى مطابقة PIN وطبعة الدليل"
+  },
+  "source": {
+    "title": "Hyundai HX210HD/HX220HD Troubleshooting Manual",
+    "section": "Section 6 – Troubleshooting",
+    "pages": "6-1 إلى 6-54",
+    "uploadedFile": "hyundai-hx210hdhx220hd-troubleshooting-manual.pdf"
+  },
+  "noticeAr": "المحتوى التالي منقول ومنظم من دليل التشخيص المرفق. الدليل يغطي HX210HD/HX220HD لكنه لا يثبت وحده انطباق كل القياسات على حفار 2025؛ طابق رقم PIN وطبعة الدليل قبل القياس أو استبدال القطع. أرقام الصفحات المعروضة هي صفحات الدليل المطبوعة.",
+  "noticeEn": "Content is organized from the uploaded troubleshooting manual. Although it covers HX210HD/HX220HD, it does not by itself prove applicability of every value to a 2025 machine. Verify PIN and manual edition before measurements or parts replacement. Page numbers refer to printed manual pages.",
+  "procedures": [
+    {
+      "id": "monitor_blank",
+      "group": "electrical",
+      "nameAr": "شاشة لوحة العدادات لا تظهر عند تشغيل المفتاح",
+      "nameEn": "Monitor display does not appear when starting switch is ON",
+      "symptomAr": "الشاشة لا تعرض شيئاً بعد وضع مفتاح التشغيل على ON.",
+      "symptomEn": "The monitor panel remains blank after the starting switch is turned ON.",
+      "checksAr": [
+        "تحقق من الفيوز رقم 7 والموصلات ذات الصلة.",
+        "مع المفتاح ON، افحص جهد CN-5 (3)؛ المواصفة 20–32V.",
+        "افحص جهد CN-56 (1) إلى الشاسيه؛ المواصفة 20–32V."
+      ],
+      "checksEn": [
+        "Check fuse No.7 and related connectors.",
+        "With switch ON, check CN-5 (3): 20–32V.",
+        "Check CN-56 (1) to chassis: 20–32V."
+      ],
+      "causesAr": [
+        "انقطاع أو سوء تلامس في مسار CN-5 إلى CN-56 أو الفيوز 7.",
+        "خلل في شاشة Cluster."
+      ],
+      "causesEn": [
+        "Open circuit or poor contact between CN-5, CN-56 or fuse No.7.",
+        "Defective cluster."
+      ],
+      "remedyAr": [
+        "أصلح التوصيلات ونظف نقاط التلامس؛ استبدل الشاشة فقط بعد تأكيد الخلل."
+      ],
+      "remedyEn": [
+        "Repair wiring and clean contacts; replace the cluster only after confirming failure."
+      ],
+      "page": "6-24",
+      "pdfPage": 25
+    },
+    {
+      "id": "comm_error",
+      "group": "electrical",
+      "nameAr": "خطأ الاتصال Co : Er يومض على الشاشة",
+      "nameEn": "Communication error Co : Er flashes on cluster",
+      "symptomAr": "ظهور Co : Er على شاشة العدادات.",
+      "symptomEn": "Co : Er flashes on the cluster.",
+      "checksAr": [
+        "افحص الموصلات قبل القياس، وأطفئ مفتاح التشغيل قبل فصل أي موصل.",
+        "افحص خطوط الاتصال بين CN-56 وCN-5 ثم بين CN-5 وCN-50.",
+        "يذكر الدليل فحص جهود الإشارة عند CN-56 (3,4) وCN-5 (10,11)."
+      ],
+      "checksEn": [
+        "Check connectors first; turn the starting switch OFF before disconnecting any connector.",
+        "Inspect communication wiring between CN-56, CN-5 and CN-50.",
+        "The manual specifies signal-voltage checks at CN-56 (3,4) and CN-5 (10,11)."
+      ],
+      "causesAr": [
+        "خلل وحدة تحكم.",
+        "قطع أو سوء تلامس في أسلاك الاتصال."
+      ],
+      "causesEn": [
+        "Defective controller.",
+        "Open circuit or poor contact in communication wiring."
+      ],
+      "remedyAr": [
+        "إصلاح الضفيرة أو استبدال وحدة التحكم بعد استكمال فحوصات الدليل."
+      ],
+      "remedyEn": [
+        "Repair the harness or replace the controller only after completing the manual checks."
+      ],
+      "page": "6-25",
+      "pdfPage": 26
+    },
+    {
+      "id": "battery_charge",
+      "group": "electrical",
+      "nameAr": "لمبة تحذير شحن البطارية مضاءة",
+      "nameEn": "Battery charging warning lamp lights up",
+      "symptomAr": "إضاءة لمبة الشحن؛ يفحص الدليل دائرة الشحن مع المحرك يعمل.",
+      "symptomEn": "Charging warning lamp illuminates; the manual checks the charging circuit with engine running.",
+      "checksAr": [
+        "تحقق من الموصلات.",
+        "مع المحرك يعمل، افحص جهد طرف المولد I إلى الشاسيه؛ المواصفة 20–32V.",
+        "افحص مسار CN-2 (9) إلى CN-51 (9)."
+      ],
+      "checksEn": [
+        "Check related connectors.",
+        "With engine running, check alternator terminal I to chassis: 20–32V.",
+        "Check wiring path between CN-2 (9) and CN-51 (9)."
+      ],
+      "causesAr": [
+        "خلل المولد.",
+        "قطع أو سوء تلامس في الأسلاك.",
+        "خلل وحدة التحكم."
+      ],
+      "causesEn": [
+        "Defective alternator.",
+        "Open circuit or poor wiring contact.",
+        "Defective controller."
+      ],
+      "remedyAr": [
+        "إصلاح التوصيلات أو فحص/استبدال المولد أو وحدة التحكم وفق نتيجة الاختبارات."
+      ],
+      "remedyEn": [
+        "Repair wiring or inspect/replace alternator or controller according to test results."
+      ],
+      "page": "6-26",
+      "pdfPage": 27
+    },
+    {
+      "id": "coolant_overheat",
+      "group": "electrical",
+      "nameAr": "لمبة تحذير ارتفاع حرارة سائل التبريد",
+      "nameEn": "Coolant overheat warning lamp lights up",
+      "symptomAr": "إضاءة تحذير حرارة سائل التبريد أثناء تشغيل المحرك.",
+      "symptomEn": "Coolant overheat warning lamp illuminates with engine running.",
+      "checksAr": [
+        "أوقف المحرك واتركه يبرد قبل الفحص.",
+        "يقارن الدليل مقاومة حساس الحرارة عند CD-8 (1,2) بمواصفة 120–150Ω.",
+        "افحص دائرة الحساس والضفيرة وموصلات CN-51."
+      ],
+      "checksEn": [
+        "Stop the engine and allow it to cool before inspection.",
+        "The manual lists 120–150Ω for the temperature sender at CD-8 (1,2).",
+        "Inspect sender circuit, harness and CN-51 connectors."
+      ],
+      "causesAr": [
+        "ارتفاع حرارة التبريد الفعلية؛ يذكر الدليل 110°C ±2°C.",
+        "خلل حساس الحرارة أو قصر بالضفيرة أو خلل MCU."
+      ],
+      "causesEn": [
+        "Actual coolant overheat; the manual states 110°C ±2°C.",
+        "Defective temperature sender, harness short circuit or MCU fault."
+      ],
+      "remedyAr": [
+        "افحص نظام تبريد المحرك أولاً؛ أصلح الضفيرة أو استبدل الحساس/وحدة التحكم بعد التحقق."
+      ],
+      "remedyEn": [
+        "Check the engine cooling system first; repair wiring or replace sender/MCU only after verification."
+      ],
+      "page": "6-27",
+      "pdfPage": 28
+    },
+    {
+      "id": "air_cleaner_warning",
+      "group": "electrical",
+      "nameAr": "لمبة تحذير منظف الهواء مضاءة",
+      "nameEn": "Air cleaner warning lamp lights up",
+      "symptomAr": "إضاءة تحذير منظف الهواء أثناء تشغيل المحرك.",
+      "symptomEn": "Air cleaner warning lamp illuminates with engine running.",
+      "checksAr": [
+        "افحص عنصر فلتر الهواء ومفتاح الانسداد CD-10.",
+        "يفحص الدليل مقاومة CN-51 (16) إلى الشاسيه والمفتاح OFF.",
+        "لا تنظف الفلتر بطريقة غير منصوص عليها في دليل التشغيل."
+      ],
+      "checksEn": [
+        "Inspect the air filter element and restriction switch CD-10.",
+        "The manual checks resistance at CN-51 (16) to chassis with switch OFF.",
+        "Do not clean the filter by a method not specified in the operator manual."
+      ],
+      "causesAr": [
+        "فلتر هواء مسدود أو مفتاح معيب.",
+        "قصر في الضفيرة أو خلل MCU."
+      ],
+      "causesEn": [
+        "Clogged air filter or defective switch.",
+        "Harness short circuit or MCU fault."
+      ],
+      "remedyAr": [
+        "افحص الفلتر أو استبدل المفتاح، وأصلح الضفيرة إذا أثبت القياس وجود قصر."
+      ],
+      "remedyEn": [
+        "Check the filter or replace the switch; repair harness if testing confirms a short."
+      ],
+      "page": "6-28",
+      "pdfPage": 29
+    },
+    {
+      "id": "engine_oil_pressure",
+      "group": "electrical",
+      "nameAr": "لمبة تحذير ضغط زيت المحرك مضاءة",
+      "nameEn": "Engine oil pressure warning lamp lights up",
+      "symptomAr": "إضاءة تحذير ضغط الزيت والمحرك يعمل.",
+      "symptomEn": "Engine oil pressure warning lamp illuminates while engine is running.",
+      "checksAr": [
+        "أوقف المحرك فوراً عند ظهور التحذير أثناء التشغيل.",
+        "تحقق من مستوى الزيت وتسربه وفق دليل التشغيل.",
+        "يفحص الدليل مفتاح ضغط الزيت CD-18 ودائرة CN-51 (4)؛ لا تفصل الموصلات قبل إطفاء المفتاح."
+      ],
+      "checksEn": [
+        "Stop the engine immediately if the warning appears while running.",
+        "Check oil level and leaks according to the operator manual.",
+        "The manual checks oil-pressure switch CD-18 and CN-51 (4); switch OFF before disconnecting connectors."
+      ],
+      "causesAr": [
+        "انخفاض ضغط/مستوى الزيت أو تسرب زيت.",
+        "خلل مفتاح ضغط الزيت أو الضفيرة أو MCU."
+      ],
+      "causesEn": [
+        "Low oil pressure/level or oil leakage.",
+        "Defective oil-pressure switch, harness or MCU."
+      ],
+      "remedyAr": [
+        "لا تعاود التشغيل قبل تحديد سبب ضغط الزيت؛ أصلح دائرة المفتاح إذا ثبت الخلل الكهربائي."
+      ],
+      "remedyEn": [
+        "Do not restart until the oil-pressure cause is identified; repair switch circuit if an electrical fault is confirmed."
+      ],
+      "page": "6-29",
+      "pdfPage": 30
+    },
+    {
+      "id": "hydraulic_oil_temp",
+      "group": "electrical",
+      "nameAr": "لمبة تحذير حرارة الزيت الهيدروليكي مضاءة",
+      "nameEn": "Hydraulic oil temperature warning lamp lights up",
+      "symptomAr": "إضاءة تحذير حرارة الزيت الهيدروليكي أثناء تشغيل المحرك.",
+      "symptomEn": "Hydraulic oil temperature warning lamp illuminates with engine running.",
+      "checksAr": [
+        "تحقق من حرارة الزيت الفعلية؛ لا تكتفِ بفحص اللمبة.",
+        "يفحص الدليل حساس الحرارة CD-1 ومقاومته عند الموصل.",
+        "افحص الضفيرة وموصل CN-51 وفق تسلسل الدليل."
+      ],
+      "checksEn": [
+        "Verify actual hydraulic oil temperature; do not diagnose from the lamp alone.",
+        "The manual checks temperature sender CD-1 resistance at its connector.",
+        "Inspect harness and CN-51 following the manual procedure."
+      ],
+      "causesAr": [
+        "ارتفاع حرارة الزيت فعلياً.",
+        "خلل حساس الحرارة أو قصر بالضفيرة أو خلل MCU."
+      ],
+      "causesEn": [
+        "Actual hydraulic oil overtemperature.",
+        "Defective temperature sender, harness short circuit or MCU fault."
+      ],
+      "remedyAr": [
+        "إذا كانت الحرارة مرتفعة فعلياً، أوقف المعدة وافحص نظام التبريد الهيدروليكي. استبدل الحساس فقط بعد اختبار الدائرة."
+      ],
+      "remedyEn": [
+        "If temperature is genuinely high, stop and inspect the hydraulic cooling system. Replace the sender only after circuit testing."
+      ],
+      "page": "6-30",
+      "pdfPage": 31
+    },
+    {
+      "id": "fuel_gauge",
+      "group": "electrical",
+      "nameAr": "مؤشر الوقود لا يعمل",
+      "nameEn": "Fuel gauge does not operate",
+      "symptomAr": "مؤشر الوقود لا يتحرك أو قراءة غير صحيحة.",
+      "symptomEn": "Fuel gauge does not move or reads incorrectly.",
+      "checksAr": [
+        "افحص توصيلات حساس مستوى الوقود CD-2.",
+        "يقارن الدليل مقاومة الحساس بنطاقات جدول الصفحة.",
+        "افحص توصيلات CN-51 والعداد."
+      ],
+      "checksEn": [
+        "Inspect fuel sender CD-2 connections.",
+        "Compare sender resistance with the ranges in the manual table.",
+        "Inspect CN-51 wiring and cluster."
+      ],
+      "causesAr": [
+        "انقطاع أو سوء تلامس بالضفيرة.",
+        "خلل حساس الوقود أو MCU أو شاشة Cluster."
+      ],
+      "causesEn": [
+        "Open circuit or poor wiring contact.",
+        "Defective fuel sender, MCU or cluster."
+      ],
+      "remedyAr": [
+        "أصلح التوصيلات أو استبدل الجزء الذي أثبت الاختبار تعطله."
+      ],
+      "remedyEn": [
+        "Repair wiring or replace the component proven faulty by testing."
+      ],
+      "page": "6-32",
+      "pdfPage": 33
+    },
+    {
+      "id": "safety_solenoid",
+      "group": "electrical",
+      "nameAr": "صمام الأمان الكهربائي لا يعمل",
+      "nameEn": "Safety solenoid does not operate",
+      "symptomAr": "ذراع الأمان لا يفعّل/يفصل وظيفة الصمام كما ينبغي.",
+      "symptomEn": "Safety lever does not operate the safety solenoid as intended.",
+      "checksAr": [
+        "افحص الفيوز رقم 26 والموصلات.",
+        "افحص تشغيل الملف عند تحريك ذراع الأمان.",
+        "افحص الجهد في نقاط CN-4 وCS-4 حسب الدليل؛ المفتاح ON أثناء قياسات الجهد."
+      ],
+      "checksEn": [
+        "Check fuse No.26 and connectors.",
+        "Check solenoid operation while moving the safety lever.",
+        "Check voltage at CN-4 and CS-4 points as specified; switch ON for voltage tests."
+      ],
+      "causesAr": [
+        "خلل هيدروليكي.",
+        "ملف الصمام معيب أو خلل مفتاح ذراع الأمان أو الأسلاك."
+      ],
+      "causesEn": [
+        "Hydraulic malfunction.",
+        "Defective solenoid, safety-lever switch or wiring."
+      ],
+      "remedyAr": [
+        "افحص النظام الهيدروليكي إذا كانت الكهرباء سليمة؛ أصلح الضفيرة أو استبدل الملف/المفتاح بعد الاختبار."
+      ],
+      "remedyEn": [
+        "Check the hydraulic system if electrical checks pass; repair wiring or replace solenoid/switch after testing."
+      ],
+      "page": "6-34",
+      "pdfPage": 35
+    },
+    {
+      "id": "engine_no_start",
+      "group": "electrical",
+      "nameAr": "المحرك لا يبدأ التشغيل",
+      "nameEn": "Engine does not start",
+      "symptomAr": "المارش/دائرة بدء التشغيل لا تدير المحرك كما ينبغي.",
+      "symptomEn": "Starter circuit does not crank or start the engine as intended.",
+      "checksAr": [
+        "افحص حالة البطارية وجهدها؛ يذكر الدليل حداً أدنى 24V وكثافة نوعية 1.28.",
+        "افحص مرحل البدء والمغناطيس/السولونويد والجهود في دائرة البدء.",
+        "افحص الفيوزات والموصلات قبل استبدال أي جزء."
+      ],
+      "checksEn": [
+        "Check battery condition and voltage; the manual lists minimum 24V and specific gravity 1.28.",
+        "Check start relay, magnet/solenoid and voltages in the starting circuit.",
+        "Inspect fuses and connectors before replacing parts."
+      ],
+      "causesAr": [
+        "بطارية ضعيفة أو معيبة.",
+        "خلل مرحل البدء أو المغناطيس أو الضفيرة أو مفتاح التشغيل."
+      ],
+      "causesEn": [
+        "Weak or defective battery.",
+        "Faulty start relay, magnet, harness or start switch."
+      ],
+      "remedyAr": [
+        "اشحن أو استبدل البطارية بعد اختبارها؛ أصلح الدائرة أو استبدل الجزء الذي يثبت عطله."
+      ],
+      "remedyEn": [
+        "Charge or replace the battery after testing; repair the circuit or replace the proven faulty part."
+      ],
+      "page": "6-35",
+      "pdfPage": 36
+    },
+    {
+      "id": "headlamp",
+      "group": "electrical",
+      "nameAr": "المصباح الأمامي لا يضيء",
+      "nameEn": "Head lamp does not light",
+      "symptomAr": "المصباح الأمامي لا يعمل عند تشغيل مفتاحه.",
+      "symptomEn": "Head lamp does not illuminate when its switch is ON.",
+      "checksAr": [
+        "افحص الفيوز رقم 16.",
+        "مع مفتاح التشغيل والمصباح ON، افحص الجهد في CN-116 ومرحل CR-13.",
+        "تحقق من المصباح والمفتاح واستمرارية الأسلاك."
+      ],
+      "checksEn": [
+        "Check fuse No.16.",
+        "With start and head-lamp switches ON, check voltage at CN-116 and relay CR-13.",
+        "Check bulb, switch and wiring continuity."
+      ],
+      "causesAr": [
+        "مفتاح المصباح أو اللمبة معيبة.",
+        "انقطاع أو سوء تلامس في الضفيرة أو فيوز 16."
+      ],
+      "causesEn": [
+        "Defective lamp switch or bulb.",
+        "Open circuit, poor contact or fuse No.16."
+      ],
+      "remedyAr": [
+        "استبدل اللمبة/المفتاح أو أصلح الضفيرة بعد تحديد موضع العطل."
+      ],
+      "remedyEn": [
+        "Replace bulb/switch or repair harness after locating the fault."
+      ],
+      "page": "6-38",
+      "pdfPage": 39
+    },
+    {
+      "id": "worklamp",
+      "group": "electrical",
+      "nameAr": "مصباح العمل لا يضيء",
+      "nameEn": "Work lamp does not light",
+      "symptomAr": "مصباح العمل لا يعمل عند تشغيل مفتاحه.",
+      "symptomEn": "Work lamp does not illuminate when its switch is ON.",
+      "checksAr": [
+        "افحص الفيوز رقم 17.",
+        "افحص الجهد في CN-116 وCN-7 وموصل CL-5 وفق تسلسل الدليل.",
+        "تحقق من المصباح والمفتاح والضفيرة."
+      ],
+      "checksEn": [
+        "Check fuse No.17.",
+        "Check voltage at CN-116, CN-7 and CL-5 following the manual sequence.",
+        "Check bulb, switch and harness."
+      ],
+      "causesAr": [
+        "مفتاح أو لمبة معيبة.",
+        "انقطاع أو سوء تلامس بالأسلاك أو فيوز 17."
+      ],
+      "causesEn": [
+        "Defective switch or bulb.",
+        "Open circuit, poor contact or fuse No.17."
+      ],
+      "remedyAr": [
+        "أصلح الأسلاك أو استبدل الجزء الذي يثبت الاختبار تعطله."
+      ],
+      "remedyEn": [
+        "Repair wiring or replace the component proven faulty by testing."
+      ],
+      "page": "6-39",
+      "pdfPage": 40
+    },
+    {
+      "id": "actuator_slow",
+      "group": "mechatronics",
+      "nameAr": "سرعة جميع الحركات بطيئة",
+      "nameEn": "All actuators speed are slow",
+      "symptomAr": "البوم والذراع والجرافة والدوران والسير بطيئة مع سرعة محرك جيدة.",
+      "symptomEn": "Boom, arm, bucket, swing and travel are slow while engine speed is good.",
+      "checksAr": [
+        "تحقق أولاً من التوصيلات.",
+        "إذا ظهر Er:03، افحص تيار صمام EPPR؛ المواصفة 200–550mA (Test 3).",
+        "افحص مقاومة EPPR؛ 17.5±1Ω عند 20°C (Test 2).",
+        "يفحص ضغط EPPR وفق Test 4؛ المواصفة 5–20 kgf/cm²."
+      ],
+      "checksEn": [
+        "Check related connectors first.",
+        "If Er:03 appears, check EPPR current: 200–550mA (Test 3).",
+        "Check EPPR resistance: 17.5±1Ω at 20°C (Test 2).",
+        "Check EPPR pressure per Test 4: 5–20 kgf/cm²."
+      ],
+      "causesAr": [
+        "خلل بالنظام الهيدروليكي أو صمام EPPR أو وحدة MCU أو قصر/قطع بالأسلاك."
+      ],
+      "causesEn": [
+        "Hydraulic system fault, EPPR valve fault, MCU fault or wiring short/open circuit."
+      ],
+      "remedyAr": [
+        "اتبع اختبارات 2–4 بالترتيب قبل استبدال EPPR أو MCU؛ لا تضبط الضغط دون مواصفة خدمة مطابقة."
+      ],
+      "remedyEn": [
+        "Follow Tests 2–4 in sequence before replacing EPPR or MCU; do not adjust pressure without the applicable service specification."
+      ],
+      "page": "6-41 إلى 6-42",
+      "pdfPage": 41
+    },
+    {
+      "id": "engine_speed_slow",
+      "group": "mechatronics",
+      "nameAr": "سرعة المحرك بطيئة في جميع الأوضاع",
+      "nameEn": "Engine speed is slow at all modes",
+      "symptomAr": "سرعة المحرك أقل من المطلوب في أوضاع التشغيل.",
+      "symptomEn": "Engine speed is below expected in operating modes.",
+      "checksAr": [
+        "افحص كابل التحكم ومقاومته؛ يذكر الدليل 1–2Ω (Test 5).",
+        "افحص مقاومة حساس سرعة الدوران؛ 0.2–0.4kΩ (Tests 7 و8).",
+        "قارن سرعة الأوضاع: M 2100±100rpm وS 1900±100rpm كما ورد في الصفحة."
+      ],
+      "checksEn": [
+        "Check control cable resistance: 1–2Ω (Test 5).",
+        "Check tachometer sensor resistance: 0.2–0.4kΩ (Tests 7 and 8).",
+        "Compare mode speeds: M 2100±100rpm and S 1900±100rpm as listed on the page."
+      ],
+      "causesAr": [
+        "عدم محاذاة عجلة السرعة أو خلل حساس/مشغل التسارع أو الضفيرة."
+      ],
+      "causesEn": [
+        "Speed-wheel misalignment or faulty sensor/accel actuator/harness."
+      ],
+      "remedyAr": [
+        "نظف أو اضبط أو أصلح الجزء الذي يحدده الاختبار."
+      ],
+      "remedyEn": [
+        "Clean, adjust or repair the component identified by testing."
+      ],
+      "page": "6-43 إلى 6-45",
+      "pdfPage": 43
+    },
+    {
+      "id": "engine_stall",
+      "group": "mechatronics",
+      "nameAr": "توقف المحرك أثناء العمل",
+      "nameEn": "Engine stall",
+      "symptomAr": "المحرك يتوقف أثناء التشغيل.",
+      "symptomEn": "Engine stalls during operation.",
+      "checksAr": [
+        "افحص تيار EPPR: 200–550mA (Test 3).",
+        "افحص مقاومة EPPR: 17.5±1Ω عند 20°C (Test 2).",
+        "افحص ضغط EPPR: 5–20 kgf/cm² (Test 4)."
+      ],
+      "checksEn": [
+        "Check EPPR current: 200–550mA (Test 3).",
+        "Check EPPR resistance: 17.5±1Ω at 20°C (Test 2).",
+        "Check EPPR pressure: 5–20 kgf/cm² (Test 4)."
+      ],
+      "causesAr": [
+        "قدرة المحرك غير كافية؛ يوجه الدليل إلى وكيل Cummins.",
+        "خلل EPPR أو قصر/سوء اتصال في الأسلاك."
+      ],
+      "causesEn": [
+        "Insufficient engine power; the manual directs to a Cummins engine dealer.",
+        "EPPR fault or wiring short/poor connection."
+      ],
+      "remedyAr": [
+        "تحقق من قدرة المحرك ومن EPPR والضفيرة قبل الاستبدال."
+      ],
+      "remedyEn": [
+        "Verify engine power, EPPR and wiring before replacement."
+      ],
+      "page": "6-46",
+      "pdfPage": 46
+    },
+    {
+      "id": "cluster_mode",
+      "group": "mechatronics",
+      "nameAr": "خلل شاشة Cluster أو اختيار أوضاع التشغيل",
+      "nameEn": "Cluster or mode selection system malfunction",
+      "symptomAr": "خلل شاشة العدادات أو اختيار وضع التشغيل؛ قد يظهر Co:Er.",
+      "symptomEn": "Cluster or mode-selection malfunction; Co:Er may appear.",
+      "checksAr": [
+        "افحص تغذية وحدة MCU والفيوزات.",
+        "افحص اتصال خطوط الاتصال بين CN-50/CN-51 وCN-5 والمفتاح OFF عند فحص الاستمرارية."
+      ],
+      "checksEn": [
+        "Check MCU power supply and fuses.",
+        "Check communication wiring between CN-50/CN-51 and CN-5 with key OFF for continuity tests."
+      ],
+      "causesAr": [
+        "انقطاع تغذية MCU أو خلل MCU أو Cluster أو انقطاع اتصال."
+      ],
+      "causesEn": [
+        "Loss of MCU power, MCU/cluster failure or communication open circuit."
+      ],
+      "remedyAr": [
+        "أصلح التغذية أو الاتصال؛ استبدل الوحدة التي يثبت الاختبار تعطلها."
+      ],
+      "remedyEn": [
+        "Repair power or communication; replace only the unit proven faulty."
+      ],
+      "page": "6-48",
+      "pdfPage": 49
+    },
+    {
+      "id": "mode_change_slow",
+      "group": "mechatronics",
+      "nameAr": "بطء استجابة سرعة المحرك عند تغيير الوضع",
+      "nameEn": "Slow engine-speed change when changing mode",
+      "symptomAr": "تتأخر استجابة سرعة المحرك عند التبديل بين أوضاع التشغيل.",
+      "symptomEn": "Engine speed responds slowly when changing operating mode.",
+      "checksAr": [
+        "افحص عدم وجود تداخل ميكانيكي بين ذراع التوصيل ومشغل التسارع.",
+        "افحص مقاومة CN-50 (12)-(23): 1–2Ω (Test 11).",
+        "افحص مقاومة CN-51 (20)-(22): 0.1–0.9kΩ والجهد 5±1V (Test 12)."
+      ],
+      "checksEn": [
+        "Check for mechanical interference between linkage and accel actuator.",
+        "Check CN-50 (12)-(23): 1–2Ω (Test 11).",
+        "Check CN-51 (20)-(22): 0.1–0.9kΩ and voltage 5±1V (Test 12)."
+      ],
+      "causesAr": [
+        "تداخل ميكانيكي أو خلل MCU أو مشغل التسارع."
+      ],
+      "causesEn": [
+        "Mechanical interference or defective MCU/accel actuator."
+      ],
+      "remedyAr": [
+        "أزل التداخل وأكمل الاختبارات قبل استبدال المشغل أو MCU."
+      ],
+      "remedyEn": [
+        "Remove interference and complete tests before replacing actuator or MCU."
+      ],
+      "page": "6-49 إلى 6-51",
+      "pdfPage": 50
+    },
+    {
+      "id": "auto_decel",
+      "group": "mechatronics",
+      "nameAr": "نظام خفض سرعة المحرك التلقائي لا يعمل",
+      "nameEn": "Auto decel system does not work",
+      "symptomAr": "خاصية خفض سرعة المحرك تلقائياً لا تعمل.",
+      "symptomEn": "Automatic engine deceleration does not operate.",
+      "checksAr": [
+        "افحص جهد حساس ضغط العمل عند CN-51 (1) إلى الأرضي (Test 13).",
+        "افحص جهد حساس ضغط السير عند CN-51 (13) إلى الأرضي (Test 14).",
+        "يقارن الدليل بين 4–5V عند توقف المشغل و0–1V عند عمله."
+      ],
+      "checksEn": [
+        "Check work-pressure sensor voltage at CN-51 (1) to ground (Test 13).",
+        "Check travel-pressure sensor voltage at CN-51 (13) to ground (Test 14).",
+        "The manual compares 4–5V with actuator stopped and 0–1V while operating."
+      ],
+      "causesAr": [
+        "خلل MCU أو قصر/سوء اتصال أو حساس ضغط خربان."
+      ],
+      "causesEn": [
+        "MCU fault, short/poor connection or defective pressure switch."
+      ],
+      "remedyAr": [
+        "افحص الحساسين والضفيرة قبل استبدال MCU."
+      ],
+      "remedyEn": [
+        "Test both pressure switches and wiring before replacing the MCU."
+      ],
+      "page": "6-52 إلى 6-53",
+      "pdfPage": 53
+    },
+    {
+      "id": "warmup",
+      "group": "mechatronics",
+      "nameAr": "خلل نظام الإحماء",
+      "nameEn": "Warming-up system malfunction",
+      "symptomAr": "نظام الإحماء لا يعمل كما ينبغي.",
+      "symptomEn": "Warming-up system does not operate as intended.",
+      "checksAr": [
+        "افحص مقاومة الدائرة وفق الصفحة؛ المواصفة أقل من 10Ω ومفتاح التشغيل OFF.",
+        "افحص توصيلات حساس حرارة الماء CN-51/CN-2."
+      ],
+      "checksEn": [
+        "Check circuit resistance as shown; specification below 10Ω with starting switch OFF.",
+        "Inspect water-temperature sender wiring at CN-51/CN-2."
+      ],
+      "causesAr": [
+        "خلل Cluster أو MCU أو حساس CD-8 أو سوء اتصال."
+      ],
+      "causesEn": [
+        "Defective cluster, MCU, CD-8 sender or poor connection."
+      ],
+      "remedyAr": [
+        "أصلح نقاط الاتصال أو استبدل الجزء الذي تثبت الاختبارات تعطله."
+      ],
+      "remedyEn": [
+        "Repair connections or replace the component proven faulty by testing."
+      ],
+      "page": "6-54",
+      "pdfPage": 55
+    }
+  ]
+}
