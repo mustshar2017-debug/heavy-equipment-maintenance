@@ -198,11 +198,11 @@ async function processVolvoPlateImage(event){
   if(!window.Tesseract){await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js';script.onload=resolve;script.onerror=()=>reject(Error('OCR library unavailable'));document.head.append(script)})}
   status.textContent=lang==='ar'?'جارٍ قراءة دباجة فولفو…':'Reading Volvo data plate…';
   const result=await window.Tesseract.recognize(file,'eng',{logger:m=>{if(m.status==='recognizing text')status.textContent=(lang==='ar'?'قراءة النص: ':'Recognizing text: ')+Math.round((m.progress||0)*100)+'%'}});
-  const textValue=String(result.data.text||'').toUpperCase().replace(/\\s+/g,' ');
-  const modelMatch=textValue.match(/\\b(?:EC|EW|L|A)\\s?-?\\d{2,4}[A-Z0-9.-]*\\b/i);
-  const serialMatches=textValue.match(/\\b[A-Z0-9]{12,20}\\b/g)||[];
-  const serialMatch=serialMatches.find(v=>/[A-Z]/.test(v)&&/\\d/.test(v));
-  const query=modelMatch?.[0]?.replace(/\\s+/g,'')||serialMatch||'';
+  const textValue=String(result.data.text||'').toUpperCase().replace(/\s+/g,' ');
+  const modelMatch=textValue.match(/\b(?:EC|EW|L|A)\s?-?\d{2,4}[A-Z0-9.-]*\b/i);
+  const serialMatches=textValue.match(/\b[A-Z0-9]{12,20}\b/g)||[];
+  const serialMatch=serialMatches.find(v=>/[A-Z]/.test(v)&&/\d/.test(v));
+  const query=modelMatch?.[0]?.replace(/\s+/g,'')||serialMatch||'';
   if(query){$('equipmentSearch').value=query;renderEquipment(query,'Volvo');$('equipmentList').scrollIntoView({behavior:'smooth',block:'nearest'});status.textContent=(lang==='ar'?'تمت قراءة: ':'Read: ')+query+(modelMatch&&serialMatch?' · '+serialMatch:'')+(lang==='ar'?' — راجع النص ثم اضغط بحث.':' — verify the text, then press Search.')}
   else status.textContent=lang==='ar'?'لم أتمكن من استخراج موديل أو رقم تسلسلي واضح. حسّن الإضاءة وصوّر الدباجة بشكل مستقيم، أو اكتب البيانات يدوياً.':'Could not extract a clear model or serial number. Improve lighting, photograph the plate straight-on, or enter the details manually.';
  }catch(error){console.warn('Volvo plate OCR failed:',error);status.textContent=lang==='ar'?'تعذرت القراءة الآلية حالياً. يمكنك كتابة الموديل أو الرقم التسلسلي يدوياً والبحث.':'Automatic reading is unavailable. Enter the model or serial number manually.'}
