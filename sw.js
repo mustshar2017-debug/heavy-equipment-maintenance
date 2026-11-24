@@ -1,9 +1,9 @@
-const CACHE='wad-kenana-maintenance-v42';
+const CACHE='wad-kenana-maintenance-v43';
 const ASSETS=[
  './','./index.html','./styles.css','./app.js','./manifest.json',
  './data/equipment.json','./data/fault-codes.json','./data/parts.json',
  './data/maintenance-plans.json','./data/volvo-ec210b-reference.json',
- './data/volvo-data-plates.json','./data/volvo-model-catalog.json','./data/hyundai-model-catalog.json','./data/hyundai-hx220hd-warnings.json','./data/hyundai-hx220hd-maintenance-standard.json',
+ './data/volvo-data-plates.json','./data/volvo-model-catalog.json','./data/hyundai-model-catalog.json','./data/hyundai-hx220hd-warnings.json','./assets/warning-symbols/21073CD07.svg','./data/hyundai-hx220hd-maintenance-standard.json',
  './data/hydraulic-diagnostics.json','./data/hyundai-hx220hd-troubleshooting.json','./hyundai-troubleshooting.js','./data/volvo-sinocmp-2022.json'
 ];
 self.addEventListener('install',event=>{
