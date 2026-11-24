@@ -1500,6 +1500,44 @@
       ],
       "page": "6-22",
       "pdfPage": 23
+    },
+    {
+      "id": "boom_cylinder_internal_leak_test",
+      "group": "attachment",
+      "nameAr": "طريقة فحص التسريب الداخلي لأسطوانة البوم",
+      "nameEn": "How to check internal boom-cylinder leakage",
+      "symptomAr": "يُستخدم هذا الإجراء عندما يهبط البوم أو يُشتبه في وجود تسريب داخلي بالأسطوانة أو صمام التحكم.",
+      "symptomEn": "Use this procedure when boom drift occurs or internal leakage in the cylinder/control valve is suspected.",
+      "checksAr": [
+        "1) اخفض أسنان البكت إلى الأرض، واجعل أسطوانة البكت مرتدة بالكامل، وقضيب أسطوانة الذراع مرتداً إلى قرب النهاية.",
+        "2) افصل الخرطوم (A) من جهة قضيب أسطوانة البوم، وصَرّف الزيت من الأسطوانة والخرطوم، وضع أوعية تجميع على أطراف الأنابيب والخراطيم.",
+        "3) ارفع البكت عن الأرض بإرجاع قضيب أسطوانة الذراع.",
+        "4) راقب جهة الأنابيب مع ملاحظة وضع قضيب أسطوانة البوم."
+      ],
+      "checksEn": [
+        "1) Lower bucket teeth to the ground with bucket cylinder fully retracted and arm-cylinder rod almost fully retracted.",
+        "2) Disconnect hose (A) from the rod side of the boom cylinder and drain oil from the cylinder and hose; place cups on piping and hose ends.",
+        "3) Raise the bucket OFF the ground by retracting the arm-cylinder rod.",
+        "4) Observe the piping side while checking the boom-cylinder rod position."
+      ],
+      "causesAr": [
+        "إذا خرج الزيت من جهة الأنابيب وانسحب قضيب أسطوانة البوم: تسريب داخلي في الأسطوانة.",
+        "إذا لم يخرج الزيت من جهة الأنابيب وانسحب قضيب أسطوانة البوم: التسريب الداخلي في صمام التحكم."
+      ],
+      "causesEn": [
+        "If oil leaks from the piping side and the boom-cylinder rod retracts: internal leakage in the cylinder.",
+        "If no oil leaks from the piping side and the boom-cylinder rod retracts: internal leakage in the control valve."
+      ],
+      "remedyAr": [
+        "هذه خطوة عزل تشخيصية وليست إصلاحاً بحد ذاتها؛ بعد تحديد المصدر يُصلح الجزء المتسبب بالتسريب.",
+        "تنفيذ الإجراء يتطلب فني هيدروليك مؤهلاً، تأمين المعدة والملحق، واتباع احتياطات تفريغ الضغط وتجميع الزيت."
+      ],
+      "remedyEn": [
+        "This is an isolation test, not a repair by itself; repair the component identified as the leakage source.",
+        "This procedure requires a qualified hydraulic technician, secure machine/attachment, and proper pressure-release and oil-containment precautions."
+      ],
+      "page": "6-23",
+      "pdfPage": 24
     }
   ]
 }
