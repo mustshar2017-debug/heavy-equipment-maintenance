@@ -1,4 +1,5 @@
 name: Deploy Supabase test preview to Netlify
+# Preview deployment is isolated from the production GitHub Pages workflow.
 
 on:
   push:
