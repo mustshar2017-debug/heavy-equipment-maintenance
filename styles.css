@@ -11,3 +11,20 @@
 .warning-scan-choices>strong{grid-column:1/-1;color:var(--gold2);font-size:13px}
 .warning-choice{background:var(--surface2);color:var(--text);border:1px solid var(--line);border-radius:9px;padding:11px;text-align:start;cursor:pointer}
 .warning-choice:active{border-color:var(--gold)}
+
+/* Manufacturer-first home screen */
+.manufacturer-hub{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:0 0 22px}
+.manufacturer-card{min-width:0;padding:20px;border:1px solid var(--line);border-radius:17px;background:linear-gradient(145deg,#202229,#17191e);box-shadow:0 12px 30px #0003}
+.manufacturer-card.volvo-card{border-top:3px solid #75a9c8}
+.manufacturer-card.hyundai-card{border-top:3px solid var(--gold)}
+.manufacturer-brand{display:flex;align-items:center;gap:13px}
+.manufacturer-emblem{width:48px;height:48px;flex:0 0 48px;display:grid;place-items:center;border:1px solid var(--gold);border-radius:14px;color:var(--gold2);font-size:23px;font-weight:800;background:#30291c}
+.volvo-card .manufacturer-emblem{border-color:#75a9c8;color:#b9d9eb;background:#1c2a33}
+.manufacturer-brand .eyebrow{margin:0 0 2px}
+.manufacturer-brand h3{margin:0;font-size:20px}
+.manufacturer-description{min-height:54px;color:#bdb9b0;font-size:12px;line-height:1.9;margin:15px 0}
+.manufacturer-actions{display:grid;grid-template-columns:1fr;gap:8px}
+.hub-link{width:100%;padding:10px 12px;text-align:start;border:1px solid #41434a;border-radius:9px;background:#15171c;color:var(--text);font:inherit;font-size:12px;font-weight:700;cursor:pointer}
+.hub-link.primary{border-color:#8f733d;background:#332b1c;color:var(--gold2)}
+.hub-link:active{transform:scale(.99);border-color:var(--gold)}
+@media(max-width:650px){.manufacturer-hub{grid-template-columns:1fr;gap:12px}.manufacturer-description{min-height:0}.manufacturer-card{padding:17px}}
