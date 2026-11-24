@@ -1,1 +1,20 @@
-{"name":"المستشار ود كنانة لصيانة المعدات الثقيلة","short_name":"صيانة المعدات","description":"قاعدة بيانات المعدات والأعطال وسجل الصيانة","start_url":"./","scope":"./","display":"standalone","background_color":"#101114","theme_color":"#101114","lang":"ar","dir":"rtl"}
+{
+  "name": "المستشار ود كنانة لصيانة المعدات الثقيلة",
+  "short_name": "المستشار ود كنانة",
+  "description": "قاعدة بيانات المعدات والأعطال وسجل الصيانة",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#101114",
+  "theme_color": "#101114",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "./assets/brand-logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
