@@ -16,8 +16,8 @@
     "pages": "6-1 إلى 6-54",
     "uploadedFile": "hyundai-hx210hdhx220hd-troubleshooting-manual.pdf"
   },
-  "noticeAr": "المحتوى التالي منقول ومنظم من دليل التشخيص المرفق. الدليل يغطي HX210HD/HX220HD لكنه لا يثبت وحده انطباق كل القياسات على حفار 2025؛ طابق رقم PIN وطبعة الدليل قبل القياس أو استبدال القطع. أرقام الصفحات المعروضة هي صفحات الدليل المطبوعة.",
-  "noticeEn": "Content is organized from the uploaded troubleshooting manual. Although it covers HX210HD/HX220HD, it does not by itself prove applicability of every value to a 2025 machine. Verify PIN and manual edition before measurements or parts replacement. Page numbers refer to printed manual pages.",
+  "noticeAr": "المحتوى التالي منقول ومنظم من دليل التشخيص المرفق. الدليل يغطي HX210HD/HX220HD لكنه لا يثبت وحده انطباق كل القياسات على حفار 2025؛ طابق رقم PIN وطبعة الدليل قبل القياس أو استبدال القطع. أرقام الصفحات المعروضة هي صفحات الدليل المطبوعة. يتضمن الآن أيضاً مجموعة النظام الهيدروليكي والميكانيكي: الدفع، الهيدروليك، الدوران، السير، والملحقات. تُجرى اختبارات الضغط والتصريف وفك الصمامات بواسطة فني مؤهل وباستخدام مواصفات الموديل المطابقة.",
+  "noticeEn": "Content is organized from the uploaded troubleshooting manual. Although it covers HX210HD/HX220HD, it does not by itself prove applicability of every value to a 2025 machine. Verify PIN and manual edition before measurements or parts replacement. Page numbers refer to printed manual pages. The hydraulic and mechanical group is also included: drive, hydraulics, swing, travel and attachments. Pressure/drain tests and valve disassembly must be performed by a qualified technician using matching model specifications.",
   "procedures": [
     {
       "id": "monitor_blank",
@@ -652,6 +652,854 @@
       ],
       "page": "6-54",
       "pdfPage": 55
+    },
+    {
+      "id": "pump_connection_noise",
+      "group": "drive",
+      "nameAr": "صوت غير طبيعي عند وصلة المضخة",
+      "nameEn": "Unusual noise from pump connection",
+      "symptomAr": "صوت غير طبيعي قرب وصلة المضخة والمحرك.",
+      "symptomEn": "Abnormal noise near the engine-to-pump connection.",
+      "checksAr": [
+        "أزل سدادة الغبار أسفل دولاب الموازنة وافحص وجود قطع مطاط أو فتات.",
+        "افحص أسنان محور وصلة المضخة ومسمار تثبيت الهَب."
+      ],
+      "checksEn": [
+        "Remove the dust plug under the engine flywheel and check for rubber pieces or particles.",
+        "Inspect pump coupling hub splines and hub fastening set-screw."
+      ],
+      "causesAr": [
+        "عنصر الوصلة المطاطي مكسور.",
+        "تآكل أسنان الهَب أو ارتخاء مسمار التثبيت."
+      ],
+      "causesEn": [
+        "Broken coupling element.",
+        "Worn hub splines or loose fastening set-screw."
+      ],
+      "remedyAr": [
+        "فك الوصلة وإصلاحها؛ استبدل الهَب أو أحكم مسمار التثبيت حسب نتيجة الفحص."
+      ],
+      "remedyEn": [
+        "Disassemble and repair coupling; replace hub or retighten set-screw as indicated."
+      ],
+      "page": "6-5",
+      "pdfPage": 6
+    },
+    {
+      "id": "engine_starts_machine_no_motion",
+      "group": "drive",
+      "nameAr": "المحرك يعمل لكن المعدة لا تتحرك",
+      "nameEn": "Engine starts but machine does not operate",
+      "symptomAr": "المحرك يبدأ لكن لا توجد حركة للمعدة أو الملحقات.",
+      "symptomEn": "Engine starts but the machine and attachments do not operate.",
+      "checksAr": [
+        "تحقق من مستوى زيت الهيدروليك في الخزان.",
+        "استمع لأي صوت غير طبيعي من المضخة أو وصلة المضخة.",
+        "تحقق من ضغط البايلوت الأساسي وخطوط البايلوت من انسداد أو تسرب.",
+        "تحقق من خروج الزيت من مضخة التروس."
+      ],
+      "checksEn": [
+        "Check hydraulic tank oil level.",
+        "Listen for abnormal noise from hydraulic pump or pump connection.",
+        "Check primary pilot pressure and inspect pilot lines for blockage or leakage.",
+        "Check whether the gear pump delivers oil."
+      ],
+      "causesAr": [
+        "نقص زيت الهيدروليك أو تلف المضخة/وصلة المضخة.",
+        "انسداد أو تسرب بخط البايلوت أو خلل صمام البايلوت/صمام تخفيف البايلوت.",
+        "مضخة التروس لا تضخ الزيت."
+      ],
+      "causesEn": [
+        "Low hydraulic oil or failed pump/pump coupling.",
+        "Blocked or leaking pilot piping, faulty pilot valve or pilot relief valve.",
+        "Gear pump not delivering oil."
+      ],
+      "remedyAr": [
+        "أكمل الزيت للمستوى المحدد؛ أصلح خطوط البايلوت أو فك وافحص الصمامات/المضخة وفق شجرة الدليل."
+      ],
+      "remedyEn": [
+        "Replenish to specified level; repair pilot lines or inspect valves/pump following the manual flowchart."
+      ],
+      "page": "6-6",
+      "pdfPage": 7
+    },
+    {
+      "id": "hydraulic_oil_cloudy",
+      "group": "hydraulic",
+      "nameAr": "زيت الهيدروليك عكر أو حليبي",
+      "nameEn": "Hydraulic oil is cloudy",
+      "symptomAr": "تغير لون الزيت أو ظهوره عكراً.",
+      "symptomEn": "Hydraulic oil appears cloudy or milky.",
+      "checksAr": [
+        "ضع عينة زيت على صفيحة ساخنة وافحص هل تظهر رغوة وفق طريقة الدليل وبإجراء آمن.",
+        "افحص احتمال اختلاط الماء بالزيت أو دخول الهواء."
+      ],
+      "checksEn": [
+        "Place an oil sample on a hot plate and check for foaming as described, using safe workshop procedure.",
+        "Check for water contamination or air ingress."
+      ],
+      "causesAr": [
+        "اختلاط الماء بالزيت.",
+        "دخول الهواء إلى دائرة الهيدروليك."
+      ],
+      "causesEn": [
+        "Water mixed with oil.",
+        "Air entering the hydraulic circuit."
+      ],
+      "remedyAr": [
+        "إذا وُجد ماء: اترك الزيت حتى ينفصل الماء وتخلص منه أو استبدل الزيت. إذا كان السبب هواءً: افحص خط السحب والراجع وأزل مصدر دخول الهواء."
+      ],
+      "remedyEn": [
+        "If water is present, allow separation and dispose of water or replace oil. If air ingress is indicated, inspect suction and return lines and eliminate the source."
+      ],
+      "page": "6-7",
+      "pdfPage": 8
+    },
+    {
+      "id": "hydraulic_oil_overheat",
+      "group": "hydraulic",
+      "nameAr": "ارتفاع غير طبيعي في حرارة زيت الهيدروليك",
+      "nameEn": "Hydraulic oil temperature rises abnormally",
+      "symptomAr": "ارتفاع حرارة الزيت الهيدروليكي عن الطبيعي.",
+      "symptomEn": "Hydraulic oil temperature is abnormally high.",
+      "checksAr": [
+        "تحقق من كمية الزيت ومستواه.",
+        "افحص انسداد مبرد الزيت والعوائق أمام مرور الهواء.",
+        "افحص شد سير المروحة.",
+        "تحقق من ضبط ضغط صمامات التنفيس الرئيسية والفرعية وصمام السير، وهل يعمل صمام التنفيس الرئيسي كثيراً."
+      ],
+      "checksEn": [
+        "Check hydraulic oil quantity and level.",
+        "Inspect oil cooler blockage and airflow obstructions.",
+        "Check fan-belt tension.",
+        "Check settings of main, relief and travel relief valves, and whether the main relief operates frequently."
+      ],
+      "causesAr": [
+        "نقص الزيت أو انسداد مبرد الزيت/ضعف تدفق الهواء.",
+        "ارتخاء سير المروحة.",
+        "ضبط ضغط صمامات التنفيس أقل من المواصفة أو كثرة عمل صمام التنفيس بسبب الحمل."
+      ],
+      "causesEn": [
+        "Low oil, clogged oil cooler or restricted airflow.",
+        "Loose fan belt.",
+        "Relief-valve settings below specification or frequent main-relief operation due to load."
+      ],
+      "remedyAr": [
+        "أكمل الزيت للمستوى المحدد؛ نظف المبرد وأزل عوائق الهواء؛ اضبط السير؛ راجع ضغط الصمامات وخفف الحمل عند كثرة عمل صمام التنفيس."
+      ],
+      "remedyEn": [
+        "Replenish oil; clean cooler and clear airflow; adjust belt; check relief settings and reduce load if main relief operates frequently."
+      ],
+      "page": "6-7",
+      "pdfPage": 8
+    },
+    {
+      "id": "pump_cavitation",
+      "group": "hydraulic",
+      "nameAr": "حدوث تجويف أو صوت كافيتيشن بالمضخة",
+      "nameEn": "Pump cavitation occurs",
+      "symptomAr": "صوت تجويف/خشونة من المضخة.",
+      "symptomEn": "Cavitation noise or rough pump operation.",
+      "checksAr": [
+        "تحقق من مستوى الزيت.",
+        "تحقق من لزوجة الزيت المناسبة.",
+        "افحص مصفاة السحب من الانسداد.",
+        "افحص خط سحب المضخة لاحتمال دخول الهواء."
+      ],
+      "checksEn": [
+        "Check oil level.",
+        "Verify correct oil viscosity.",
+        "Inspect suction strainer for blockage.",
+        "Check pump suction line for air ingress."
+      ],
+      "causesAr": [
+        "نقص الزيت أو لزوجة غير مناسبة.",
+        "انسداد مصفاة السحب.",
+        "دخول الهواء من خط سحب المضخة."
+      ],
+      "causesEn": [
+        "Low oil or incorrect viscosity.",
+        "Clogged suction strainer.",
+        "Air entering through pump suction line."
+      ],
+      "remedyAr": [
+        "أكمل الزيت المحدد؛ استخدم لزوجة صحيحة؛ نظف مصفاة السحب؛ أحكم أو استبدل أجزاء خط السحب المتسببة بدخول الهواء."
+      ],
+      "remedyEn": [
+        "Replenish specified oil; use correct viscosity; clean suction strainer; retighten or replace suction-line parts causing air ingress."
+      ],
+      "page": "6-8",
+      "pdfPage": 9
+    },
+    {
+      "id": "hydraulic_oil_contaminated",
+      "group": "hydraulic",
+      "nameAr": "تلوث زيت الهيدروليك",
+      "nameEn": "Hydraulic oil is contaminated",
+      "symptomAr": "الزيت متسخ أو تجاوز فترة الاستبدال المحددة.",
+      "symptomEn": "Oil is dirty or has exceeded the specified replacement interval.",
+      "checksAr": [
+        "تحقق هل تجاوز الزيت ساعات الاستبدال المحددة.",
+        "تحقق هل تم استبدال فلتر الراجع في مواعيده."
+      ],
+      "checksEn": [
+        "Check whether specified oil replacement hours have elapsed.",
+        "Check whether the return filter was replaced at proper intervals."
+      ],
+      "causesAr": [
+        "تجاوز فترة استبدال الزيت.",
+        "عدم استبدال فلتر الراجع في الفترات المحددة."
+      ],
+      "causesEn": [
+        "Oil replacement interval exceeded.",
+        "Return filter not replaced at specified intervals."
+      ],
+      "remedyAr": [
+        "استبدل الزيت بالمواصفة المحددة؛ واغسل الدائرة بزيت هيدروليك واستبدل فلتر الراجع عند الحاجة حسب الدليل."
+      ],
+      "remedyEn": [
+        "Replace with specified hydraulic oil; flush with hydraulic oil and replace return filter as directed."
+      ],
+      "page": "6-8",
+      "pdfPage": 9
+    },
+    {
+      "id": "swing_both_directions",
+      "group": "swing",
+      "nameAr": "الدوران يميناً ويساراً لا يعمل",
+      "nameEn": "Both left and right swing actions are impossible",
+      "symptomAr": "لا تعمل حركة الدوران في الاتجاهين.",
+      "symptomEn": "Swing does not operate in either direction.",
+      "checksAr": [
+        "تحقق من مستوى زيت الخزان وضغط البايلوت لمضخة التروس.",
+        "افحص ضغط صمام الأمان الكهربائي/الهيدروليكي حسب الدليل.",
+        "افحص وصلة المضخة وصمام التنفيس الرئيسي.",
+        "تحقق من ضغط MCV pilot وحركة بكرة صمام الدوران.",
+        "افحص تحرير فرامل الدوران ودوران المحرك ومخرج مضخة التروس."
+      ],
+      "checksEn": [
+        "Check tank oil level and gear-pump pilot pressure.",
+        "Check safety solenoid valve pressure as specified.",
+        "Inspect pump coupling and main relief valve.",
+        "Check MCV pilot pressure and swing control spool movement.",
+        "Check swing brake release, motor rotation and gear-pump output."
+      ],
+      "causesAr": [
+        "نقص الزيت أو خلل مضخة التروس/المضخة الرئيسية أو وصلة المضخة.",
+        "خلل صمام الأمان أو صمام البايلوت/التنفيس أو بكرة صمام الدوران.",
+        "خلل صمام تحرير فرامل الدوران أو وحدة التخفيض أو موتور الدوران."
+      ],
+      "causesEn": [
+        "Low oil, failed gear/main pump or pump coupling.",
+        "Faulty safety valve, pilot/relief valve or swing control spool.",
+        "Faulty swing-brake release valve, reduction unit or swing motor."
+      ],
+      "remedyAr": [
+        "اتبع شجرة الفحص بالترتيب ولا تفك الموتور قبل التحقق من الضغوط والبايلوت والفرامل."
+      ],
+      "remedyEn": [
+        "Follow the flowchart in sequence; do not disassemble the motor before checking pressures, pilot circuit and brake release."
+      ],
+      "page": "6-9",
+      "pdfPage": 10
+    },
+    {
+      "id": "swing_speed_low",
+      "group": "swing",
+      "nameAr": "سرعة الدوران منخفضة",
+      "nameEn": "Swing speed is low",
+      "symptomAr": "الدوران يعمل لكن سرعته أقل من الطبيعي.",
+      "symptomEn": "Swing operates but speed is below normal.",
+      "checksAr": [
+        "حدد هل المشكلة في اتجاه واحد أم الاتجاهين.",
+        "قارن ضغط MCV pilot يميناً ويساراً وضغط البايلوت الأساسي.",
+        "افحص حركة بكرة صمام الدوران وخطوط البايلوت من انسداد أو تسرب.",
+        "يفحص الدليل معدل تصريف موتور الدوران وضغط صمام التنفيس الرئيسي."
+      ],
+      "checksEn": [
+        "Determine whether the problem affects one direction or both.",
+        "Compare MCV pilot pressure on LH and RH sides and primary pilot pressure.",
+        "Inspect swing spool movement and pilot lines for blockage/leakage.",
+        "The manual checks swing-motor drain rate and main relief pressure."
+      ],
+      "causesAr": [
+        "بكرة صمام الدوران عالقة أو خلل خطوط/صمامات البايلوت.",
+        "خلل موتور الدوران أو صمام التنفيس أو المضخة."
+      ],
+      "causesEn": [
+        "Sticking swing spool or pilot-line/valve fault.",
+        "Swing motor, relief valve or pump fault."
+      ],
+      "remedyAr": [
+        "نظف أو أصلح خطوط البايلوت؛ أصلح الصمام أو الموتور حسب نتيجة اختبارات الضغط والتصريف."
+      ],
+      "remedyEn": [
+        "Clean or repair pilot lines; repair valve or motor based on pressure and drain-rate tests."
+      ],
+      "page": "6-10",
+      "pdfPage": 11
+    },
+    {
+      "id": "swing_one_direction",
+      "group": "swing",
+      "nameAr": "الدوران لا يعمل في اتجاه واحد",
+      "nameEn": "Swing motion impossible in one direction",
+      "symptomAr": "الدوران يعمل باتجاه واحد فقط.",
+      "symptomEn": "Swing works in only one direction.",
+      "checksAr": [
+        "قارن ضغط MCV pilot في الاتجاهين.",
+        "افحص حركة بكرة صمام الدوران.",
+        "افحص خطوط البايلوت من الانسداد أو تسرب الزيت.",
+        "يذكر الدليل تبديل صمامي تنفيس منفذي موتور الدوران كاختبار تشخيصي."
+      ],
+      "checksEn": [
+        "Compare MCV pilot pressure in both directions.",
+        "Inspect swing control spool movement.",
+        "Check pilot lines for blockage or oil leakage.",
+        "The manual lists swapping swing-motor LH/RH port relief valves as a diagnostic check."
+      ],
+      "causesAr": [
+        "صمام تنفيس منفذ الدوران أو صمام Shuttle معيب.",
+        "بكرة صمام الدوران عالقة أو خلل RCV/خطوط البايلوت."
+      ],
+      "causesEn": [
+        "Faulty swing port relief valve or shuttle valve.",
+        "Sticking swing spool or RCV/pilot-line fault."
+      ],
+      "remedyAr": [
+        "افحص الصمامات والخطوط وفق خطوات الدليل؛ لا تبدّل الصمامات دون توثيق مواضعها ومطابقة المواصفات."
+      ],
+      "remedyEn": [
+        "Inspect valves and lines following the manual; do not swap valves without recording positions and verifying specifications."
+      ],
+      "page": "6-11",
+      "pdfPage": 12
+    },
+    {
+      "id": "swing_does_not_stop",
+      "group": "swing",
+      "nameAr": "الدوران لا يتوقف",
+      "nameEn": "Machine swings but does not stop",
+      "symptomAr": "تستمر حركة الدوران بعد أمر الإيقاف.",
+      "symptomEn": "Swing continues after the stop command.",
+      "checksAr": [
+        "افحص سلامة سوستة رجوع صمام التحكم.",
+        "افحص حركة بكرة صمام التحكم.",
+        "تحقق من ضغط MCV pilot وضغط بايلوت مضخة التروس."
+      ],
+      "checksEn": [
+        "Inspect swing control valve return spring.",
+        "Check control spool movement.",
+        "Check MCV pilot and gear-pump pilot pressures."
+      ],
+      "causesAr": [
+        "سوستة رجوع تالفة أو بكرة عالقة.",
+        "خلل صمام البايلوت أو صمام تنفيس البايلوت."
+      ],
+      "causesEn": [
+        "Damaged return spring or sticking spool.",
+        "Pilot valve or pilot relief valve fault."
+      ],
+      "remedyAr": [
+        "أصلح أو استبدل الجزء المعيب بعد الفحص؛ أوقف المعدة في مكان آمن حتى إصلاح العطل."
+      ],
+      "remedyEn": [
+        "Repair or replace the faulty part after inspection; keep the machine safely parked until repaired."
+      ],
+      "page": "6-11",
+      "pdfPage": 12
+    },
+    {
+      "id": "swing_drift_slope",
+      "group": "swing",
+      "nameAr": "وحدة الدوران تنحرف عند توقف المعدة على منحدر",
+      "nameEn": "Swing unit drifts while machine is at rest on a slope",
+      "symptomAr": "تتحرك وحدة الدوران ببطء والمعدة متوقفة على منحدر.",
+      "symptomEn": "Swing unit drifts while the machine is parked on a slope.",
+      "checksAr": [
+        "افحص سوستة رجوع صمام الدوران وسوستة الفرامل.",
+        "افحص صمام Shuttle.",
+        "تحقق من ضغط صمام تنفيس الدوران ومعدل تصريف موتور الدوران."
+      ],
+      "checksEn": [
+        "Inspect swing control return spring and brake spring.",
+        "Check shuttle valve.",
+        "Check swing relief pressure and swing motor drain rate."
+      ],
+      "causesAr": [
+        "خلل صمام Shuttle أو سوستة الفرامل/رجوع الصمام.",
+        "خلل صمام تنفيس الدوران أو موتور الدوران."
+      ],
+      "causesEn": [
+        "Faulty shuttle valve, brake spring or control return spring.",
+        "Faulty swing relief valve or swing motor."
+      ],
+      "remedyAr": [
+        "أصلح أو استبدل الجزء الذي يحدده الاختبار، واضبط ضغط صمام التنفيس حسب مواصفة الدليل."
+      ],
+      "remedyEn": [
+        "Repair or replace the part identified by testing and adjust relief pressure to the manual specification."
+      ],
+      "page": "6-12",
+      "pdfPage": 13
+    },
+    {
+      "id": "travel_one_side_no_motion",
+      "group": "travel",
+      "nameAr": "السير لا يعمل في جهة واحدة",
+      "nameEn": "Travel does not function at all on one side",
+      "symptomAr": "إحدى الجهتين لا تتحرك بينما يمكن أن تعمل الجهة الأخرى.",
+      "symptomEn": "One travel side does not move while the other may operate.",
+      "checksAr": [
+        "تحقق هل عمليات البوم/الذراع تعمل.",
+        "افحص تغير حركة بكرة صمام السير.",
+        "افحص ضغط فرامل السير وحركة بكرة صمام الموازنة داخل صمام الفرامل.",
+        "افحص وجود برادة معدنية في منفذ تصريف وحدة تخفيض السير.",
+        "تحقق من أثر تبديل خراطيم تصريف المضختين وصمامات تنفيس السير وفق الإجراء."
+      ],
+      "checksEn": [
+        "Check whether boom/arm operations work.",
+        "Inspect travel control spool movement.",
+        "Check travel brake pressure and counterbalance spool movement in brake valve.",
+        "Check for metallic particles at travel reduction-unit drain port.",
+        "Check the effect of swapping pump discharge hoses and travel relief valves as specified."
+      ],
+      "causesAr": [
+        "خلل صمام فرامل السير أو بكرة صمام التحكم.",
+        "تلف وحدة تخفيض السير أو موتور السير.",
+        "خلل صمام تنفيس السير أو المضخة الهيدروليكية."
+      ],
+      "causesEn": [
+        "Faulty travel brake valve or control spool.",
+        "Failed travel reduction unit or travel motor.",
+        "Faulty travel relief valve or hydraulic pump."
+      ],
+      "remedyAr": [
+        "حدد مصدر الخلل من فحوصات الصمام والضغط والتصريف؛ لا تفتح وحدة التخفيض قبل فحص الزيت والبرادة."
+      ],
+      "remedyEn": [
+        "Isolate the fault using valve, pressure and drain checks; do not open the reduction unit before checking oil and metal debris."
+      ],
+      "page": "6-13",
+      "pdfPage": 14
+    },
+    {
+      "id": "travel_curves",
+      "group": "travel",
+      "nameAr": "السير في جهة أبطأ والمعدة تنحرف",
+      "nameEn": "One travel side slows and machine curves",
+      "symptomAr": "سرعة جهة أقل من الأخرى فتسير المعدة في مسار منحني.",
+      "symptomEn": "One side travels slower, causing the machine to curve.",
+      "checksAr": [
+        "قارن سرعتي السير يميناً ويساراً.",
+        "افحص صمامات فرامل السير وصمامات التنفيس المدمجة في موتور السير.",
+        "افحص حركة بكرة صمام التحكم وضغط البايلوت الخارجي.",
+        "يفحص الدليل معدل تسرب موتور السير وحالة تحرير فرامل الوقوف."
+      ],
+      "checksEn": [
+        "Compare LH and RH travel speeds.",
+        "Inspect travel brake valves and relief valves built into travel motors.",
+        "Check control spool movement and external pilot pressure.",
+        "The manual checks travel-motor leakage rate and parking-brake release."
+      ],
+      "causesAr": [
+        "خلل صمام الفرامل أو صمام التنفيس أو صمام التحكم.",
+        "انسداد/تسرب خط البايلوت الخارجي.",
+        "فرامل الوقوف في موتور السير الأبطأ لا تتحرر جيداً أو خلل الموتور."
+      ],
+      "causesEn": [
+        "Faulty brake valve, relief valve or control valve.",
+        "Blocked/leaking external pilot line.",
+        "Parking brake in slower travel motor not releasing properly or motor fault."
+      ],
+      "remedyAr": [
+        "نظف خطوط البايلوت وأصلح الصمام أو موتور السير بعد اختبار الضغط ومعدل التسرب."
+      ],
+      "remedyEn": [
+        "Clean pilot lines and repair valve or travel motor after pressure and leakage testing."
+      ],
+      "page": "6-14",
+      "pdfPage": 15
+    },
+    {
+      "id": "travel_slope_does_not_hold",
+      "group": "travel",
+      "nameAr": "المعدة لا تثبت على المنحدر",
+      "nameEn": "Machine does not stop/hold on a slope",
+      "symptomAr": "تنسحب المعدة للأمام أثناء الحفر على منحدر.",
+      "symptomEn": "Machine creeps forward on a slope during digging.",
+      "checksAr": [
+        "افحص خط بايلوت فرامل السير من الانسداد.",
+        "افحص ضغط فرامل السير ومعدل تصريف موتور السير."
+      ],
+      "checksEn": [
+        "Check travel-brake pilot line for blockage.",
+        "Check travel brake pressure and travel-motor drain rate."
+      ],
+      "causesAr": [
+        "تآكل قرص احتكاك فرامل الوقوف.",
+        "انسداد خط البايلوت أو خلل موتور السير/صمام الفرامل."
+      ],
+      "causesEn": [
+        "Worn parking-brake friction plate.",
+        "Blocked pilot line or faulty travel motor/brake valve."
+      ],
+      "remedyAr": [
+        "نظف خط البايلوت أو أصلح الفرامل/الموتور وفق نتائج القياس."
+      ],
+      "remedyEn": [
+        "Clean pilot line or repair brake/motor based on test results."
+      ],
+      "page": "6-15",
+      "pdfPage": 16
+    },
+    {
+      "id": "travel_both_sides_no_motion",
+      "group": "travel",
+      "nameAr": "السير يميناً ويساراً لا يعمل",
+      "nameEn": "Both LH and RH travel motions are impossible",
+      "symptomAr": "لا تعمل حركتا السير في الجهتين.",
+      "symptomEn": "Neither LH nor RH travel operates.",
+      "checksAr": [
+        "تحقق هل البوم أو الذراع يعملان.",
+        "افحص مستوى زيت الخزان.",
+        "افحص وصلة المضخة أسفل دولاب الموازنة.",
+        "افحص صمامي تنفيس السير."
+      ],
+      "checksEn": [
+        "Check whether boom or arm operates.",
+        "Check hydraulic tank oil level.",
+        "Inspect pump coupling below flywheel dust plug.",
+        "Inspect both travel relief valves."
+      ],
+      "causesAr": [
+        "نقص الزيت أو تلف وصلة المضخة.",
+        "خلل المضخة الهيدروليكية أو صمامات تنفيس السير."
+      ],
+      "causesEn": [
+        "Low oil or failed pump coupling.",
+        "Hydraulic pump fault or travel relief-valve fault."
+      ],
+      "remedyAr": [
+        "أكمل الزيت أو أصلح الوصلة/الصمام/المضخة حسب نتيجة الفحص."
+      ],
+      "remedyEn": [
+        "Replenish oil or repair coupling/valve/pump according to inspection."
+      ],
+      "page": "6-15",
+      "pdfPage": 16
+    },
+    {
+      "id": "travel_powerless",
+      "group": "travel",
+      "nameAr": "قوة السير ضعيفة (السير فقط)",
+      "nameEn": "Travel action is powerless (travel only)",
+      "symptomAr": "السير يعمل لكن قوة الدفع ضعيفة.",
+      "symptomEn": "Travel operates but traction/pushing power is weak.",
+      "checksAr": [
+        "افحص ضغط صمام تنفيس السير وضغط فرامل السير.",
+        "افحص معدل تصريف موتور السير.",
+        "يتضمن الدليل فحص مكبس فرامل الوقوف وحركة المكبس داخل الموتور."
+      ],
+      "checksEn": [
+        "Check travel relief-valve pressure and travel brake pressure.",
+        "Check travel-motor drain rate.",
+        "The manual includes inspection of parking-brake piston movement inside the motor."
+      ],
+      "causesAr": [
+        "خلل موتور السير أو صمام فرامل السير أو صمام تنفيس السير.",
+        "انسداد دائرة تحرير فرامل الوقوف أو تعليق مكبس الفرامل.",
+        "خلل وحدة تخفيض السير."
+      ],
+      "causesEn": [
+        "Faulty travel motor, brake valve or travel relief valve.",
+        "Blocked parking-brake release circuit or sticking brake piston.",
+        "Travel reduction-unit fault."
+      ],
+      "remedyAr": [
+        "نظف دائرة تحرير الفرامل أو أصلح الموتور/الصمام بعد الفحص؛ فك المكبس يتطلب فني هيدروليك مؤهل."
+      ],
+      "remedyEn": [
+        "Clean brake-release circuit or repair motor/valve after inspection; piston disassembly requires a qualified hydraulic technician."
+      ],
+      "page": "6-16",
+      "pdfPage": 17
+    },
+    {
+      "id": "travel_runaway_slope",
+      "group": "travel",
+      "nameAr": "المعدة تندفع بسرعة على المنحدر",
+      "nameEn": "Machine runs recklessly on a slope",
+      "symptomAr": "فقدان التحكم في سرعة السير على المنحدر.",
+      "symptomEn": "Travel speed becomes uncontrolled on a slope.",
+      "checksAr": [
+        "افحص صمام فرامل السير (Counterbalance valve) وفق الدليل."
+      ],
+      "checksEn": [
+        "Inspect travel brake (counterbalance) valve as directed by the manual."
+      ],
+      "causesAr": [
+        "خلل صمام فرامل السير/صمام الموازنة."
+      ],
+      "causesEn": [
+        "Faulty travel brake/counterbalance valve."
+      ],
+      "remedyAr": [
+        "أوقف المعدة عن العمل على المنحدرات حتى فحص الصمام وإصلاحه أو استبداله."
+      ],
+      "remedyEn": [
+        "Do not operate on slopes until the valve is inspected and repaired or replaced."
+      ],
+      "page": "6-16",
+      "pdfPage": 17
+    },
+    {
+      "id": "travel_attachment_combined",
+      "group": "travel",
+      "nameAr": "السير يضعف أو يتوقف عند تشغيل الملحقات معه",
+      "nameEn": "Travel curves or stops when travel and attachments operate together",
+      "symptomAr": "تظهر المشكلة عند تنفيذ السير وحركات الملحقات في الوقت نفسه.",
+      "symptomEn": "Problem occurs when travel and attachment operations are performed simultaneously.",
+      "checksAr": [
+        "افحص ضغط بايلوت صمام اختيار السير.",
+        "افحص صمام الاختيار وفلتر خط البايلوت بين مضخة التروس وصمام التحكم.",
+        "افحص صمام تنفيس البايلوت وخروج الزيت من مضخة التروس."
+      ],
+      "checksEn": [
+        "Check pilot pressure for travel select valve.",
+        "Inspect select valve and pilot-line filter between gear pump and control valve.",
+        "Check pilot relief valve and gear-pump delivery."
+      ],
+      "causesAr": [
+        "خلل صمام اختيار السير.",
+        "انسداد فلتر خط البايلوت أو خلل صمام تنفيس البايلوت.",
+        "مضخة التروس لا تضخ الزيت."
+      ],
+      "causesEn": [
+        "Faulty travel select valve.",
+        "Blocked pilot-line filter or defective pilot relief valve.",
+        "Gear pump not delivering oil."
+      ],
+      "remedyAr": [
+        "نظف فلتر خط البايلوت أو أصلح/استبدل الصمام أو مضخة التروس وفق الاختبار."
+      ],
+      "remedyEn": [
+        "Clean pilot-line filter or repair/replace valve or gear pump according to testing."
+      ],
+      "page": "6-17",
+      "pdfPage": 18
+    },
+    {
+      "id": "boom_arm_no_operation",
+      "group": "attachment",
+      "nameAr": "البوم أو الذراع لا يعملان إطلاقاً",
+      "nameEn": "Boom or arm action is impossible at all",
+      "symptomAr": "عدم استجابة حركة البوم أو الذراع.",
+      "symptomEn": "Boom or arm does not respond.",
+      "checksAr": [
+        "تحقق من مستوى الزيت ومن عمل الحركات الأخرى.",
+        "افحص ضغط MCV pilot وضغط بايلوت مضخة التروس.",
+        "افحص وصلة المضخة وصمام التنفيس الرئيسي.",
+        "افحص صمام التنفيس المنفذي وبكرة صمام التحكم."
+      ],
+      "checksEn": [
+        "Check oil level and whether other functions operate.",
+        "Check MCV pilot and gear-pump pilot pressures.",
+        "Inspect pump coupling and main relief valve.",
+        "Inspect port relief valve and control spool."
+      ],
+      "causesAr": [
+        "خلل صمام التنفيس المنفذي أو صمام البايلوت/التنفيس.",
+        "خلل المضخة أو وصلة المضخة أو صمام التحكم.",
+        "خلل أسطوانة الحركة."
+      ],
+      "causesEn": [
+        "Faulty port relief, pilot or pilot relief valve.",
+        "Pump, pump coupling or control-valve fault.",
+        "Cylinder fault."
+      ],
+      "remedyAr": [
+        "اتبع شجرة الدليل وافحص الضغط والبايلوت قبل فك الأسطوانة أو المضخة."
+      ],
+      "remedyEn": [
+        "Follow the manual flowchart and verify pressure and pilot circuit before disassembling cylinder or pump."
+      ],
+      "page": "6-18",
+      "pdfPage": 19
+    },
+    {
+      "id": "attachment_speed_low",
+      "group": "attachment",
+      "nameAr": "سرعة البوم أو الذراع أو البكت منخفضة",
+      "nameEn": "Boom, arm or bucket speed is low",
+      "symptomAr": "بطء حركة واحدة أو أكثر من حركات الملحقات.",
+      "symptomEn": "One or more attachment movements are slow.",
+      "checksAr": [
+        "حدد هل البطء يظهر فقط أثناء الحركات المركبة أم حتى في الحركة المنفردة.",
+        "قارن سرعات السير يميناً ويساراً وسرعات الملحقات الأخرى.",
+        "افحص ضغط MCV pilot وحركة بكرة صمام التحكم وصمام جمع التدفق.",
+        "افحص ضغط المضخة وصمام التنفيس المنفذي والأسطوانة وفق شجرة الدليل."
+      ],
+      "checksEn": [
+        "Determine whether slowness occurs only during combined operations or also in single movements.",
+        "Compare LH/RH travel speeds and other attachment speeds.",
+        "Check MCV pilot pressure, control spool and flow-summation valve.",
+        "Check pump pressure, port relief valve and cylinder following the flowchart."
+      ],
+      "causesAr": [
+        "خلل صمام جمع التدفق أو المضخة أو صمام التنفيس المنفذي.",
+        "خلل الأسطوانة أو بكرة صمام التحكم أو دائرة البايلوت.",
+        "انسداد فتحة Orifice أو خط بايلوت."
+      ],
+      "causesEn": [
+        "Faulty flow-summation valve, pump or port relief valve.",
+        "Cylinder, control spool or pilot-circuit fault.",
+        "Clogged orifice or pilot line."
+      ],
+      "remedyAr": [
+        "حدد نمط البطء أولاً ثم نفّذ اختبارات الدليل؛ لا تعدّل ضغط الصمامات دون قيمة ضبط معتمدة للموديل."
+      ],
+      "remedyEn": [
+        "Identify the slowness pattern first, then follow manual tests; do not adjust relief pressures without an approved model-specific setting."
+      ],
+      "page": "6-19",
+      "pdfPage": 20
+    },
+    {
+      "id": "cylinder_drift",
+      "group": "attachment",
+      "nameAr": "الأسطوانة تتمدد أو تنكمش وحدها والملحق يهبط",
+      "nameEn": "Boom, arm or bucket cylinder drifts and attachment falls",
+      "symptomAr": "هبوط البوم/الذراع/البكت أو تحرك الأسطوانة دون أمر.",
+      "symptomEn": "Boom/arm/bucket drops or cylinder moves without command.",
+      "checksAr": [
+        "تحقق من حرارة الزيت واستخدام الزيت الأصلي أو المكافئ المحدد.",
+        "افحص تسريب الأسطوانة الداخلي وفق طريقة الدليل.",
+        "افحص صمام عدم الرجوع/التحكم وعودة سوستة الصمام."
+      ],
+      "checksEn": [
+        "Check oil temperature and whether genuine/equivalent specified oil is used.",
+        "Check cylinder internal leakage using the manual procedure.",
+        "Inspect check/control valve and control-valve return spring."
+      ],
+      "causesAr": [
+        "تسريب داخلي بالأسطوانة أو صمام التحكم.",
+        "ضعف إحكام بين جسم الصمام والبكرة أو بين Poppet والمقعد.",
+        "خلل سوستة الرجوع أو ارتفاع حرارة الزيت."
+      ],
+      "causesEn": [
+        "Internal cylinder leakage or control-valve fault.",
+        "Poor sealing between valve body and spool or poppet and seat.",
+        "Faulty return spring or high oil temperature."
+      ],
+      "remedyAr": [
+        "حدد هل التسريب من الأسطوانة أم صمام التحكم قبل الإصلاح؛ حافظ على المعدة مؤمنة والملحق مسنوداً أثناء الفحص."
+      ],
+      "remedyEn": [
+        "Determine whether leakage is from cylinder or control valve before repair; secure and support attachment during inspection."
+      ],
+      "page": "6-20",
+      "pdfPage": 21
+    },
+    {
+      "id": "attachment_power_weak",
+      "group": "attachment",
+      "nameAr": "قوة البوم أو الذراع أو البكت ضعيفة",
+      "nameEn": "Boom, arm or bucket power is weak",
+      "symptomAr": "الحركة تعمل لكن قوة الرفع أو الحفر ضعيفة.",
+      "symptomEn": "Movement operates but lifting or digging force is weak.",
+      "checksAr": [
+        "افحص ضغط صمام التنفيس الرئيسي.",
+        "افحص ضغط صمام التنفيس المنفذي.",
+        "افحص تسريب الأسطوانة الداخلي ضمن الحد المحدد."
+      ],
+      "checksEn": [
+        "Check main relief-valve pressure.",
+        "Check port relief-valve pressure.",
+        "Check cylinder internal leakage against the specified limit."
+      ],
+      "causesAr": [
+        "ضغط صمام التنفيس الرئيسي أو المنفذي غير صحيح.",
+        "تسريب داخلي بالأسطوانة."
+      ],
+      "causesEn": [
+        "Incorrect main or port relief pressure.",
+        "Internal cylinder leakage."
+      ],
+      "remedyAr": [
+        "اضبط/أصلح صمام التنفيس وفق المواصفة؛ أصلح الأسطوانة إذا أثبت اختبار التسريب الداخلي عطلها."
+      ],
+      "remedyEn": [
+        "Adjust/repair relief valve to specification; repair cylinder if internal-leakage test confirms failure."
+      ],
+      "page": "6-21",
+      "pdfPage": 22
+    },
+    {
+      "id": "bucket_no_operation",
+      "group": "attachment",
+      "nameAr": "حركة البكت وحدها لا تعمل إطلاقاً",
+      "nameEn": "Only bucket operation is totally impossible",
+      "symptomAr": "البكت لا يستجيب بينما حركات أخرى قد تعمل.",
+      "symptomEn": "Bucket does not respond while other functions may operate.",
+      "checksAr": [
+        "افحص ضغط MCV pilot.",
+        "افحص صمام التنفيس المنفذي الخاص بالدائرة.",
+        "افحص حركة بكرة صمام التحكم.",
+        "تحقق من أثر اختبار صمام التنفيس الرئيسي وخراطيم تصريف المضخة كما يوجه الدليل."
+      ],
+      "checksEn": [
+        "Check MCV pilot pressure.",
+        "Inspect the circuit port relief valve.",
+        "Check control spool movement.",
+        "Check main relief and pump discharge-hose tests as directed by the manual."
+      ],
+      "causesAr": [
+        "خلل صمام التنفيس المنفذي أو الأسطوانة أو بكرة صمام التحكم.",
+        "خلل صمام البايلوت أو صمام التنفيس الرئيسي أو المضخة."
+      ],
+      "causesEn": [
+        "Faulty port relief valve, cylinder or control spool.",
+        "Pilot valve, main relief valve or pump fault."
+      ],
+      "remedyAr": [
+        "اتبع شجرة الفحص لتحديد الدائرة؛ لا تستبدل المضخة قبل التأكد من ضغط البايلوت والصمام."
+      ],
+      "remedyEn": [
+        "Follow the flowchart to isolate the circuit; do not replace the pump before verifying pilot pressure and valves."
+      ],
+      "page": "6-21",
+      "pdfPage": 22
+    },
+    {
+      "id": "boom_squeak",
+      "group": "attachment",
+      "nameAr": "صوت صرير عند تشغيل البوم",
+      "nameEn": "Boom makes a squeaking noise when operated",
+      "symptomAr": "ظهور صوت صرير أثناء حركة البوم.",
+      "symptomEn": "Squeaking noise occurs while operating the boom.",
+      "checksAr": [
+        "افحص تشحيم مسمار قاعدة البوم."
+      ],
+      "checksEn": [
+        "Check lubrication of the boom foot pin."
+      ],
+      "causesAr": [
+        "نقص الشحم في مسمار قاعدة البوم.",
+        "صوت احتكاك بين أسطح انزلاق ختم زيت أسطوانة البوم والبوم."
+      ],
+      "causesEn": [
+        "Insufficient grease at boom foot pin.",
+        "Friction between sliding faces of boom-cylinder oil seal and boom."
+      ],
+      "remedyAr": [
+        "أضف الشحم؛ يذكر الدليل أن صوت الاحتكاك قد يختفي مع الاستخدام، وإذا بدأ التآكل/العضّ مبكراً يوصي بالتشحيم الكافي، أما الضرر المتقدم فيحتاج معالجة فنية."
+      ],
+      "remedyEn": [
+        "Apply grease; the manual notes seal/boom friction noise may disappear with use. Early seizure calls for sufficient grease; advanced damage requires workshop correction."
+      ],
+      "page": "6-22",
+      "pdfPage": 23
     }
   ]
 }
