@@ -57,7 +57,20 @@
       "severity": "critical",
       "source": "operator_manual",
       "visualDescriptionAr": "رمز قطرة زيت داخل دائرة مع سهمين جانبيين؛ مرجع الرسم 21073CD07.",
-      "visualMatchStatus": "symbol_description_from_manual"
+      "visualMatchStatus": "symbol_description_from_manual",
+      "troubleshootingPage": "6-29",
+      "troubleshootingSection": "6. WHEN ENGINE OIL PRESSURE WARNING LAMP LIGHTS UP",
+      "manualCausesAr": [
+        "تسرب زيت المحرك أو خلل مفتاح ضغط الزيت.",
+        "خلل وحدة التحكم MCU.",
+        "انقطاع أو ضعف تلامس في الضفيرة بين CN-51 (4) وCD-18."
+      ],
+      "manualCausesEn": [
+        "Engine oil leakage or defective oil-pressure switch.",
+        "Defective MCU.",
+        "Open circuit or poor contact between CN-51 (4) and CD-18."
+      ],
+      "manualSourceUrl": "https://manualshyundai.com/uploads/posts/hx210hdhx220hd/hyundai-hx210hdhx220hd-troubleshooting-manual.pdf"
     },
     {
       "id": "air_cleaner",
@@ -87,7 +100,20 @@
       "severity": "caution",
       "source": "operator_manual",
       "visualDescriptionAr": "رمز مرشح/منظف هواء دائري مع خطوط تدفق وسهم؛ مرجع الرسم 21073CD08.",
-      "visualMatchStatus": "symbol_description_from_manual"
+      "visualMatchStatus": "symbol_description_from_manual",
+      "troubleshootingPage": "6-28",
+      "troubleshootingSection": "5. WHEN AIR CLEANER WARNING LAMP LIGHTS UP",
+      "manualCausesAr": [
+        "انسداد فلتر الهواء أو خلل المفتاح.",
+        "قصر كهربائي في الضفيرة.",
+        "خلل وحدة التحكم MCU."
+      ],
+      "manualCausesEn": [
+        "Clogged air filter or defective switch.",
+        "Short circuit in wiring harness.",
+        "Defective MCU."
+      ],
+      "manualSourceUrl": "https://manualshyundai.com/uploads/posts/hx210hdhx220hd/hyundai-hx210hdhx220hd-troubleshooting-manual.pdf"
     },
     {
       "id": "battery_charge",
@@ -117,7 +143,22 @@
       "severity": "warning",
       "source": "operator_manual",
       "visualDescriptionAr": "رمز بطارية مستطيلة مع قطبي السالب والموجب؛ مرجع الرسم 21073CD13.",
-      "visualMatchStatus": "symbol_description_from_manual"
+      "visualMatchStatus": "symbol_description_from_manual",
+      "troubleshootingPage": "6-26",
+      "troubleshootingSection": "3. BATTERY CHARGING WARNING LAMP LIGHTS UP",
+      "manualCausesAr": [
+        "خلل في وحدة التحكم.",
+        "انقطاع أو ضعف تلامس في الضفيرة بين CN-51 (9) وCN-2 (9).",
+        "انقطاع أو ضعف تلامس بين CN-2 (9) وطرف I في المولد.",
+        "خلل في المولد."
+      ],
+      "manualCausesEn": [
+        "Defective controller.",
+        "Open circuit or poor contact between CN-51 (9) and CN-2 (9).",
+        "Open circuit or poor contact between CN-2 (9) and alternator terminal I.",
+        "Defective alternator."
+      ],
+      "manualSourceUrl": "https://manualshyundai.com/uploads/posts/hx210hdhx220hd/hyundai-hx210hdhx220hd-troubleshooting-manual.pdf"
     },
     {
       "id": "overload",
@@ -208,7 +249,22 @@
       "source": "operator_manual",
       "threshold": "105°C",
       "visualDescriptionAr": "تحذير ارتفاع حرارة سائل تبريد المحرك؛ يجب مطابقة رمز النسخة الفعلية قبل اعتماد شكل اللمبة.",
-      "visualMatchStatus": "needs_machine_photo_verification"
+      "visualMatchStatus": "needs_machine_photo_verification",
+      "troubleshootingPage": "6-27",
+      "troubleshootingSection": "4. WHEN COOLANT OVERHEAT WARNING LAMP LIGHTS UP",
+      "manualCausesAr": [
+        "ارتفاع حرارة سائل التبريد؛ يذكر الدليل 110±2°C في هذا الإجراء.",
+        "خلل حساس الحرارة.",
+        "قصر كهربائي في الضفيرة.",
+        "خلل وحدة التحكم MCU."
+      ],
+      "manualCausesEn": [
+        "Coolant overheat; this procedure states 110±2°C.",
+        "Defective temperature sensor.",
+        "Short circuit in wiring harness.",
+        "Defective MCU."
+      ],
+      "manualSourceUrl": "https://manualshyundai.com/uploads/posts/hx210hdhx220hd/hyundai-hx210hdhx220hd-troubleshooting-manual.pdf"
     },
     {
       "id": "hydraulic_oil_temperature",
@@ -239,7 +295,22 @@
       "source": "operator_manual",
       "threshold": "105°C",
       "visualDescriptionAr": "تحذير ارتفاع حرارة الزيت الهيدروليكي؛ يجب مطابقة رمز النسخة الفعلية قبل اعتماد شكل اللمبة.",
-      "visualMatchStatus": "needs_machine_photo_verification"
+      "visualMatchStatus": "needs_machine_photo_verification",
+      "troubleshootingPage": "6-30",
+      "troubleshootingSection": "7. WHEN HYDRAULIC OIL TEMPERATURE WARNING LAMP LIGHTS UP",
+      "manualCausesAr": [
+        "ارتفاع درجة حرارة الزيت الهيدروليكي.",
+        "خلل حساس العزم المذكور في مخطط الدليل.",
+        "قصر كهربائي.",
+        "خلل وحدة التحكم MCU."
+      ],
+      "manualCausesEn": [
+        "High hydraulic-oil temperature.",
+        "Defective torque sensor as listed in the manual flowchart.",
+        "Short circuit.",
+        "Defective MCU."
+      ],
+      "manualSourceUrl": "https://manualshyundai.com/uploads/posts/hx210hdhx220hd/hyundai-hx210hdhx220hd-troubleshooting-manual.pdf"
     },
     {
       "id": "low_fuel",
@@ -360,7 +431,20 @@
       "severity": "warning",
       "source": "operator_manual",
       "visualDescriptionAr": "تحذير اتصال وحدة التحكم بالشاشة؛ شكل الرمز غير مثبت في الصورة المرجعية الحالية.",
-      "visualMatchStatus": "needs_machine_photo_verification"
+      "visualMatchStatus": "needs_machine_photo_verification",
+      "troubleshootingPage": "6-25",
+      "troubleshootingSection": "2. COMMUNICATION ERROR “Co : Er” FLASHES ON THE CLUSTER",
+      "manualCausesAr": [
+        "خلل وحدة التحكم.",
+        "انقطاع أو ضعف تلامس بين CN-56 (3,4) وCN-5 (10,11).",
+        "انقطاع أو ضعف تلامس بين CN-5 (10,11) وCN-50 (29,30)."
+      ],
+      "manualCausesEn": [
+        "Defective controller.",
+        "Open circuit or poor contact between CN-56 (3,4) and CN-5 (10,11).",
+        "Open circuit or poor contact between CN-5 (10,11) and CN-50 (29,30)."
+      ],
+      "manualSourceUrl": "https://manualshyundai.com/uploads/posts/hx210hdhx220hd/hyundai-hx210hdhx220hd-troubleshooting-manual.pdf"
     }
   ],
   "visualRecognition": {
@@ -684,5 +768,14 @@
     "panelPhotoReference": "user-confirmed-same-panel-layout",
     "confirmedAt": "2026-11-24",
     "noteAr": "أكد المستخدم أن لوحة التحذيرات المصورة هي نفسها المركبة على حفار HX220HD موديل 2025. هذا يؤكد شكل اللوحة وترتيب الرموز فقط، ولا يثبت وحده انطباق كل تفاصيل دليل التشغيل على الرقم التسلسلي PIN."
+  },
+  "workflow": {
+    "model": "HX220HD",
+    "year": 2025,
+    "warningSelectionEnabled": true,
+    "manualPageNoteAr": "رقم الصفحة هو رقم الصفحة المطبوعة في الدليل، أما figureRef فهو مرجع الرسم وليس رقم صفحة.",
+    "manualPageNoteEn": "Page is the printed manual page number; figureRef is an illustration reference, not a page number.",
+    "safetyAr": "قبل فصل أي موصل أطفئ مفتاح التشغيل كما ينص الدليل. اختبارات الكهرباء والقياسات وفك المكونات ينفذها فني مؤهل فقط.",
+    "safetyEn": "Turn the starting switch OFF before disconnecting any connector as instructed by the manual. Electrical tests, measurements and component disassembly are for qualified technicians only."
   }
 }
