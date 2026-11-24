@@ -183,6 +183,34 @@ async function processHyundaiPlateImage(event){
 }
 $('hyundaiPlateCameraInput').addEventListener('change',processHyundaiPlateImage);
 $('hyundaiPlateGalleryInput').addEventListener('change',processHyundaiPlateImage);
+
+$('volvoPlateChooserCancel').addEventListener('click',()=>{const p=$('volvoPlateChooser');p.hidden=true;p.style.display='none'});
+$('captureVolvoPlate').addEventListener('click',()=>{const p=$('volvoPlateChooser');p.hidden=false;p.style.display='flex'});
+$('volvoPlateChooser').addEventListener('click',event=>{if(event.target===$('volvoPlateChooser')){$('volvoPlateChooser').hidden=true;$('volvoPlateChooser').style.display='none'}});
+$('volvoPlateChooseCamera').addEventListener('click',()=>{$('volvoPlateChooser').hidden=true;$('volvoPlateChooser').style.display='none';$('volvoPlateCameraInput').click()});
+$('volvoPlateChooseGallery').addEventListener('click',()=>{$('volvoPlateChooser').hidden=true;$('volvoPlateChooser').style.display='none';$('volvoPlateGalleryInput').click()});
+async function processVolvoPlateImage(event){
+ const file=event.target.files?.[0];if(!file)return;
+ const status=$('volvoPlateOcrStatus'),preview=$('volvoPlatePreview');
+ preview.src=URL.createObjectURL(file);preview.hidden=false;preview.style.display='block';
+ status.textContent=lang==='ar'?'جارٍ تجهيز قارئ النصوص…':'Preparing text recognition…';
+ try{
+  if(!window.Tesseract){await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js';script.onload=resolve;script.onerror=()=>reject(Error('OCR library unavailable'));document.head.append(script)})}
+  status.textContent=lang==='ar'?'جارٍ قراءة دباجة فولفو…':'Reading Volvo data plate…';
+  const result=await window.Tesseract.recognize(file,'eng',{logger:m=>{if(m.status==='recognizing text')status.textContent=(lang==='ar'?'قراءة النص: ':'Recognizing text: ')+Math.round((m.progress||0)*100)+'%'}});
+  const textValue=String(result.data.text||'').toUpperCase().replace(/\\s+/g,' ');
+  const modelMatch=textValue.match(/\\b(?:EC|EW|L|A)\\s?-?\\d{2,4}[A-Z0-9.-]*\\b/i);
+  const serialMatches=textValue.match(/\\b[A-Z0-9]{12,20}\\b/g)||[];
+  const serialMatch=serialMatches.find(v=>/[A-Z]/.test(v)&&/\\d/.test(v));
+  const query=modelMatch?.[0]?.replace(/\\s+/g,'')||serialMatch||'';
+  if(query){$('equipmentSearch').value=query;renderEquipment(query,'Volvo');$('equipmentList').scrollIntoView({behavior:'smooth',block:'nearest'});status.textContent=(lang==='ar'?'تمت قراءة: ':'Read: ')+query+(modelMatch&&serialMatch?' · '+serialMatch:'')+(lang==='ar'?' — راجع النص ثم اضغط بحث.':' — verify the text, then press Search.')}
+  else status.textContent=lang==='ar'?'لم أتمكن من استخراج موديل أو رقم تسلسلي واضح. حسّن الإضاءة وصوّر الدباجة بشكل مستقيم، أو اكتب البيانات يدوياً.':'Could not extract a clear model or serial number. Improve lighting, photograph the plate straight-on, or enter the details manually.';
+ }catch(error){console.warn('Volvo plate OCR failed:',error);status.textContent=lang==='ar'?'تعذرت القراءة الآلية حالياً. يمكنك كتابة الموديل أو الرقم التسلسلي يدوياً والبحث.':'Automatic reading is unavailable. Enter the model or serial number manually.'}
+ event.target.value='';
+}
+$('volvoPlateCameraInput').addEventListener('change',processVolvoPlateImage);
+$('volvoPlateGalleryInput').addEventListener('change',processVolvoPlateImage);
+
 $('equipmentSearch').addEventListener('input',e=>renderEquipment(e.target.value,'Volvo'));$('hyundaiEquipmentSearch').addEventListener('input',e=>renderEquipment(e.target.value,'Hyundai','hyundaiEquipmentList'));
 $('searchEquipment').addEventListener('click',()=>{renderEquipment($('equipmentSearch').value,'Volvo');$('equipmentList').scrollIntoView({behavior:'smooth',block:'nearest'})});$('searchHyundaiEquipment').addEventListener('click',()=>{renderEquipment($('hyundaiEquipmentSearch').value,'Hyundai','hyundaiEquipmentList');$('hyundaiEquipmentList').scrollIntoView({behavior:'smooth',block:'nearest'})});
 $('searchVolvoModel').addEventListener('click',()=>{renderVolvoCatalog($('volvoModelSearch').value);$('volvoModelList').scrollIntoView({behavior:'smooth',block:'nearest'})});
