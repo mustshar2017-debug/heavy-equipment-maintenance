@@ -52,7 +52,20 @@ async function loadDatabase(){
   else{failed++;console.error('Database file failed:',files[index][1],result.reason);}
  });
  equipment=data.equipment?.equipment||[];
+ try{
+  if(window.WadKenanaAuth?.getMyEquipment){
+   const cloudEquipment=await window.WadKenanaAuth.getMyEquipment();
+   const mapped=(cloudEquipment||[]).map(item=>({id:'cloud-'+item.id,manufacturer:item.manufacturer,model:item.model,serialNumber:item.serial_number||item.pin_number||'',category:item.equipment_name||'معدات مسجلة بالحساب',year:item.year_of_manufacture,notes:item.notes,cloudId:item.id}));
+   equipment=[...equipment,...mapped];
+  }
+ }catch(error){console.warn('Cloud equipment could not be loaded; local catalog remains available',error)}
  faultCodes=[...(data.sinocmp?.extendedVolvoCodes||[]),...(data.faults?.faultCodes||[]),...(data.sinocmp?.faultCodes||[])];
+ try{
+  if(window.WadKenanaAuth?.fetchCloudFaultCodes){
+   const cloudFaults=await window.WadKenanaAuth.fetchCloudFaultCodes();
+   faultCodes=[...faultCodes,...cloudFaults];
+  }
+ }catch(error){console.warn('Cloud fault codes unavailable; local fault database remains active',error)}
  technicalReference=data.technical||null;
  plateCatalog=data.plates?.plates||[];
  volvoModels=data.models?.models||[];

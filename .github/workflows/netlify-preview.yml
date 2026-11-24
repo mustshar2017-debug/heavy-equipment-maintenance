@@ -1,0 +1,37 @@
+name: Deploy Supabase test preview to Netlify
+
+on:
+  push:
+    branches:
+      - supabase-data-link
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: netlify-preview-supabase-data-link
+  cancel-in-progress: true
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout test branch
+        uses: actions/checkout@v4
+        with:
+          ref: supabase-data-link
+      - name: Build web app
+        run: |
+          chmod +x scripts/build-web.sh
+          ./scripts/build-web.sh
+      - name: Deploy isolated Netlify preview
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "Missing NETLIFY_AUTH_TOKEN or NETLIFY_SITE_ID repository secrets."
+            exit 1
+          fi
+          npx --yes netlify-cli deploy --dir=www --site="$NETLIFY_SITE_ID" --alias=supabase-data-link --message="Supabase integration test preview"
