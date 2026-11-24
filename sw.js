@@ -1,6 +1,6 @@
-const CACHE='wad-kenana-maintenance-v58';
+const CACHE='wad-kenana-maintenance-v59';
 const ASSETS=[
- './','./index.html','./assets/brand-logo.jpg','./styles.css','./app.js','./manifest.json',
+ './','./index.html','./assets/brand-logo.jpg','./styles.css','./auth.js','./app.js','./manifest.json',
  './data/equipment.json','./data/fault-codes.json','./data/parts.json',
  './data/maintenance-plans.json','./data/volvo-ec210b-reference.json',
  './data/volvo-data-plates.json','./data/volvo-model-catalog.json','./data/hyundai-model-catalog.json','./data/hyundai-hx220hd-warnings.json','./assets/warning-symbols/21073CD07.svg','./data/hyundai-hx220hd-maintenance-standard.json',
