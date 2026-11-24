@@ -28,3 +28,15 @@
 .hub-link.primary{border-color:#8f733d;background:#332b1c;color:var(--gold2)}
 .hub-link:active{transform:scale(.99);border-color:var(--gold)}
 @media(max-width:650px){.manufacturer-hub{grid-template-columns:1fr;gap:12px}.manufacturer-description{min-height:0}.manufacturer-card{padding:17px}}
+
+/* Manufacturer section navigation */
+.tabs{display:none!important}
+.manufacturer-entry{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:18px}
+.manufacturer-entry-button{display:block;width:100%;font:inherit;text-align:start;cursor:pointer;color:var(--text)}
+.manufacturer-entry-button .manufacturer-brand strong{display:block;font-size:20px;color:var(--text)}
+.manufacturer-entry-button .manufacturer-description{display:block}
+.manufacturer-enter{display:block;color:var(--gold2);font-size:13px;font-weight:800;margin-top:12px}
+.manufacturer-menu .section-head{gap:12px;flex-wrap:wrap}
+.manufacturer-menu .section-head .outline,.view-back{white-space:nowrap}
+.manufacturer-menu .manufacturer-actions{margin-top:14px}
+@media(max-width:650px){.manufacturer-entry{grid-template-columns:1fr}}
