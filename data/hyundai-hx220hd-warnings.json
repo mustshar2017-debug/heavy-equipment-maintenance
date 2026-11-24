@@ -364,8 +364,16 @@
     }
   ],
   "visualRecognition": {
-    "status": "reference_catalog_prepared_template_images_pending",
-    "noteAr": "أوصاف الرموز مستخرجة من دليل التشغيل/النظام، لكنها ليست صور قوالب تدريب. لا يُصدر التطبيق تشخيصاً تلقائياً قبل توفير صور واضحة للرموز المضيئة من شاشة المعدة الفعلية والتحقق من مطابقتها لإصدار PIN.",
+    "status": "panel-layout-confirmed_lit-symbol-samples-required",
+    "noteAr": "تم تأكيد تطابق شكل لوحة العدادات مع معدة المستخدم HX220HD موديل 2025. يلزم الآن جمع صور/فيديو للرموز وهي مضاءة فعلياً أثناء الفحص الذاتي عند فتح المفتاح، ثم قص كل رمز والتحقق منه قبل بناء قوالب التعرف الآلي. لا تُصدر تشخيصاً آلياً من صورة لوحة غير مضاءة.",
     "noteEn": "Symbol descriptions are transcribed from the manuals, not trained image templates. No automatic diagnosis should be issued until clear illuminated-symbol photos from the actual machine display are collected and matched to the PIN-specific edition."
+  },
+  "machineReference": {
+    "displayPanelConfirmedByUser": true,
+    "model": "Hyundai HX220HD",
+    "year": 2025,
+    "panelPhotoReference": "user-confirmed-same-panel-layout",
+    "confirmedAt": "2026-11-24",
+    "noteAr": "أكد المستخدم أن لوحة التحذيرات المصورة هي نفسها المركبة على حفار HX220HD موديل 2025. هذا يؤكد شكل اللوحة وترتيب الرموز فقط، ولا يثبت وحده انطباق كل تفاصيل دليل التشغيل على الرقم التسلسلي PIN."
   }
 }
