@@ -147,8 +147,14 @@ $('searchHyundaiWarning').addEventListener('click',()=>{renderHyundaiWarnings($(
 $('hyundaiModelSearch').addEventListener('input',e=>renderHyundaiCatalog(e.target.value));
 $('searchHyundaiModel').addEventListener('click',()=>{renderHyundaiCatalog($('hyundaiModelSearch').value);$('hyundaiModelList').scrollIntoView({behavior:'smooth',block:'nearest'})});
 
-$('captureHyundaiPlate').addEventListener('click',()=>$('hyundaiPlateImage').click());
-$('hyundaiPlateImage').addEventListener('change',async event=>{
+const plateChooser=$('hyundaiPlateChooser');
+function closeHyundaiPlateChooser(){plateChooser.hidden=true;plateChooser.style.display='none'}
+$('captureHyundaiPlate').addEventListener('click',()=>{plateChooser.hidden=false;plateChooser.style.display='flex'});
+$('hyundaiPlateChooserCancel').addEventListener('click',closeHyundaiPlateChooser);
+plateChooser.addEventListener('click',event=>{if(event.target===plateChooser)closeHyundaiPlateChooser()});
+$('hyundaiPlateChooseCamera').addEventListener('click',()=>{closeHyundaiPlateChooser();$('hyundaiPlateCameraInput').click()});
+$('hyundaiPlateChooseGallery').addEventListener('click',()=>{closeHyundaiPlateChooser();$('hyundaiPlateGalleryInput').click()});
+async function processHyundaiPlateImage(event){
  const file=event.target.files?.[0];if(!file)return;
  const status=$('hyundaiPlateOcrStatus'),preview=$('hyundaiPlatePreview');
  preview.src=URL.createObjectURL(file);preview.hidden=false;preview.style.display='block';
@@ -174,7 +180,9 @@ $('hyundaiPlateImage').addEventListener('change',async event=>{
   }
  }catch(error){console.warn('Hyundai plate OCR failed:',error);status.textContent=lang==='ar'?'تعذرت القراءة الآلية حالياً. يمكنك كتابة الموديل أو الرقم التسلسلي يدوياً والبحث.':'Automatic reading is unavailable. You can enter the model or serial number manually and search.'}
  event.target.value='';
-});
+}
+$('hyundaiPlateCameraInput').addEventListener('change',processHyundaiPlateImage);
+$('hyundaiPlateGalleryInput').addEventListener('change',processHyundaiPlateImage);
 $('equipmentSearch').addEventListener('input',e=>renderEquipment(e.target.value,'Volvo'));$('hyundaiEquipmentSearch').addEventListener('input',e=>renderEquipment(e.target.value,'Hyundai','hyundaiEquipmentList'));
 $('searchEquipment').addEventListener('click',()=>{renderEquipment($('equipmentSearch').value,'Volvo');$('equipmentList').scrollIntoView({behavior:'smooth',block:'nearest'})});$('searchHyundaiEquipment').addEventListener('click',()=>{renderEquipment($('hyundaiEquipmentSearch').value,'Hyundai','hyundaiEquipmentList');$('hyundaiEquipmentList').scrollIntoView({behavior:'smooth',block:'nearest'})});
 $('searchVolvoModel').addEventListener('click',()=>{renderVolvoCatalog($('volvoModelSearch').value);$('volvoModelList').scrollIntoView({behavior:'smooth',block:'nearest'})});
