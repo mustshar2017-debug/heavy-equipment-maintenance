@@ -40,3 +40,28 @@
 .manufacturer-menu .section-head .outline,.view-back{white-space:nowrap}
 .manufacturer-menu .manufacturer-actions{margin-top:14px}
 @media(max-width:650px){.manufacturer-entry{grid-template-columns:1fr}}
+
+/* Cinematic Wad Kenana home refresh */
+:root{--gold:#f2bd32;--gold2:#ffe18a;--ink:#080a0e;--teal:#19a7a4}
+body{background:radial-gradient(ellipse at 50% -20%,#1a3550 0,transparent 44%),radial-gradient(ellipse at 90% 20%,#2a1d0b 0,transparent 32%),#07090d}
+.topbar{background:#07090ddf;border-bottom-color:#f2bd322c;box-shadow:0 8px 26px #0004}
+.mark{border-color:#f2bd32;box-shadow:0 0 15px #f2bd3233}
+main{max-width:1050px;padding:20px 16px 44px}
+.hero-cinematic{min-height:360px;position:relative;overflow:hidden;display:grid;grid-template-columns:1fr 1fr;gap:10px;align-items:center;padding:24px;border:1px solid #f2bd3266;border-radius:26px;background:linear-gradient(135deg,#081522,#101218 62%,#20180b);box-shadow:0 24px 55px #0007,inset 0 0 30px #f2bd3210}
+.hero-art{position:relative;min-height:290px;align-self:stretch;overflow:hidden;border-radius:20px;background:linear-gradient(180deg,#064b73 0%,#1c4d6a 34%,#e9a850 62%,#3a2d1a 68%,#151719 100%)}
+.hero-sun{position:absolute;width:155px;height:155px;border-radius:50%;background:radial-gradient(circle,#fff4c2 0,#ffca67 45%,#ff9a2b44 72%,transparent 75%);top:23%;left:30%;filter:blur(1px)}
+.hero-mountains{position:absolute;inset:auto 0 0;height:42%;background:linear-gradient(145deg,transparent 0 14%,#53402b 14% 24%,#27231c 25% 45%,#423322 46% 56%,#131518 57%);clip-path:polygon(0 48%,16% 16%,32% 48%,50% 12%,72% 54%,87% 18%,100% 56%,100% 100%,0 100%)}
+.hero-machine{position:absolute;width:100%;height:88%;bottom:2%;left:0;filter:drop-shadow(0 10px 6px #0008)}
+.hero-glow{position:absolute;inset:0;background:linear-gradient(90deg,transparent,#08152220 40%,#08152250);pointer-events:none}
+.hero-copy{position:relative;z-index:1}.hero-copy h1{font-size:clamp(27px,4.2vw,44px);line-height:1.2;color:#ffcc45;text-shadow:0 3px 14px #0009;margin:0 0 6px}.hero-copy h2{font-size:clamp(19px,3vw,29px);margin:0 0 14px;color:#fff}.hero-copy>p:not(.eyebrow){font-size:14px;line-height:1.9;color:#d6d8dd;margin:0 0 10px}.hero-slogan{display:inline-flex;padding:8px 16px;border-radius:30px;border:1px solid #f2bd32;background:linear-gradient(100deg,#8b5b05,#f2bd32,#6f4700);color:#090a0c;font-weight:900;margin:7px 0 8px;box-shadow:0 4px 20px #f2bd3230}.hero-cinematic .status{margin-top:8px;font-size:10px}
+.tabs{display:none}
+.home-section-head{margin-top:22px}.home-section-head h2{font-size:23px;margin:0}
+.service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.service-tile{position:relative;min-height:145px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;text-align:right;gap:6px;padding:17px 16px;border-radius:19px;border:1px solid #f2bd3270;background:linear-gradient(145deg,#22252a,#0a0c10 72%);color:var(--text);cursor:pointer;box-shadow:0 12px 26px #0006,inset 0 1px 0 #fff2;transition:transform .2s,border-color .2s,box-shadow .2s;overflow:hidden}
+.service-tile:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 90% 0,#f2bd3220,transparent 45%);pointer-events:none}.service-tile:hover,.service-tile:focus-visible{transform:translateY(-3px);border-color:#ffda6c;box-shadow:0 16px 30px #0008,0 0 16px #f2bd3220}
+.tile-icon{width:48px;height:48px;display:grid;place-items:center;border-radius:15px;background:linear-gradient(145deg,#f8d76c,#b37a11);color:#111;font-size:29px;font-weight:900;box-shadow:0 5px 18px #f2bd3230}.service-tile strong{font-size:16px;position:relative}.service-tile small{font-size:11px;color:#b8b9bc;position:relative}
+.manufacturer-strip{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.manufacturer-strip .manufacturer-card{margin:0;min-height:90px;padding:16px;border-radius:18px;border:1px solid #d6b15e77;background:linear-gradient(120deg,#191b20,#0b0d11);display:flex;align-items:center;justify-content:space-between;color:#f8f4e9;text-align:right;cursor:pointer}.manufacturer-strip .manufacturer-card:hover{border-color:#ffe18a;box-shadow:0 0 20px #f2bd3222}.manufacturer-emblem{border:1px solid #f2bd32!important;background:#f2bd3216!important;color:#ffdc76!important}.manufacturer-strip .manufacturer-enter{font-size:12px;color:#ffdc76}
+.home-footer{margin:24px 0 6px;text-align:center;padding:20px 10px;border-top:1px solid #f2bd3255;border-bottom:1px solid #f2bd3255;background:linear-gradient(90deg,transparent,#f2bd3210,transparent)}.home-footer strong{display:block;color:#ffcf48;font-size:24px;font-weight:900}.home-footer span{font-size:10px;letter-spacing:1.5px;color:#888;margin-top:4px;display:block}
+.placeholder-view{max-width:100%;margin:10px auto;padding:20px}
+@media(max-width:720px){main{padding:14px 12px 32px}.hero-cinematic{grid-template-columns:1fr;padding:15px;min-height:0}.hero-art{min-height:205px;order:2}.hero-copy{order:1}.hero-copy h1{font-size:30px}.hero-copy h2{font-size:22px}.hero-copy>p:not(.eyebrow){font-size:13px}.service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.service-tile{min-height:130px;padding:14px 12px}.service-tile strong{font-size:14px}.service-tile small{font-size:10px}.tile-icon{width:42px;height:42px;font-size:25px}.manufacturer-strip{grid-template-columns:1fr}.home-footer strong{font-size:21px}}
+@media(max-width:380px){.service-grid{grid-template-columns:1fr 1fr}.service-tile{min-height:120px;padding:12px 10px}}
